@@ -1,0 +1,384 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../css/fonts/ProximaNovaRegular.eot");
+  src: url("../css/fonts/ProximaNovaRegular.eot?#iefix") format("embedded-opentype"), url("../css/fonts/ProximaNovaRegular.woff") format("woff"), url("../css/fonts/ProximaNovaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* font-family: "ProximaNovaBold"; */
+@font-face {
+  font-family: "ProximaNovaBold";
+  src: url("../css/fonts/ProximaNovaBold.eot");
+  src: url("../css/fonts/ProximaNovaBold.eot?#iefix") format("embedded-opentype"), url("../css/fonts/ProximaNovaBold.woff") format("woff"), url("../css/fonts/ProximaNovaBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  position: relative; }
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+/* СЕТКА */
+.col-xs-1, .col-xs-2, .col-xs-3, .project-list__item, .bottom-menu__list, .col-xs-4, .col-xs-5, .col-xs-6, .payment__wrapper, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  position: relative;
+  min-height: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left; }
+
+.col-xs-1 {
+  width: 60px; }
+
+.col-xs-2 {
+  width: 140px; }
+
+.col-xs-3, .project-list__item, .bottom-menu__list {
+  width: 220px; }
+
+.col-xs-4 {
+  width: 300px; }
+
+.col-xs-5 {
+  width: 380px; }
+
+.col-xs-6, .payment__wrapper {
+  width: 460px; }
+
+.col-xs-7 {
+  width: 540px; }
+
+.col-xs-8 {
+  width: 620px; }
+
+.col-xs-9 {
+  width: 700px; }
+
+.col-xs-10 {
+  width: 780px; }
+
+.col-xs-11 {
+  width: 860px; }
+
+.col-xs-12 {
+  width: 940px; }
+
+.justify-block {
+  text-align: justify;
+  height: 25px; }
+  .justify-block::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 0px;
+    overflow: hidden; }
+
+.pseudo-select {
+  position: relative;
+  width: 190px; }
+  .pseudo-select__text {
+    line-height: 40px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    position: relative;
+    font-size: 14px; }
+    .pseudo-select__text:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: -1px;
+      right: -1px;
+      background: url("../img/ico_select.png") no-repeat center;
+      width: 40px;
+      height: 40px; }
+  .pseudo-select__list {
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border-top: solid 1px #000;
+    max-height: 60px;
+    overflow: auto;
+    box-sizing: border-box;
+    z-index: 1;
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .pseudo-select__option {
+    padding: 5px 20px;
+    margin: 0;
+    cursor: pointer;
+    list-style: none;
+    font-size: 14px; }
+    .pseudo-select__option.current, .pseudo-select__option:hover {
+      color: #fff; }
+  .pseudo-select__real {
+    display: none; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background: url("../img/bg.jpg") repeat-y;
+  background-size: 100%;
+  color: #6e6e6e;
+  font-family: "ProximaNovaRegular", sans-serif;
+  font-size: 12px; }
+
+/* Шапка */
+.header {
+  position: relative;
+  width: 100%;
+  height: 75px;
+  background-color: #00a1fc; }
+  .header__logo {
+    position: relative;
+    float: left;
+    text-align: left; }
+    .header__logo-text {
+      display: block;
+      font: 13px "ProximaNovaRegular", sans-serif;
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 10px 0 10px; }
+    .header__logo-img {
+      background-color: #fff;
+      text-align: center;
+      padding: 25px 0 25px;
+      z-index: 10;
+      margin: 0;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5); }
+      .header__logo-img img {
+        width: 74px;
+        border: 0; }
+  .header__right-side {
+    float: right; }
+  .header__info {
+    position: relative;
+    float: right;
+    text-align: right;
+    line-height: 75px; }
+    .header__info div {
+      display: inline-block;
+      margin: 0 10px 0;
+      padding: 5px 0 5px;
+      color: #fff;
+      font: 14px "ProximaNovaBold", sans-serif; }
+      .header__info div a {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase; }
+        .header__info div a:hover {
+          text-decoration: underline; }
+        .header__info div a.active {
+          text-decoration: underline; }
+    .header__info .auth {
+      padding-right: 25px;
+      background: url("../img/ico_enter.png") 100% 3px no-repeat; }
+
+/* Верхнее меню */
+.top-menu {
+  position: relative;
+  float: left; }
+  .top-menu__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    font-size: 0px; }
+  .top-menu__item {
+    display: inline-block;
+    text-align: left;
+    margin: 0 10px 0;
+    line-height: 75px;
+    font-size: 14px; }
+    .top-menu__item:first-child {
+      margin-left: 0px; }
+    .top-menu__item a {
+      color: #fff;
+      font: 14px "ProximaNovaBold", sans-serif;
+      text-transform: uppercase;
+      text-decoration: none; }
+      .top-menu__item a:hover {
+        text-decoration: underline; }
+
+.page-title {
+  position: relative;
+  float: right;
+  text-align: left; }
+  .page-title__list {
+    margin: 60px 0 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 0px; }
+  .page-title__item {
+    display: inline-block;
+    text-align: left;
+    margin: 0 10px 0;
+    font-size: 20px; }
+    .page-title__item a {
+      color: #fff;
+      font: 20px "ProximaNovaBold", sans-serif;
+      text-transform: uppercase;
+      text-decoration: none; }
+      .page-title__item a:hover {
+        text-decoration: underline; }
+    .page-title__item--active a {
+      color: #0042fe;
+      border-bottom: 7px solid #0042fe; }
+
+.content-block {
+  position: relative;
+  clear: both;
+  padding: 25px 0 25px; }
+
+/* Список проектов */
+.project-list__item {
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 20px; }
+.project-list__img {
+  margin: 10px 10px 0;
+  position: relative; }
+  .project-list__img img {
+    width: 100%; }
+  .project-list__img--finish::after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.5); }
+.project-list__item-finish-text {
+  margin: 0 auto;
+  margin-top: -50px;
+  padding: 0 15px 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  vertical-align: middle;
+  font: 17px "ProximaNovaRegular", sans-serif;
+  color: #626262;
+  text-transform: uppercase;
+  z-index: 10; }
+.project-list__item-title {
+  padding: 3px 10px 3px;
+  margin: 0;
+  text-align: left;
+  color: #00a1fc;
+  font: 14px "ProximaNovaBold", sans-serif; }
+.project-list__item-desc {
+  padding: 0 10px 0;
+  margin: 0;
+  text-align: left; }
+.project-list__item-link {
+  display: block;
+  color: #00a1fc;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 10px 10px; }
+
+.to_begin {
+  background: url("../img/to_begin.png") center no-repeat;
+  width: 60px;
+  height: 60px;
+  right: 50%;
+  margin-right: -540px;
+  bottom: 40px;
+  position: fixed;
+  cursor: pointer;
+  display: none;
+  border-radius: 32px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  z-index: 10; }
+
+.payment__wrapper {
+  float: none;
+  margin: 0 auto; }
+.payment__title {
+  font: 22px "ProximaNovaBold", sans-serif;
+  color: #2d2d2d;
+  text-transform: uppercase;
+  margin: 10px 0 0;
+  height: 30px; }
+.payment__desc {
+  margin: 0;
+  padding: 5px 0 5px;
+  font: 15px "ProximaNovaRegular", sans-serif;
+  color: #6e6e6e;
+  text-transform: none; }
+.payment__count, .payment__btn {
+  box-sizing: border-box;
+  height: 50px;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #f51b49;
+  font-size: 18px; }
+.payment__btn {
+  float: right;
+  padding: 10px 0 10px;
+  background-color: #f51b49;
+  color: #fff;
+  text-transform: uppercase; }
+.payment__tools {
+  clear: both;
+  height: 50px;
+  padding: 10px 0 10px; }
+
+.footer {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .footer-wrapper {
+    background: url("../img/logo_white.png") 95% 15px no-repeat;
+    padding-bottom: 50px; }
+
+.bottom-menu {
+  padding-top: 10px;
+  min-height: 170px; }
+  .bottom-menu__list {
+    padding: 0;
+    list-style: none; }
+  .bottom-menu__item {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.7; }
+    .bottom-menu__item a {
+      color: #fff;
+      text-decoration: none; }
+
+.social__item {
+  margin-right: 10px; }
+  .social__item img {
+    border: 0; }
+
+.design-info {
+  float: right;
+  margin-top: -15px; }
+  .design-info__text {
+    color: #fff;
+    text-align: right;
+    margin: 0;
+    padding-top: 24px;
+    line-height: 1.3; }
+  .design-info__links {
+    float: right;
+    line-height: 1.3; }
+  .design-info__site {
+    color: #fff;
+    text-decoration: none; }
