@@ -1,6 +1,8 @@
 $(document).ready(function() {
+    // *** Плитка на главной *** //
     $( '.project-list' ).masonry( { itemSelector: '.project-list__item' } );
 
+    // *** Кнопка наверх *** //
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
             $('.to_begin').fadeIn();
@@ -8,7 +10,6 @@ $(document).ready(function() {
             $('.to_begin').fadeOut();
         }
     });
-
     $('.to_begin').click(function () {
         $('body,html').animate({
             scrollTop: 0
@@ -16,7 +17,39 @@ $(document).ready(function() {
         return false;
     });
 
-    //ааЛаИаК аВаНаЕ баЕаЛаЕаКбаА
+    // *** Фиксируем шапку *** //
+    if($("#header").length>0) {//если главная страница
+        var h_hght = 75; // высота шапки
+
+        //Ставим на место при загрузке страницы в зависимости от расположения скролла страницы
+        var top = $(this).scrollTop();
+        var elem = $('#header');
+        if(top>h_hght) {
+            elem.removeClass("main");
+            elem.addClass("scroll");
+        }
+        else {
+            elem.addClass("main");
+            elem.removeClass("scroll");
+        }
+
+        $(function(){
+            $(window).scroll(function(){
+                var top = $(this).scrollTop();
+                var elem = $('#header');
+                if(top>h_hght) {
+                    elem.removeClass("main");
+                    elem.addClass("scroll");
+                }
+                else {
+                    elem.addClass("main");
+                    elem.removeClass("scroll");
+                }
+            });
+        });
+    }
+
+    // *** Псевдо список **** //
     if ($(".pseudo-select").length) {
         $(document).click(function (e) {
             if ($(e.target).closest(".pseudo-select").length) {
@@ -28,8 +61,6 @@ $(document).ready(function() {
             e.stopPropagation();
         });
     }
-
-    // *** Псевдо список **** //
     $(document).on("click", ".pseudo-select__text", function () {
         $(this).closest(".pseudo-select").find(".pseudo-select__list").slideToggle(0);
     });
