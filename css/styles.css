@@ -66,6 +66,12 @@
 .col-xs-12 {
   width: 940px; }
 
+a:hover {
+  color: #009ef4; }
+
+a:active {
+  color: #f51b49; }
+
 .justify-block {
   text-align: justify;
   height: 25px; }
@@ -142,6 +148,14 @@ html, body {
   width: 100%;
   height: 75px;
   background-color: #00a1fc; }
+  .header.scroll {
+    background-color: rgba(0, 161, 252, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10; }
+    .header.scroll .header__logo-img {
+      display: none; }
   .header__logo {
     position: relative;
     float: left;
@@ -211,8 +225,6 @@ html, body {
       font: 14px "ProximaNovaBold", sans-serif;
       text-transform: uppercase;
       text-decoration: none; }
-      .top-menu__item a:hover {
-        text-decoration: underline; }
 
 .page-title {
   position: relative;
@@ -234,8 +246,6 @@ html, body {
       font: 20px "ProximaNovaBold", sans-serif;
       text-transform: uppercase;
       text-decoration: none; }
-      .page-title__item a:hover {
-        text-decoration: underline; }
     .page-title__item--active a {
       color: #0042fe;
       border-bottom: 7px solid #0042fe; }
