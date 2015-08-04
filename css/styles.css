@@ -246,53 +246,56 @@ html, body {
   padding: 25px 0 25px; }
 
 /* Список проектов */
-.project-list__item {
-  background-color: #fff;
-  text-align: center;
-  margin-bottom: 20px; }
-.project-list__img {
-  margin: 10px 10px 0;
-  position: relative; }
-  .project-list__img img {
-    width: 100%; }
-  .project-list__img--finish::after {
-    display: block;
-    content: '';
-    width: 100%;
-    height: 100%;
+.project-list {
+  position: relative;
+  clear: both; }
+  .project-list__item {
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 20px; }
+  .project-list__img {
+    margin: 10px 10px 0;
+    position: relative; }
+    .project-list__img img {
+      width: 100%; }
+    .project-list__img--finish::after {
+      display: block;
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: rgba(255, 255, 255, 0.5); }
+  .project-list__item-finish-text {
+    margin: 0 auto;
+    margin-top: -50px;
+    padding: 0 15px 0;
     position: absolute;
+    top: 50%;
     left: 0;
-    top: 0;
-    background-color: rgba(255, 255, 255, 0.5); }
-.project-list__item-finish-text {
-  margin: 0 auto;
-  margin-top: -50px;
-  padding: 0 15px 0;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  text-align: center;
-  vertical-align: middle;
-  font: 17px "ProximaNovaRegular", sans-serif;
-  color: #626262;
-  text-transform: uppercase;
-  z-index: 10; }
-.project-list__item-title {
-  padding: 3px 10px 3px;
-  margin: 0;
-  text-align: left;
-  color: #00a1fc;
-  font: 14px "ProximaNovaBold", sans-serif; }
-.project-list__item-desc {
-  padding: 0 10px 0;
-  margin: 0;
-  text-align: left; }
-.project-list__item-link {
-  display: block;
-  color: #00a1fc;
-  text-decoration: none;
-  margin: 0;
-  padding: 0 10px 10px; }
+    text-align: center;
+    vertical-align: middle;
+    font: 17px "ProximaNovaRegular", sans-serif;
+    color: #626262;
+    text-transform: uppercase;
+    z-index: 10; }
+  .project-list__item-title {
+    padding: 3px 10px 3px;
+    margin: 0;
+    text-align: left;
+    color: #00a1fc;
+    font: 14px "ProximaNovaBold", sans-serif; }
+  .project-list__item-desc {
+    padding: 0 10px 0;
+    margin: 0;
+    text-align: left; }
+  .project-list__item-link {
+    display: block;
+    color: #00a1fc;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 10px 10px; }
 
 .to_begin {
   background: url("../img/to_begin.png") center no-repeat;
@@ -308,42 +311,48 @@ html, body {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
   z-index: 10; }
 
-.payment__wrapper {
-  float: none;
-  margin: 0 auto; }
-.payment__title {
-  font: 22px "ProximaNovaBold", sans-serif;
-  color: #2d2d2d;
-  text-transform: uppercase;
-  margin: 10px 0 0;
-  height: 30px; }
-.payment__desc {
-  margin: 0;
-  padding: 5px 0 5px;
-  font: 15px "ProximaNovaRegular", sans-serif;
-  color: #6e6e6e;
-  text-transform: none; }
-.payment__count, .payment__btn {
-  box-sizing: border-box;
-  height: 50px;
-  padding: 10px;
-  margin: 0;
-  border: 1px solid #f51b49;
-  font-size: 18px; }
-.payment__btn {
-  float: right;
-  padding: 10px 0 10px;
-  background-color: #f51b49;
-  color: #fff;
-  text-transform: uppercase; }
-.payment__tools {
+.payment {
+  position: relative;
   clear: both;
-  height: 50px;
-  padding: 10px 0 10px; }
+  background-color: rgba(255, 255, 255, 0.5); }
+  .payment__wrapper {
+    float: none;
+    margin: 0 auto;
+    padding: 25px 0 25px; }
+  .payment__title {
+    font: 22px "ProximaNovaBold", sans-serif;
+    color: #2d2d2d;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+    height: 30px; }
+  .payment__desc {
+    margin: 0;
+    padding: 5px 0 5px;
+    font: 15px "ProximaNovaRegular", sans-serif;
+    color: #6e6e6e;
+    text-transform: none; }
+  .payment__count, .payment__btn {
+    box-sizing: border-box;
+    height: 50px;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #f51b49;
+    font-size: 18px; }
+  .payment__btn {
+    float: right;
+    padding: 10px 0 10px;
+    background-color: #f51b49;
+    color: #fff;
+    text-transform: uppercase; }
+  .payment__tools {
+    clear: both;
+    height: 50px;
+    padding: 10px 0 0; }
 
 .footer {
   position: relative;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+  clear: both; }
   .footer-wrapper {
     background: url("../img/logo_white.png") 95% 15px no-repeat;
     padding-bottom: 50px; }
