@@ -27,10 +27,13 @@ $(document).ready(function() {
         if(top>h_hght) {
             elem.removeClass("main");
             elem.addClass("scroll");
+            elem.css("top", top);
+
         }
         else {
             elem.addClass("main");
             elem.removeClass("scroll");
+            elem.css("top", 0);
         }
 
         $(function(){
@@ -40,10 +43,12 @@ $(document).ready(function() {
                 if(top>h_hght) {
                     elem.removeClass("main");
                     elem.addClass("scroll");
+                    elem.css("top", top);
                 }
                 else {
                     elem.addClass("main");
                     elem.removeClass("scroll");
+                    elem.css("top", 0);
                 }
             });
         });
