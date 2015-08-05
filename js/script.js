@@ -82,4 +82,33 @@ $(document).ready(function() {
         select_wrap.find('.pseudo-select__real option').removeAttr("selected");
         select_wrap.find('.pseudo-select__real option[value="'+data_value+'"]').attr("selected","selected");
     });
+
+    // *** Открываем модальное окно *** //
+    $(document).on("click", ".modal-open", function () {
+        var popID = $(this).attr("data-src");
+
+        //Определяем маржу(запас) для выравнивания по центру (по вертикали и горизонтали) - мы добавляем 80 к высоте / ширине с учетом отступов + ширина рамки определённые в css
+        var popMargTop = ($('#' + popID).height() + 40) / 2;
+
+        //Устанавливаем величину отступа
+        $('#' + popID).css({
+            'margin-top' : -popMargTop
+        });
+
+        //Добавляем полупрозрачный фон затемнения
+        $('body').append('<div id="fade" class="modal-wnd__overlay"></div>');
+        $('#fade').fadeIn();
+        $('#' + popID).fadeIn();
+
+        return false;
+    });
+
+    //Закрываем окно и фон затемнения
+    $(document).on('click', '#fade', function() { //закрытие по клику вне окна, т.е. по фону...
+        $('#fade , .modal-wnd').fadeOut(function() {
+            $('#fade').remove();  //плавно исчезают
+        });
+        return false;
+    });
+
 });
