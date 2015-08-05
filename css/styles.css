@@ -93,10 +93,7 @@ a:active {
   position: relative;
   width: 190px; }
   .pseudo-select__text {
-    line-height: 40px;
-    height: 40px;
-    padding-left: 10px;
-    padding-right: 40px;
+    padding: 10px 40px 10px 10px;
     box-sizing: border-box;
     cursor: pointer;
     overflow: hidden;
@@ -104,7 +101,7 @@ a:active {
     background: rgba(0, 0, 0, 0.6);
     color: #fff;
     position: relative;
-    font-size: 14px; }
+    font: 18px "ProximaNovaSemibold", sans-serif; }
     .pseudo-select__text:after {
       content: "";
       display: block;
@@ -117,7 +114,7 @@ a:active {
   .pseudo-select__list {
     width: 100%;
     position: absolute;
-    top: 40px;
+    top: 42px;
     left: 0px;
     background: rgba(0, 0, 0, 0.6);
     border-top: solid 1px #000;
@@ -147,7 +144,14 @@ html, body {
   background-size: 100%;
   color: #6e6e6e;
   font-family: "ProximaNovaRegular", sans-serif;
-  font-size: 12px; }
+  font-size: 14px; }
+
+body::before {
+  content: '';
+  width: 100%;
+  clear: both;
+  display: block;
+  height: 0px; }
 
 /* Шапка */
 .header {
@@ -157,10 +161,9 @@ html, body {
   background-color: #00a1fc; }
   .header.scroll {
     background-color: rgba(0, 161, 252, 0.8);
-    position: fixed;
     top: 0;
     left: 0;
-    z-index: 10; }
+    z-index: 100; }
     .header.scroll .header__logo-img {
       display: none; }
   .header__logo {
@@ -196,18 +199,17 @@ html, body {
       margin: 0 10px 0;
       padding: 5px 0 5px;
       color: #fff;
-      font: 14px "ProximaNovaBold", sans-serif; }
+      font: 15px "ProximaNovaBold", sans-serif;
+      text-transform: uppercase; }
       .header__info div a {
         color: #fff;
-        text-decoration: none;
-        text-transform: uppercase; }
-        .header__info div a:hover {
-          text-decoration: underline; }
+        text-decoration: none; }
         .header__info div a.active {
           text-decoration: underline; }
     .header__info .auth {
       padding-right: 25px;
-      background: url("../img/ico_enter.png") 100% 3px no-repeat; }
+      background: url("../img/ico_enter.png") 100% 3px no-repeat;
+      text-transform: none; }
 
 /* Верхнее меню */
 .top-menu {
@@ -248,11 +250,10 @@ html, body {
     display: inline-block;
     text-align: left;
     margin: 0 10px 0;
-    font-size: 20px; }
+    font: 20px "ProximaNovaBold", sans-serif;
+    text-transform: uppercase; }
     .page-title__item a {
       color: #fff;
-      font: 20px "ProximaNovaBold", sans-serif;
-      text-transform: uppercase;
       text-decoration: none; }
     .page-title__item--active a {
       color: #0042fe;
@@ -273,9 +274,11 @@ html, body {
     margin-bottom: 20px; }
   .project-list__img {
     margin: 10px 10px 0;
-    position: relative; }
+    position: relative;
+    display: block; }
     .project-list__img img {
-      width: 100%; }
+      width: 100%;
+      margin: 0; }
     .project-list__img--finish::after {
       display: block;
       content: '';
@@ -294,16 +297,18 @@ html, body {
     left: 0;
     text-align: center;
     vertical-align: middle;
-    font: 17px "ProximaNovaRegular", sans-serif;
+    font-size: 17px;
     color: #626262;
     text-transform: uppercase;
     z-index: 10; }
   .project-list__item-title {
+    display: block;
     padding: 3px 10px 3px;
     margin: 0;
     text-align: left;
     color: #00a1fc;
-    font: 14px "ProximaNovaBold", sans-serif; }
+    text-decoration: none;
+    font: 16px "ProximaNovaSemibold", sans-serif; }
   .project-list__item-desc {
     padding: 0 10px 0;
     margin: 0;
@@ -338,7 +343,7 @@ html, body {
     margin: 0 auto;
     padding: 25px 0 25px; }
   .payment__title {
-    font: 22px "ProximaNovaBold", sans-serif;
+    font: 22px "ProximaNovaSemibold", sans-serif;
     color: #2d2d2d;
     text-transform: uppercase;
     margin: 10px 0 0;
@@ -346,7 +351,7 @@ html, body {
   .payment__desc {
     margin: 0;
     padding: 5px 0 5px;
-    font: 15px "ProximaNovaRegular", sans-serif;
+    font: 14px "ProximaNovaSemibold", sans-serif;
     color: #6e6e6e;
     text-transform: none; }
   .payment__count, .payment__btn {
@@ -359,6 +364,7 @@ html, body {
   .payment__btn {
     float: right;
     padding: 10px 0 10px;
+    font: 15px "ProximaNovaBold", sans-serif;
     background-color: #f51b49;
     color: #fff;
     text-transform: uppercase; }
@@ -382,7 +388,6 @@ html, body {
     padding: 0;
     list-style: none; }
   .bottom-menu__item {
-    font-size: 14px;
     text-transform: uppercase;
     line-height: 1.7; }
     .bottom-menu__item a {
@@ -401,11 +406,12 @@ html, body {
     color: #fff;
     text-align: right;
     margin: 0;
-    padding-top: 24px;
+    padding-top: 25px;
     line-height: 1.3; }
   .design-info__links {
     float: right;
-    line-height: 1.3; }
+    line-height: 1.2; }
   .design-info__site {
     color: #fff;
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: 13px; }
