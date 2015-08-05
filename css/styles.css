@@ -86,6 +86,11 @@ a:hover {
 .single-col {
   clear: both; }
 
+.centered-col {
+  clear: both;
+  float: none;
+  margin: 0 auto; }
+
 .justify-block {
   text-align: justify;
   height: 25px; }
@@ -192,6 +197,10 @@ a:hover {
     width: 940px;
     margin-left: -470px;
     background: #fff url("../img/reg_bg.jpg") 100% 100% no-repeat; }
+  .modal-wnd--auth {
+    width: 460px;
+    margin-left: -230px;
+    padding-bottom: 20px; }
 
 html, body {
   padding: 0;
@@ -508,7 +517,7 @@ body::before {
     .reg-form__input--error {
       background: rgba(255, 255, 255, 0.8) url("../img/input-error.png") 99% 50% no-repeat;
       padding-right: 30px; }
-  .reg-form__submit {
+  .reg-form__submit, .auth-form__submit {
     display: block;
     margin: 0 auto;
     float: none;
@@ -520,3 +529,38 @@ body::before {
     color: #fff;
     font: 18px "ProximaNovaBold", sans-serif;
     text-transform: uppercase; }
+
+.auth-form {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  box-sizing: border-box; }
+  .auth-form__title {
+    font: 18px "ProximaNovaBold", sans-serif;
+    color: #00a1fc;
+    margin: 0;
+    text-align: center; }
+  .auth-form__input {
+    box-sizing: border-box;
+    border: 1px solid #828285;
+    background-color: #f4f4f4;
+    padding: 10px;
+    height: 35px;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 7px;
+    text-align: center; }
+  .auth-form__submit {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 5px 10px;
+    margin-bottom: 5px; }
+  .auth-form__error {
+    margin: 10px 0 7px;
+    min-height: 20px;
+    color: #f51b49; }
+  .auth-form__link {
+    margin: 10px 0 0; }
+    .auth-form__link a {
+      color: #636363;
+      text-decoration: none; }
