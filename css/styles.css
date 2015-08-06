@@ -271,6 +271,8 @@ body::before {
         text-decoration: none; }
         .header__info div a.active {
           text-decoration: underline; }
+        .header__info div a:hover {
+          color: #f51b49; }
     .header__info .auth {
       padding-right: 25px;
       background: url("../img/ico_enter.png") 100% 3px no-repeat;
@@ -300,6 +302,8 @@ body::before {
       font-size: 14px;
       text-transform: uppercase;
       text-decoration: none; }
+      .top-menu__item a:hover {
+        color: #f51b49; }
 
 .page-title {
   position: relative;
@@ -320,6 +324,8 @@ body::before {
     .page-title__item a {
       color: #fff;
       text-decoration: none; }
+      .page-title__item a:hover {
+        color: #f51b49; }
     .page-title__item--active a {
       color: #0042fe;
       border-bottom: 7px solid #0042fe; }
@@ -458,6 +464,8 @@ body::before {
     .bottom-menu__item a {
       color: #fff;
       text-decoration: none; }
+      .bottom-menu__item a:hover {
+        color: #f51b49; }
 
 .social__item {
   margin-right: 10px; }
