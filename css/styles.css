@@ -171,7 +171,7 @@ a:hover {
     .pseudo-select--white .pseudo-select__option {
       padding: 5px 10px; }
       .pseudo-select--white .pseudo-select__option.current, .pseudo-select--white .pseudo-select__option:hover {
-        color: #6e6e6e; }
+        color: #272727; }
 
 .modal-wnd {
   background-color: #fff;
@@ -214,12 +214,29 @@ a:hover {
     margin-left: -230px;
     padding-bottom: 20px; }
 
+.btn {
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  padding-top: 11px;
+  height: 40px;
+  line-height: 40px;
+  background: #f51b49;
+  border: 0;
+  color: #fff;
+  font: 15px "ProximaNovaBold", sans-serif;
+  text-transform: uppercase; }
+  .btn--full {
+    width: 100%; }
+  .btn--gray {
+    background-color: #636363; }
+
 html, body {
   padding: 0;
   margin: 0;
   background: url("../img/bg.jpg") repeat-y;
   background-size: 100%;
-  color: #6e6e6e;
+  color: #272727;
   font-family: "ProximaNovaRegular", sans-serif;
   font-size: 14px; }
 
@@ -321,6 +338,14 @@ body::before {
   position: relative;
   float: right;
   text-align: left; }
+  .page-title__block {
+    background-color: rgba(255, 255, 255, 0.8); }
+  .page-title--h1 {
+    margin: 0;
+    padding: 60px 0 0;
+    font-weight: normal;
+    font: 20px "ProximaNovaBold", sans-serif;
+    color: #00a1fc; }
   .page-title__list {
     margin: 60px 0 0;
     padding: 0;
@@ -346,6 +371,8 @@ body::before {
   position: relative;
   clear: both;
   padding: 25px 0 25px; }
+  .content-block--filled {
+    background-color: rgba(255, 255, 255, 0.8); }
 
 /* Список проектов */
 .project-list {
@@ -435,7 +462,7 @@ body::before {
     margin: 0;
     padding: 5px 0 5px;
     font: 14px "ProximaNovaSemibold", sans-serif;
-    color: #6e6e6e;
+    color: #272727;
     text-transform: none; }
   .payment__count, .payment__btn {
     box-sizing: border-box;
@@ -586,3 +613,97 @@ body::before {
     .auth-form__link a {
       color: #636363;
       text-decoration: none; }
+
+.project-detail {
+  padding-bottom: 50px; }
+  .project-detail__images {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a8a8a8; }
+    .project-detail__images div {
+      float: right;
+      overflow: hidden;
+      text-align: center; }
+      .project-detail__images div:nth-child(1) {
+        width: 460px;
+        height: 240px;
+        float: left; }
+        .project-detail__images div:nth-child(1) img {
+          width: 460px; }
+      .project-detail__images div:nth-child(2), .project-detail__images div:nth-child(3) {
+        width: 150px;
+        height: 130px;
+        margin-left: 10px; }
+        .project-detail__images div:nth-child(2) img, .project-detail__images div:nth-child(3) img {
+          width: 150px; }
+      .project-detail__images div:nth-child(4) {
+        width: 310px;
+        height: 100px;
+        margin-top: 10px; }
+        .project-detail__images div:nth-child(4) img {
+          width: 310px; }
+  .project-detail__text {
+    padding-top: 15px; }
+    .project-detail__text p {
+      margin: 0; }
+  .project-detail__social {
+    clear: both;
+    margin-top: 55px;
+    padding-top: 15px;
+    border-top: 1px solid #a8a8a8; }
+    .project-detail__social img {
+      margin-right: 10px; }
+  .project-detail__info {
+    padding-top: 5px; }
+  .project-detail__info-item, .project-detail__payment-item {
+    margin: 10px 0 10px;
+    font: 15px "ProximaNovaSemibold", sans-serif; }
+  .project-detail__price {
+    font: 17px "ProximaNovaBold", sans-serif;
+    color: #00a1fc; }
+  .project-detail__payment {
+    border-top: 1px solid #a8a8a8; }
+    .project-detail__payment-item {
+      margin-top: 15px; }
+      .project-detail__payment-item:first-child {
+        margin-top: 10px; }
+    .project-detail__payment-numb {
+      box-sizing: border-box;
+      padding-left: 10px;
+      height: 40px;
+      line-height: 40px;
+      border: 1px solid #f51b49;
+      font-size: 15px;
+      width: 100%; }
+
+.progress {
+  position: relative;
+  margin: 10px 0 15px; }
+  .progress__title {
+    color: #00a1fc;
+    font: 15px "ProximaNovaSemibold", sans-serif;
+    margin: 0 0 3px; }
+  .progress__empty {
+    position: relative;
+    border: 1px solid #00a1fc;
+    width: 100%;
+    height: 40px; }
+  .progress__fill {
+    position: absolute;
+    width: 0;
+    height: 40px;
+    left: 0;
+    top: 0;
+    background-color: #00a1fc; }
+  .progress__num {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -10px;
+    width: 40px;
+    height: 20px;
+    font: 17px "ProximaNovaSemibold", sans-serif; }

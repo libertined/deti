@@ -157,6 +157,18 @@ body::before{
   float: right;
   text-align: left;
 
+  &__block{
+    background-color: rgba(255,255,255, 0.8);
+  }
+
+  &--h1{
+    margin: 0;
+    padding: 60px 0 0;
+    font-weight: normal;
+    font: $text-size20 $font-bold;
+    color: $color-blue;
+  }
+
   &__list{
     margin:60px 0 0;
     padding: 0;
@@ -192,6 +204,10 @@ body::before{
   position: relative;
   clear: both;
   padding: $padding15;
+
+  &--filled{
+    background-color: rgba(255,255,255, 0.8);
+  }
 }
 
 /* Список проектов */
@@ -521,5 +537,149 @@ body::before{
       color: $grey;
       text-decoration: none;
     }
+  }
+}
+
+.project-detail{
+  padding-bottom: 50px;
+
+  &__images{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $border-light-grey;
+
+    & div{
+      float: right;
+      overflow: hidden;
+      text-align: center;
+
+      &:nth-child(1){
+        width: 460px;
+        height: 240px;
+        float: left;
+
+        & img{
+          width: 460px;
+        }
+      }
+
+      &:nth-child(2), &:nth-child(3){
+        width: 150px;
+        height: 130px;
+        margin-left: 10px;
+
+        & img{
+          width: 150px;
+        }
+      }
+
+      &:nth-child(4){
+        width: 310px;
+        height: 100px;
+        margin-top: 10px;
+
+        & img{
+          width: 310px;
+        }
+      }
+    }
+  }
+
+  &__text{
+    padding-top: 15px;
+
+    & p{
+    margin: 0;
+    }
+  }
+
+  &__social{
+    clear: both;
+    margin-top: 55px;
+    padding-top: 15px;
+    border-top: 1px solid $border-light-grey;
+
+    & img{
+      margin-right: 10px;
+    }
+  }
+
+  &__info{
+    padding-top: 5px;
+  }
+
+  &__info-item{
+    margin: 10px 0 10px;
+    font: $text-size15 $font-semibold;
+   }
+
+  &__price{
+    font: $text-size17 $font-bold;
+    color: $color-blue;
+  }
+
+  &__payment{
+    border-top: 1px solid $border-light-grey;
+
+    &-item{
+      @extend .project-detail__info-item;
+      margin-top: 15px;
+
+      &:first-child{
+        margin-top: 10px;
+      }
+    }
+
+    &-numb{
+      box-sizing: border-box;
+      padding-left: 10px;
+      height: 40px;
+      line-height: 40px;
+      border: 1px solid $red;
+      font-size: $text-size15;
+      width: 100%;
+    }
+  }
+}
+
+// *** Индикатор прогресса *** //
+.progress{
+  position: relative;
+  margin: 10px 0 15px;
+
+  &__title{
+    color: $color-blue;
+    font: $text-size15 $font-semibold;
+    margin: 0 0 3px;
+  }
+
+  &__empty{
+    position: relative;
+    border: 1px solid $color-blue;
+    width: 100%;
+    height: 40px;
+  }
+
+  &__fill{
+    position: absolute;
+    width: 0;
+    height: 40px;
+    left: 0;
+    top: 0;
+    background-color: $color-blue;
+  }
+
+  &__num{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -10px;
+    width: 40px;
+    height: 20px;
+    font: $text-size17 $font-semibold;
   }
 }

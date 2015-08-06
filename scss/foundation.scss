@@ -198,3 +198,26 @@ a:hover{
     padding-bottom: 20px;
   }
 }
+
+// *** Кнопки *** //
+.btn{
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  padding-top: 11px;
+  height: 40px;
+  line-height: 40px;
+  background: $red;
+  border: 0;
+  color: $color-light;
+  font: $text-size15 $font-bold;
+  text-transform: uppercase;
+
+  &--full{
+    width: 100%;
+  }
+
+  &--gray{
+    background-color: $grey;
+  }
+}
