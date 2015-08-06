@@ -441,8 +441,9 @@ body::before{
     box-sizing: border-box;
     border: 1px solid $border-grey;
     background-color: rgba(255,255,255, 0.8);
-    padding: 3px 5px 0;
+    padding-left:5px;
     height: $input-height;
+    line-height: $input-height;
     width: 100%;
     font-size: $text-size18;
 
@@ -490,8 +491,9 @@ body::before{
     box-sizing: border-box;
     border: 1px solid $border-grey;
     background-color: $input-bg;
-    padding: 10px;
-    height: $input-height;
+    padding-left:5px;
+    height: $input-height+10px;
+    line-height: $input-height+10px;
     width: 100%;
     font-size: $text-size18;
     margin-bottom: 7px;

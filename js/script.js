@@ -104,7 +104,7 @@ $(document).ready(function() {
     });
 
     //Закрываем окно и фон затемнения
-    $(document).on('click', '#fade', function() { //закрытие по клику вне окна, т.е. по фону...
+    $(document).on('click', '#fade, .modal-wnd__close', function() { //закрытие по клику вне окна, т.е. по фону...
         $('#fade , .modal-wnd').fadeOut(function() {
             $('#fade').remove();  //плавно исчезают
         });
