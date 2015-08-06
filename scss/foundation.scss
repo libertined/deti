@@ -2,6 +2,11 @@
   width: $main-width;
   margin: 0 auto;
   position: relative;
+
+  &--fill{
+    width: $main-width - $grid-gutter-width;
+    background-color: rgba(255,255,255, 0.8);
+  }
 }
 
 .clearfix:after{
@@ -161,6 +166,10 @@ a:hover{
     position: relative;
     margin: 0 auto;
     float: none;
+
+    &--padd15{
+      padding: 0 15px 0;
+    }
   }
 
   &__overlay{
@@ -197,13 +206,22 @@ a:hover{
     margin-left: -($main-width/4 - 10px);
     padding-bottom: 20px;
   }
+
+  &--wide{
+    width: $width-2;
+    margin-left: -($width-2)/2;
+    padding: 15px 0 15px;
+  }
 }
 
 // *** Кнопки *** //
 .btn{
   box-sizing: border-box;
   display: block;
+  text-decoration: none;
+  cursor: pointer;
   text-align: center;
+  padding: 0;
   padding-top: 11px;
   height: 40px;
   line-height: 40px;

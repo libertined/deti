@@ -23,6 +23,9 @@
   width: 960px;
   margin: 0 auto;
   position: relative; }
+  .wrapper--fill {
+    width: 940px;
+    background-color: rgba(255, 255, 255, 0.8); }
 
 .clearfix:after {
   content: '';
@@ -186,6 +189,8 @@ a:hover {
     position: relative;
     margin: 0 auto;
     float: none; }
+    .modal-wnd__content--padd15 {
+      padding: 0 15px 0; }
   .modal-wnd__overlay {
     z-index: 1000;
     position: fixed;
@@ -213,11 +218,18 @@ a:hover {
     width: 460px;
     margin-left: -230px;
     padding-bottom: 20px; }
+  .modal-wnd--wide {
+    width: 782px;
+    margin-left: -391px;
+    padding: 15px 0 15px; }
 
 .btn {
   box-sizing: border-box;
   display: block;
+  text-decoration: none;
+  cursor: pointer;
   text-align: center;
+  padding: 0;
   padding-top: 11px;
   height: 40px;
   line-height: 40px;
@@ -338,11 +350,9 @@ body::before {
   position: relative;
   float: right;
   text-align: left; }
-  .page-title__block {
-    background-color: rgba(255, 255, 255, 0.8); }
   .page-title--h1 {
     margin: 0;
-    padding: 60px 0 0;
+    padding: 40px 0 0;
     font-weight: normal;
     font: 20px "ProximaNovaBold", sans-serif;
     color: #00a1fc; }
@@ -367,12 +377,23 @@ body::before {
       color: #0042fe;
       border-bottom: 7px solid #0042fe; }
 
+.breadcrumbs {
+  font: 14px "ProximaNovaBold", sans-serif;
+  color: #272727;
+  padding-top: 15px;
+  text-transform: lowercase; }
+  .breadcrumbs__item {
+    color: #272727;
+    text-decoration: none; }
+  .breadcrumbs__separator {
+    margin: 0 10px 0; }
+  .breadcrumbs__current {
+    color: #a8a8a8; }
+
 .content-block {
   position: relative;
   clear: both;
   padding: 25px 0 25px; }
-  .content-block--filled {
-    background-color: rgba(255, 255, 255, 0.8); }
 
 /* Список проектов */
 .project-list {
@@ -528,29 +549,34 @@ body::before {
     text-decoration: none;
     font-size: 13px; }
 
-.reg-form {
+.simple-form, .reg-form, .auth-form {
   margin: 0;
   padding: 0;
   text-align: left;
   box-sizing: border-box; }
-  .reg-form__title {
+  .simple-form__title {
     font: 20px "ProximaNovaBold", sans-serif;
     color: #00a1fc;
     margin: 0; }
-  .reg-form__text {
-    margin: 0 auto;
+  .simple-form__text {
     clear: both;
-    float: none;
-    text-align: center;
-    padding: 30px;
-    font: 12px "ProximaNovaSemibold", sans-serif;
-    color: #2b2b2b; }
-  .reg-form__label {
+    text-align: left;
+    margin: 7px 0 7px;
+    font: 15px "ProximaNovaRegular", sans-serif;
+    color: #636363; }
+  .simple-form__label {
     display: block;
-    font: 14px "ProximaNovaSemibold", sans-serif;
-    color: #2b2b2b;
+    font: 13px "ProximaNovaRegular", sans-serif;
+    color: #636363;
     margin: 10px 0 3px; }
-  .reg-form__input {
+  .simple-form__textarea {
+    box-sizing: border-box;
+    border: 1px solid #828285;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+    margin-top: 10px; }
+  .simple-form__input {
     box-sizing: border-box;
     border: 1px solid #828285;
     background-color: rgba(255, 255, 255, 0.8);
@@ -559,60 +585,87 @@ body::before {
     line-height: 35px;
     width: 100%;
     font-size: 18px; }
-    .reg-form__input--correct {
-      background: rgba(255, 255, 255, 0.8) url("../img/input-correct.png") 99% 50% no-repeat;
-      padding-right: 30px; }
-    .reg-form__input--error {
-      background: rgba(255, 255, 255, 0.8) url("../img/input-error.png") 99% 50% no-repeat;
-      padding-right: 30px; }
-  .reg-form__submit, .auth-form__submit {
-    display: block;
+  .simple-form__submit-block {
     margin: 0 auto;
-    float: none;
     clear: both;
-    text-align: center;
-    padding: 8px;
-    background: #f51b49;
-    border: 0;
-    color: #fff;
-    font: 18px "ProximaNovaBold", sans-serif;
-    text-transform: uppercase; }
+    float: none;
+    padding-top: 10px; }
 
-.auth-form {
+.reg-form__title {
+  font: 20px "ProximaNovaBold", sans-serif;
+  color: #00a1fc;
+  margin: 0; }
+.reg-form__text {
+  margin: 0 auto;
+  clear: both;
+  float: none;
+  text-align: center;
+  padding: 30px;
+  font: 12px "ProximaNovaSemibold", sans-serif;
+  color: #2b2b2b; }
+.reg-form__label {
+  display: block;
+  font: 14px "ProximaNovaSemibold", sans-serif;
+  color: #2b2b2b;
+  margin: 10px 0 3px; }
+.reg-form__input {
+  box-sizing: border-box;
+  border: 1px solid #828285;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-left: 5px;
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+  font-size: 18px; }
+  .reg-form__input--correct {
+    background: rgba(255, 255, 255, 0.8) url("../img/input-correct.png") 99% 50% no-repeat;
+    padding-right: 30px; }
+  .reg-form__input--error {
+    background: rgba(255, 255, 255, 0.8) url("../img/input-error.png") 99% 50% no-repeat;
+    padding-right: 30px; }
+.reg-form__submit, .auth-form__submit {
+  display: block;
+  margin: 0 auto;
+  float: none;
+  clear: both;
+  text-align: center;
+  padding: 8px;
+  background: #f51b49;
+  border: 0;
+  color: #fff;
+  font: 18px "ProximaNovaBold", sans-serif;
+  text-transform: uppercase; }
+
+.auth-form__title {
+  font: 18px "ProximaNovaBold", sans-serif;
+  color: #00a1fc;
   margin: 0;
-  padding: 0;
-  text-align: left;
-  box-sizing: border-box; }
-  .auth-form__title {
-    font: 18px "ProximaNovaBold", sans-serif;
-    color: #00a1fc;
-    margin: 0;
-    text-align: center; }
-  .auth-form__input {
-    box-sizing: border-box;
-    border: 1px solid #828285;
-    background-color: #f4f4f4;
-    padding-left: 5px;
-    height: 45px;
-    line-height: 45px;
-    width: 100%;
-    font-size: 18px;
-    margin-bottom: 7px;
-    text-align: center; }
-  .auth-form__submit {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 10px 5px 10px;
-    margin-bottom: 5px; }
-  .auth-form__error {
-    margin: 10px 0 7px;
-    min-height: 20px;
-    color: #f51b49; }
-  .auth-form__link {
-    margin: 10px 0 0; }
-    .auth-form__link a {
-      color: #636363;
-      text-decoration: none; }
+  text-align: center; }
+.auth-form__input {
+  box-sizing: border-box;
+  border: 1px solid #828285;
+  background-color: #f4f4f4;
+  padding-left: 5px;
+  height: 45px;
+  line-height: 45px;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 7px;
+  text-align: center; }
+.auth-form__submit {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 5px 10px;
+  margin-bottom: 5px; }
+.auth-form__error {
+  margin: 10px 0 7px;
+  min-height: 20px;
+  color: #f51b49; }
+.auth-form__link {
+  margin: 10px 0 0; }
+  .auth-form__link a {
+    color: #636363;
+    text-decoration: none; }
 
 .project-detail {
   padding-bottom: 50px; }

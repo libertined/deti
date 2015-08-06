@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Мечтатели - етальная страница проекта</title>
+    <title>Мечтатели - Детальная страница проекта</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <script src="js/jquery-2.1.4.min.js"></script>
@@ -34,12 +34,13 @@
             </div>
         </div>
     </header>
-    <div class="wrapper page-title__block clearfix">
+    <div class="wrapper wrapper--fill clearfix">
+        <div class="breadcrumbs col-xs-9"><a href="/" class="breadcrumbs__item">главная</a> <span class="breadcrumbs__separator">&frasl;</span> <span class="breadcrumbs__current">Летний бассейн с детской площадкой</span></div>
         <h1 class="page-title page-title--h1 col-xs-9">
             Летний бассейн с детской площадкой
         </h1>
     </div>
-    <div class="wrapper content-block content-block--filled clearfix">
+    <div class="wrapper wrapper--fill content-block clearfix">
         <div class="project-detail col-xs-10 centered-col clearfix">
             <div class="project-detail__images">
                 <div><img src="img_tpl/proj1.jpg" alt=""/></div>
@@ -77,7 +78,7 @@
                         <div class="col-xs-2 right-col btn">Оплатить</div>
                     </div>
                     <p class="project-detail__payment-item">Задать вопрос по этому проекту</p>
-                    <div class="btn btn--full btn--gray">Задать вопрос</div>
+                    <div class="btn btn--full btn--gray modal-open" data-src="question-form">Задать вопрос</div>
                 </div>
             </div>
 
@@ -162,65 +163,32 @@
                 </div>
             </form>
         </div>
+        <span class="modal-wnd__close" href="/"></span>
     </div>
-    <div id="modal" class="modal-wnd modal-wnd--regist clearfix">
-        <div class="modal-wnd__content col-xs-10">
-            <form action="/" method="POST" class="reg-form">
-                <p class="reg-form__title">Регистрация нового пользователя</p>
-                <div class="col-xs-5 left-col">
-                    <label class="reg-form__label" for="form-name">Имя</label>
-                    <input class="reg-form__input" type="text" name="name" id="form-name"/>
-                    <label class="reg-form__label" for="form-sname">Отчество (если есть)</label>
-                    <input class="reg-form__input" type="text" name="sname" id="form-sname"/>
-                    <label class="reg-form__label" for="form-lname">Фамилия</label>
-                    <input class="reg-form__input" type="text" name="lname" id="form-lname"/>
-                    <div class="single-col clearfix">
-                        <div class="col-xs-3 left-col">
-                            <label class="reg-form__label" for="form-date">Дата рождения</label>
-                            <input class="reg-form__input" type="text" name="date" id="form-date" placeholder="дд.мм.гггг"/>
-                        </div>
-                        <div class="col-xs-2 right-col">
-                            <label class="reg-form__label" for="form-sex">Пол</label>
-                            <div class="pseudo-select pseudo-select--white">
-                                <div class="pseudo-select__text">Мужской</div>
-                                <ul class="pseudo-select__list">
-                                    <li class="pseudo-select__option" data-value="1">Мужской</li>
-                                    <li class="pseudo-select__option" data-value="2">Женский</li>
-                                </ul>
-                                <select name="sex" class="pseudo-select__real" id="form-sex">
-                                    <option value="1" selected="selected">Мужской</option>
-                                    <option value="2">Женский</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <label class="reg-form__label" for="form-citizen">Гражданство</label>
-                    <div class="pseudo-select pseudo-select--white">
-                        <div class="pseudo-select__text">Россия</div>
-                        <ul class="pseudo-select__list">
-                            <li class="pseudo-select__option" data-value="1">Россия</li>
-                            <li class="pseudo-select__option" data-value="2">Украина</li>
-                        </ul>
-                        <select name="citizen" class="pseudo-select__real" id="form-citizen">
-                            <option value="1" selected="selected">Россия</option>
-                            <option value="2">Украина</option>
-                        </select>
-                    </div>
-                    </div>
-                <div class="col-xs-5 right-col">
-                    <label class="reg-form__label" for="form-email">Email-адрес</label>
-                    <input class="reg-form__input" type="text" name="email" id="form-email"/>
-                    <label class="reg-form__label" for="form-email_rep">Повторите Email-адрес</label>
-                    <input class="reg-form__input reg-form__input--correct" type="text" name="email_rep" id="form-email_rep"/>
-                    <label class="reg-form__label" for="form-pass">Пароль (не менее 8 символов)</label>
-                    <input class="reg-form__input" type="text" name="pass" id="form-pass"/>
-                    <label class="reg-form__label" for="form-pass_rep">Повторите пароль</label>
-                    <input class="reg-form__input reg-form__input--error" type="text" name="pass_rep" id="form-pass_rep"/>
+    <div id="question-form" class="modal-wnd modal-wnd--wide clearfix">
+        <div class="modal-wnd__content modal-wnd__content--padd15">
+            <form action="/" method="POST" class="simple-form">
+                <p class="simple-form__title">Задать вопрос</p>
+                <p class="simple-form__text">Если у вас возник вопрос относительно размещенных проектов или по работе системы, напишите нам через форму представленную ниже. Мы в ближайшее время свяжемся с вами.</p>
+                <label class="simple-form__label" for="form-subject">Выберете тему вопроса:</label>
+                <div class="pseudo-select pseudo-select--white">
+                    <div class="pseudo-select__text">Сообщение по описанию проекта</div>
+                    <ul class="pseudo-select__list">
+                        <li class="pseudo-select__option" data-value="1">Сообщение по описанию проекта</li>
+                        <li class="pseudo-select__option" data-value="2">Сообщение по оплате проекта</li>
+                    </ul>
+                    <select name="subject" class="pseudo-select__real" id="form-subject">
+                        <option value="1" selected="selected">Сообщение по описанию проекта</option>
+                        <option value="2">Сообщение по оплате проекта</option>
+                    </select>
                 </div>
-                <div class="col-xs-8 reg-form__text">Нажимая кнопку «Зарегистрироваться», я даю своё согласие на обработку моих персональных данных Благотворительному фонду «Мечтатели»</div>
-                <button class="col-xs-4 reg-form__submit">Зарегестрироваться</button>
+                <textarea name="message" class="simple-form__textarea" placeholder="Текст сообщения"></textarea>
+                <div class="col-xs-4 simple-form__submit-block">
+                    <button class="btn btn--full" type="submit" name="submit">Отправить</button>
+                </div>
             </form>
         </div>
+        <span class="modal-wnd__close" href="/"></span>
     </div>
     <script src="js/masonry.pkgd.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>

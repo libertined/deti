@@ -25,6 +25,7 @@ $grid-columns:  12 !default;
 $grid-gutter-width: 20px !default;
 
 $text-size12: 12px;
+$text-size13: 13px;
 $text-size14: 14px;
 $text-size15: 15px;
 $text-size16: 16px;
@@ -34,3 +35,5 @@ $text-size20: 20px;
 $padding10: 10px 0 10px;
 $padding15: 15px 0 15px;
 $padding15: 25px 0 25px;
+
+$width-2: $main-width - ($main-width/$grid-columns)*2 - 18px;
