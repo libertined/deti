@@ -1,0 +1,523 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'fonts.scss';
+@import 'foundation.scss';
+
+html, body{
+  padding: 0;
+  margin: 0;
+  background:  url("#{$dir}/bg.jpg") repeat-y;
+  background-size: 100%;
+  color: $color-main;
+  font-family: $font-main;
+  font-size: $text-size14;
+}
+
+body::before{
+  content: '';
+  width: 100%;
+  clear: both;
+  display: block;
+  height: 0px;
+}
+
+/* Шапка */
+.header{
+  position: relative;
+  width: 100%;
+  height: 75px;
+  background-color: $color-blue;
+
+  &.scroll{
+    background-color: rgba(0, 161, 252, 0.8);
+    top:0;
+    left:0;
+    z-index: 100;
+
+    .header__logo-img{
+      display: none;
+    }
+  }
+
+  &__logo{
+    position: relative;
+    float: left;
+    text-align: left;
+
+    &-text{
+      display: block;
+      font: 13.6px $font-bold;
+      color: $color-light;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: $padding10;
+    }
+
+    &-img{
+      background-color: $white;
+      text-align: center;
+      padding: $padding15;
+      z-index: 10;
+      margin: 0;
+      box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+
+      & img{
+        width: 74px;
+        border: 0;
+      }
+    }
+  }
+  
+  &__right-side{
+    float: right;
+  }
+
+  &__info{
+    position: relative;
+    float: right;
+    text-align: right;
+    line-height: 75px;
+
+    & div{
+      display: inline-block;
+      margin: 0 10px 0;
+      padding: 5px 0 5px;
+      color: $color-light;
+      font: $text-size15 $font-bold;
+      text-transform: uppercase;
+
+      & a{
+        color: $color-light;
+        text-decoration: none;
+
+        &.active{
+          text-decoration: underline;
+        }
+
+        &:hover{
+          color: $red;
+        }
+
+      }
+    }
+
+    & .auth{
+      padding-right: 25px;
+      background: url("#{$dir}/ico_enter.png") 100% 3px no-repeat;
+      text-transform: none;
+    }
+  }
+}
+
+/* Верхнее меню */
+.top-menu{
+  position: relative;
+  float: left;
+
+  &__list{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-align: justify;
+    font-size: 0px;
+  }
+
+  &__item{
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    line-height: 75px;
+    font: $text-size14 $font-semibold;
+
+    &:first-child{
+      margin-left: 0px;
+    }
+
+    & a{
+      color: $color-light;
+      line-height: 75px;
+      font-size: $text-size14;
+      text-transform: uppercase;
+      text-decoration: none;
+
+      &:hover{
+        color: $red;
+      }
+    }
+
+    &--active{
+    }
+
+
+  }
+}
+
+.page-title{
+  position: relative;
+  float: right;
+  text-align: left;
+
+  &__list{
+    margin:60px 0 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 0px;
+  }
+
+  &__item{
+    display: inline-block;
+    text-align: left;
+    margin: 0 10px 0;
+    font: 20px $font-bold;
+    text-transform: uppercase;
+
+    & a{
+      color: $color-light;
+      text-decoration: none;
+
+      &:hover{
+        color: $red;
+      }
+    }
+
+    &--active a{
+      color: $color-dark-blue;
+      border-bottom: 7px solid $color-dark-blue;
+    }
+  }
+}
+
+.content-block{
+  position: relative;
+  clear: both;
+  padding: $padding15;
+}
+
+/* Список проектов */
+.project-list{
+  position: relative;
+  clear: both;
+
+  &__item{
+    @extend .col-xs-3;
+    background-color: $white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  &__img{
+    margin: 10px 10px 0;
+    position: relative;
+    display: block;
+
+    & img{
+      width: 100%;
+      margin: 0;
+    }
+
+    &--finish::after{
+      display: block;
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  &__item-finish-text{
+    margin: 0 auto;
+    margin-top: -50px;
+    padding: 0 15px 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 17px;
+    color: $color-main-darker;
+    text-transform: uppercase;
+    z-index: 10;
+  }
+
+  &__item-title{
+    display: block;
+    padding: 3px 10px 3px;
+    margin: 0;
+    text-align: left;
+    color: $color-blue;
+    text-decoration: none;
+    font: $text-size16 $font-semibold;
+  }
+
+  &__item-desc{
+    padding: 0 10px 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  &__item-link{
+    display: block;
+    color: $color-blue;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 10px 10px;
+  }
+}
+
+.to_begin{
+  background: url("#{$dir}/to_begin.png") center no-repeat;
+  width: 60px;
+  height: 60px;
+  right: 50%;
+  margin-right: -540px;
+  bottom: 40px;
+  position: fixed;
+  cursor: pointer;
+  display:none;
+  border-radius: 32px;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  z-index: 10;
+}
+
+.payment{
+  position: relative;
+  clear: both;
+  background-color: rgba(255,255,255,0.5);
+
+  &__wrapper{
+    @extend .col-xs-6;
+    float: none;
+    margin: 0 auto;
+    padding: $padding15;
+  }
+
+  &__title{
+    font: 22px $font-semibold;
+    color: $color-dark;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+    height: 30px;
+  }
+
+  &__desc{
+    margin: 0;
+    padding: 5px 0 5px;
+    font: $text-size14 $font-semibold;
+    color: $color-main;
+    text-transform: none;
+  }
+
+  &__count{
+    box-sizing: border-box;
+    height: 50px;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid $red;
+    font-size: 18px;
+  }
+
+  &__btn{
+    @extend .payment__count;
+    float: right;
+    padding: 10px 0 10px;
+    font: $text-size15 $font-bold;
+    background-color: $red;
+    color: $color-light;
+    text-transform: uppercase;
+  }
+
+  &__tools{
+    clear: both;
+    height: 50px;
+    padding: 10px 0 0;
+  }
+}
+
+.footer{
+  position: relative;
+  background-color: rgba(0,0,0, 0.5);
+  clear: both;
+
+  &-wrapper{
+    background: url("#{$dir}/logo_white.png") 95% 15px no-repeat;
+    padding-bottom: 50px;
+  }
+}
+
+.bottom-menu{
+  padding-top: 10px;
+  min-height: 170px;
+
+  &__list{
+    @extend .col-xs-3;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item{
+    text-transform: uppercase;
+    line-height: 1.7;
+
+    & a{
+      color: $color-light;
+      text-decoration: none;
+
+      &:hover{
+        color: $red;
+      }
+    }
+  }
+}
+
+.social{
+  &__item{
+    margin-right: 10px;
+
+    & img{
+      border: 0;
+    }
+  }
+}
+
+.design-info{
+  float: right;
+  margin-top: -15px;
+
+  &__text{
+    color: $color-light;
+    text-align: right;
+    margin: 0;
+    padding-top: 25px;
+    line-height: 1.3;
+  }
+
+  &__links{
+    float: right;
+    line-height: 1.2;
+  }
+
+  &__site{
+    color: $color-light;
+    text-decoration: none;
+    font-size: 13px;
+  }
+}
+
+// *** Форма регистрации *** //
+.reg-form{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  box-sizing: border-box;
+
+  &__title{
+    font: $text-size20 $font-bold;
+    color: $color-blue;
+    margin: 0;
+  }
+
+  &__text{
+    margin:0 auto;
+    clear: both;
+    float: none;
+    text-align: center;
+    padding: 30px;
+    font: $text-size12 $font-semibold;
+    color: $color-gray;
+  }
+
+  &__label{
+    display: block;
+    font: $text-size14 $font-semibold;
+    color: $color-gray;
+    margin: 10px 0 3px;
+  }
+
+  &__input{
+    box-sizing: border-box;
+    border: 1px solid $border-grey;
+    background-color: rgba(255,255,255, 0.8);
+    padding: 3px 5px 0;
+    height: $input-height;
+    width: 100%;
+    font-size: $text-size18;
+
+    &--correct{
+      background:rgba(255,255,255, 0.8) url("#{$dir}/input-correct.png") 99% 50% no-repeat;
+      padding-right: 30px;
+    }
+
+    &--error{
+      background:rgba(255,255,255, 0.8) url("#{$dir}/input-error.png") 99% 50% no-repeat;
+      padding-right: 30px;
+    }
+  }
+
+  &__submit{
+    display: block;
+    margin:0 auto;
+    float: none;
+    clear: both;
+    text-align: center;
+    padding: 8px;
+    background: $red;
+    border: 0;
+    color: $color-light;
+    font: $text-size18 $font-bold;
+    text-transform: uppercase;
+  }
+}
+
+// *** Форма регистрации *** //
+.auth-form{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  box-sizing: border-box;
+
+  &__title{
+    font: $text-size18 $font-bold;
+    color: $color-blue;
+    margin: 0;
+    text-align: center;
+  }
+
+  &__input{
+    box-sizing: border-box;
+    border: 1px solid $border-grey;
+    background-color: $input-bg;
+    padding: 10px;
+    height: $input-height;
+    width: 100%;
+    font-size: $text-size18;
+    margin-bottom: 7px;
+    text-align: center;
+  }
+
+  &__submit{
+    @extend .reg-form__submit;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 5px 10px;
+    margin-bottom: 5px;
+  }
+  
+  &__error{
+    margin: 10px 0 7px;
+    min-height: 20px;
+    color: $red;
+  }
+
+  &__link{
+    margin: 10px 0 0;
+
+    & a{
+      color: $grey;
+      text-decoration: none;
+    }
+  }
+}

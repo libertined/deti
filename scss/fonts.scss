@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("#{$dir_font}/ProximaNovaRegular.eot");
+  src: url("#{$dir_font}/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+  url("#{$dir_font}/ProximaNovaRegular.woff") format("woff"),
+  url("#{$dir_font}/ProximaNovaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+$font-main:      'ProximaNovaRegular', sans-serif;
+
+/* font-family: "ProximaNovaBold"; */
+@font-face {
+  font-family: "ProximaNovaBold";
+  src: url("#{$dir_font}/ProximaNovaBold.eot");
+  src: url("#{$dir_font}/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+  url("#{$dir_font}/ProximaNovaBold.woff") format("woff"),
+  url("#{$dir_font}/ProximaNovaBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+$font-bold:      'ProximaNovaBold', sans-serif;
+
+/* font-family: "ProximaNovaSemibold"; */
+@font-face {
+  font-family: "ProximaNovaSemibold";
+  src: url("#{$dir_font}/ProximaNovaSemibold.eot");
+  src: url("#{$dir_font}/ProximaNovaSemibold.eot?#iefix")format("embedded-opentype"),
+  url("#{$dir_font}/ProximaNovaSemibold.woff") format("woff"),
+  url("#{$dir_font}/ProximaNovaSemibold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+$font-semibold:      'ProximaNovaSemibold', sans-serif;
