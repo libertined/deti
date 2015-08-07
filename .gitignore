@@ -9,7 +9,7 @@ Thumbs.db
 /*.xml
 /*.dt
 /.htaccess
-
+/scss/prepros.cfg
 /psd
 
 # core
