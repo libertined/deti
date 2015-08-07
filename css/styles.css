@@ -889,25 +889,27 @@ body::before {
     .kid-icon--boy.active .kid-icon__text:hover {
       color: #009ef4; }
 
+.avatar {
+  width: 160px;
+  height: 160px;
+  background: #a8a8a8 url("../img/ava-def.png") center no-repeat;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center; }
+  .avatar--not-empty {
+    background: none; }
+
 .curator {
   padding-top: 4px; }
-  .curator__ava {
-    width: 160px;
-    height: 160px;
-    background: #a8a8a8 url("../img/ava-def.png") center no-repeat;
-    border-radius: 5px;
-    overflow: hidden;
-    text-align: center; }
-    .curator__ava--not-empty {
-      background: none; }
-  .curator__name {
+  .curator__name, .edit-profile__name {
     color: #f51b49;
     font: 18px "ProximaNovaSemibold", sans-serif;
     margin: 15px 0 10px; }
   .curator__link {
     margin: 3px 0 3px;
     font: 14px "ProximaNovaSemibold", sans-serif;
-    text-decoration: underline; }
+    text-decoration: underline;
+    cursor: pointer; }
     .curator__link a {
       text-decoration: underline;
       color: #272727; }
@@ -920,3 +922,25 @@ body::before {
     margin: 10px 0 10px; }
   .curator__filter {
     margin: 20px 0 20px; }
+
+.edit-profile__img-block {
+  padding-top: 15px; }
+.edit-profile__img-link {
+  display: block;
+  clear: both;
+  font-family: "ProximaNovaSemibold", sans-serif;
+  color: #009ef4;
+  text-decoration: underline;
+  margin: 15px 30px 0; }
+.edit-profile__name {
+  margin-top: 0; }
+.edit-profile__info {
+  font-family: "ProximaNovaSemibold", sans-serif;
+  margin: 7px 0 7px; }
+  .edit-profile__info-title {
+    font-family: "ProximaNovaBold", sans-serif; }
+  .edit-profile__info-link {
+    font-size: 12px;
+    color: #009ef4;
+    text-decoration: underline;
+    cursor: pointer; }

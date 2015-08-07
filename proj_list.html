@@ -106,7 +106,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="kids-list__item clearfix" id="10">
+                    <div class="kids-list__item clearfix" id="17">
                         <div class="col-xs-4 left-col">
                             <p class="kids-list__item-title">Кроссовки для занятия бегом Nike Air</p>
                             <p class="kids-list__item-text">Маша стала серьезно относиться к спорту и дисциплине, у нее появился график и она каждое утро стала совершать пробежки. Также, Маша записалась на участие в кроссе. Для предупреждения спортивных травм ей необходима удобна обувь.</p>
@@ -170,11 +170,11 @@
                 <div class="kids-list__more">показать еще</div>
             </div>
             <div class="curator right-col col-xs-4">
-                <div class="curator__ava centered-col">
+                <div class="curator__ava avatar centered-col">
                     <img src="img_tpl/ava.jpg" alt="Вероника Игоревна Шатальская"/>
                 </div>
                 <p class="curator__name">Вероника Игоревна Шатальская</p>
-                <p class="curator__link">Редактировать профиль</p>
+                <p class="curator__link modal-open" data-src="edit-profile">Редактировать профиль</p>
                 <p class="curator__link"><a href="/">Правила и условия попечительства</a></p>
                 <p class="curator__status">Статус: Попечитель. Дети: 2</p>
                 <div class="separator"></div>
@@ -292,6 +292,28 @@
                 <textarea name="message" class="simple-form__textarea" placeholder="Текст сообщения"></textarea>
                 <div class="col-xs-4 simple-form__submit-block">
                     <button class="btn btn--full" type="submit" name="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+        <span class="modal-wnd__close" href="/"></span>
+    </div>
+    <div id="edit-profile" class="modal-wnd modal-wnd--wide clearfix">
+        <div class="modal-wnd__content modal-wnd__content--padd15">
+            <form action="/" method="POST" class="simple-form edit-profile">
+                <p class="simple-form__title">Редактировать профиль</p>
+                <div class="edit-profile__img-block col-xs-3 left-col">
+                    <div class="avatar centered-col">
+                        <img src="img_tpl/ava.jpg" alt="Вероника Игоревна Шатальская"/>
+                    </div>
+                    <a class="edit-profile__img-link">Изменить фото</a>
+                </div>
+                <div class="col-xs-6">
+                    <input type="hidden" name="birth" value="28 января 1980"/>
+                    <input type="hidden" name="citizen" value="Гражданство"/>
+                    <p class="edit-profile__name">Вероника<br>Игоревна<br>Шатальская</p>
+                    <p class="edit-profile__info"><span class="edit-profile__info-title">Статус:</span> Попечитель</p>
+                    <p class="edit-profile__info"><span class="edit-profile__info-title">Дата рождения:</span> 28 января 1980 <span class="edit-profile__info-link">Редактировать</span></p>
+                    <p class="edit-profile__info"><span class="edit-profile__info-title">Гражданство:</span> Россия <span class="edit-profile__info-link">Редактировать</span></p>
                 </div>
             </form>
         </div>

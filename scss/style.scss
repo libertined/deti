@@ -929,22 +929,23 @@ body::before{
     }
   }
 }
+.avatar{
+  width: 160px;
+  height: 160px;
+  background: $border-light-grey url("#{$dir}/ava-def.png") center no-repeat;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+
+  &--not-empty{
+    background: none;
+  }
+}
 
 .curator{
   padding-top: 4px;
 
-  &__ava{
-    width: 160px;
-    height: 160px;
-    background: $border-light-grey url("#{$dir}/ava-def.png") center no-repeat;
-    border-radius: 5px;
-    overflow: hidden;
-    text-align: center;
-
-    &--not-empty{
-      background: none;
-    }
-  }
+  &__ava{ }
 
   &__name{
     color: $red;
@@ -956,6 +957,7 @@ body::before{
     margin: 3px 0 3px;
     font: $text-size14 $font-semibold;
     text-decoration: underline;
+    cursor: pointer;
 
     & a{
       text-decoration: underline;
@@ -978,5 +980,41 @@ body::before{
 
   &__filter{
     margin: 20px 0 20px;
+  }
+}
+
+.edit-profile{
+  &__img-block{
+    padding-top: 15px;
+  }
+
+  &__img-link{
+    display: block;
+    clear: both;
+    font-family: $font-semibold;
+    color: $blue;
+    text-decoration: underline;
+    margin: 15px 30px 0;
+  }
+
+  &__name{
+    @extend .curator__name;
+    margin-top: 0;
+  }
+
+  &__info{
+    font-family: $font-semibold;
+    margin: 7px 0 7px;
+
+    &-title{
+      font-family: $font-bold;
+    }
+
+    &-link{
+      font-size: 12px;
+      color: $blue;
+      text-decoration: underline;
+      cursor: pointer;
+    }
   }
 }
