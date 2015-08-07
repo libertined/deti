@@ -795,10 +795,26 @@ body::before{
 
   &__more{
     text-align: center;
+    cursor: pointer;
     font: $text-size16 $font-semibold;
     color: $red;
-    padding: 20px;
+    margin-top: 10px;
+    padding: 10px 20px 20px;
     border-bottom: 1px solid $border-light-grey;
+  }
+
+  &__filter{
+    font: $text-size13 $font-semibold;
+    padding-top: 5px;
+
+    &-item{
+      display: inline-block;
+
+      &.active{
+        text-decoration: underline;
+      }
+    }
+
   }
 
   &__item{
@@ -885,6 +901,12 @@ body::before{
     }
   }
 
+  &__age{
+    @extend .kid-icon__text;
+    display: block;
+    padding-bottom: 15px;
+  }
+
   &.active{
     .kid-icon__text{
       border-bottom: 3px solid $gray-bg;
@@ -897,6 +919,9 @@ body::before{
     }
     .kid-icon__text{
       color: $red;
+    }
+    .kid-icon__age{
+      @extend .kid-icon__text;
     }
 
     &.active{
@@ -916,6 +941,10 @@ body::before{
     }
     .kid-icon__text{
       color: $blue;
+    }
+
+    .kid-icon__age{
+      @extend .kid-icon__text;
     }
 
     &.active{
@@ -1018,3 +1047,5 @@ body::before{
     }
   }
 }
+
+@import 'additional.scss';
