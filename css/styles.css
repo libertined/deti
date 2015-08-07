@@ -243,6 +243,9 @@ a:hover {
   .btn--gray {
     background-color: #636363; }
 
+button.btn, input.btn {
+  padding: 0; }
+
 html, body {
   padding: 0;
   margin: 0;
