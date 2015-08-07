@@ -94,6 +94,18 @@ a:hover {
   float: none;
   margin: 0 auto; }
 
+.separator {
+  clear: both;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 1px;
+  background-color: #a8a8a8; }
+
+.marg10-10 {
+  margin: 10px 0 10px; }
+
 .justify-block {
   text-align: justify;
   height: 25px; }
@@ -242,6 +254,8 @@ a:hover {
     width: 100%; }
   .btn--gray {
     background-color: #636363; }
+  .btn--small-text {
+    font-size: 10px; }
 
 button.btn, input.btn {
   padding: 0; }
@@ -303,6 +317,9 @@ body::before {
     float: right;
     text-align: right;
     line-height: 75px; }
+    .header__info--auth {
+      padding-top: 23px;
+      line-height: 20px; }
     .header__info div {
       display: inline-block;
       margin: 0 10px 0;
@@ -317,10 +334,28 @@ body::before {
           text-decoration: underline; }
         .header__info div a:hover {
           color: #f51b49; }
+      .header__info div.payment-info {
+        position: absolute;
+        top: 85px;
+        left: 0;
+        text-align: left;
+        font: 13px "ProximaNovaSemibold", sans-serif;
+        color: #272727;
+        z-index: 2;
+        text-transform: none; }
     .header__info .auth {
       padding-right: 25px;
       background: url("../img/ico_enter.png") 100% 3px no-repeat;
       text-transform: none; }
+
+.profile-text {
+  display: block;
+  clear: both;
+  text-align: left;
+  padding-left: 10px;
+  font: 15px "ProximaNovaBold", sans-serif;
+  color: #fff;
+  text-decoration: none; }
 
 /* Верхнее меню */
 .top-menu {
@@ -763,3 +798,124 @@ body::before {
     width: 40px;
     height: 20px;
     font: 17px "ProximaNovaSemibold", sans-serif; }
+
+.kids-list__title {
+  font-weight: normal;
+  font: 16px "ProximaNovaSemibold", sans-serif;
+  padding-bottom: 5px;
+  margin: 0;
+  border-bottom: 1px solid #a8a8a8; }
+.kids-list__list-icon {
+  margin-bottom: 10px; }
+.kids-list__item-block {
+  display: none; }
+  .kids-list__item-block.active {
+    display: block; }
+.kids-list__more {
+  text-align: center;
+  font: 16px "ProximaNovaSemibold", sans-serif;
+  color: #f51b49;
+  padding: 20px;
+  border-bottom: 1px solid #a8a8a8; }
+.kids-list__item {
+  margin: 5px 0 0;
+  padding: 5px 0 5px;
+  border-bottom: 1px solid #f51b49;
+  border-top: 1px solid #f51b49; }
+  .kids-list__item-title {
+    font: 16px "ProximaNovaSemibold", sans-serif;
+    margin: 0; }
+  .kids-list__item-text {
+    margin: 5px 0 0; }
+  .kids-list__item-payment {
+    text-align: right;
+    color: #f51b49; }
+  .kids-list__item-price {
+    margin: 0;
+    font: 16px "ProximaNovaBold", sans-serif; }
+  .kids-list__item-pay {
+    margin: 5px 0 5px; }
+    .kids-list__item-pay--payed {
+      background-color: #569856; }
+    .kids-list__item-pay--fin {
+      background-color: #959595; }
+  .kids-list__item-date {
+    margin: 5px 0 0; }
+  .kids-list__item-decline {
+    color: #f51b49; }
+  .kids-list__item--fin {
+    border-color: #a8a8a8; }
+    .kids-list__item--fin .kids-list__item-payment {
+      color: #636363; }
+
+.kid-icon {
+  float: left;
+  text-align: center;
+  padding: 5px 0 5px; }
+  .kid-icon__img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    background: #959595 url("../img/ico_chide-choose.png") center no-repeat; }
+  .kid-icon__text {
+    clear: both;
+    font: 20px "ProximaNovaBold", sans-serif;
+    color: #636363;
+    cursor: pointer;
+    padding-bottom: 5px;
+    text-decoration: none; }
+    .kid-icon__text:hover {
+      color: #636363; }
+  .kid-icon.active .kid-icon__text {
+    border-bottom: 3px solid #959595; }
+  .kid-icon--girl .kid-icon__img {
+    background: #f33070 url("../img/ico-girl.png") center no-repeat; }
+  .kid-icon--girl .kid-icon__text {
+    color: #f51b49; }
+  .kid-icon--girl.active .kid-icon__text {
+    border-bottom: 3px solid #f33070; }
+    .kid-icon--girl.active .kid-icon__text:hover {
+      color: #f51b49; }
+  .kid-icon--boy .kid-icon__img {
+    background: #0299df url("../img/ico-boy.png") center no-repeat; }
+  .kid-icon--boy .kid-icon__text {
+    color: #009ef4; }
+  .kid-icon--boy.active .kid-icon__text {
+    border-bottom: 3px solid #0299df; }
+    .kid-icon--boy.active .kid-icon__text:hover {
+      color: #009ef4; }
+
+.curator {
+  padding-top: 4px; }
+  .curator__ava {
+    width: 160px;
+    height: 160px;
+    background: #a8a8a8 url("../img/ava-def.png") center no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center; }
+    .curator__ava--not-empty {
+      background: none; }
+  .curator__name {
+    color: #f51b49;
+    font: 18px "ProximaNovaSemibold", sans-serif;
+    margin: 15px 0 10px; }
+  .curator__link {
+    margin: 3px 0 3px;
+    font: 14px "ProximaNovaSemibold", sans-serif;
+    text-decoration: underline; }
+    .curator__link a {
+      text-decoration: underline;
+      color: #272727; }
+    .curator__link--filter {
+      margin: 9px 0 9px; }
+    .curator__link.active {
+      color: #f51b49; }
+  .curator__status {
+    font: 15px "ProximaNovaSemibold", sans-serif;
+    margin: 10px 0 10px; }
+  .curator__filter {
+    margin: 20px 0 20px; }

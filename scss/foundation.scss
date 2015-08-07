@@ -38,6 +38,20 @@ a:hover{
   float: none;
   margin: 0 auto;
 }
+
+.separator{
+  clear: both;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 1px;
+  background-color: $border-light-grey;
+}
+
+.marg10-10{
+  margin: 10px 0 10px;
+}
 // *** Выравнивание по ширине *** //
 .justify-block{
   text-align: justify;
@@ -238,7 +252,12 @@ a:hover{
   &--gray{
     background-color: $grey;
   }
+
+  &--small-text{
+    font-size: $text-size10;
+  }
 }
+
 button.btn, input.btn{
   padding: 0;
 }

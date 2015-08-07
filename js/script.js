@@ -111,4 +111,17 @@ $(document).ready(function() {
         return false;
     });
 
+    //Выбираем проекты ребенка
+    $(document).on('click', '.js-choose-kid', function() {
+        $('.js-choose-kid').removeClass('active');
+        $(this).addClass('active');
+
+        var tabID = $(this).attr("data-kid");
+        $('.js-kid-tab').removeClass('active');
+        $('#kid' + tabID).addClass('active');
+
+
+        return false;
+    });
+
 });

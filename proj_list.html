@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Мечтатели - Личный кабинет попечителя</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+    <div class="pseudo-header"></div>
+    <header class="header" id="header">
+        <div class="wrapper clearfix">
+            <div class="header__logo col-xs-2">
+                <a class="header__logo-text" href="/">Фонд &laquo;Мечтатели&raquo;</a>
+                <div class="header__logo-img col-xs-2">
+                    <a href="/"><img src="img/logo.png" alt="Мечтатели"/></a>
+                </div>
+            </div>
+            <div class="header__right-side col-xs-9">
+                <nav class="top-menu col-xs-6">
+                    <ul class="top-menu__list clearfix justify-block">
+                        <li class="top-menu__item"><a href="">О фонде</a></li>
+                        <li class="top-menu__item"><a href="">Помочь</a></li>
+                        <li class="top-menu__item"><a href="">Посмотреть</a></li>
+                        <li class="top-menu__item"><a href="">Связаться</a></li>
+                        <li class="top-menu__item"><a href="">Наши друзья</a></li>
+                    </ul>
+                </nav>
+                <div class="header__info header__info--auth">
+                    <div class="lang"><a href="?lang=ru" class="active">рус</a>/<a href="?lang=en" class="modal-open" data-src="modal">eng</a></div>
+                    <div class="auth"><a href="/auth.php" class="modal-open" data-src="auth-form">Выйти</a></div>
+                    <a class="profile-text" href="/">Мой профиль</a>
+                    <div class="payment-info">Добавлено к оплате <span class="payment-info__count">3</span></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper wrapper--fill clearfix">
+        <div class="breadcrumbs col-xs-7"><a href="/" class="breadcrumbs__item">главная</a> <span class="breadcrumbs__separator">&frasl;</span> <span class="breadcrumbs__current">ЛК список проектов детей</span></div>
+        <h1 class="page-title page-title--h1 col-xs-9">
+            Личный кабинет попечителя
+        </h1>
+    </div>
+    <div class="wrapper wrapper--fill content-block clearfix">
+        <div class="col-xs-10 centered-col clearfix">
+            <div class="kids-list col-xs-6 left-col">
+                <h2 class="kids-list__title">Ваши дети</h2>
+                <div class="kids-list__list-icon clearfix">
+                    <div class="kid-icon kid-icon--girl active js-choose-kid" style="width: 33%" data-kid="1">
+                        <div class="kid-icon__img centered-col"></div>
+                        <span class="kid-icon__text">Вероника</span>
+                    </div>
+                    <div class="kid-icon kid-icon--boy js-choose-kid" style="width: 33%" data-kid="2">
+                        <div class="kid-icon__img centered-col"></div>
+                        <span class="kid-icon__text">Андрей</span>
+                    </div>
+                    <div class="kid-icon" style="width: 33%">
+                        <a class="kid-icon__img centered-col"></a>
+                        <a class="kid-icon__text">Выбрать</a>
+                    </div>
+                </div>
+                <div class="kids-list__item-block active js-kid-tab" id="kid1">
+                    <div class="kids-list__item clearfix">
+                        <div class="col-xs-4 left-col">
+                            <p class="kids-list__item-title">Кроссовки для занятия бегом Nike Air</p>
+                            <p class="kids-list__item-text">Маша стала серьезно относиться к спорту и дисциплине, у нее появился график и она каждое утро стала совершать пробежки. Также, Маша записалась на участие в кроссе. Для предупреждения спортивных травм ей необходима удобна обувь.</p>
+                        </div>
+                        <div class="kids-list__item-payment col-xs-2 right-col">
+                            <p class="kids-list__item-price">2200 грн.</p>
+                            <p class="btn btn--full kids-list__item-pay">Оплатить</p>
+                            <p class="kids-list__item-date">
+                                Актуально до:<br>
+                                10 августа 2015 года
+                            </p>
+                            <a class="kids-list__item-decline" href="">отказаться</a>
+                        </div>
+                    </div>
+                    <div class="kids-list__item kids-list__item--fin clearfix">
+                        <div class="col-xs-4 left-col">
+                            <p class="kids-list__item-title">Кроссовки для занятия бегом Nike Air</p>
+                            <p class="kids-list__item-text">Маша стала серьезно относиться к спорту и дисциплине, у нее появился график и она каждое утро стала совершать пробежки. Также, Маша записалась на участие в кроссе. Для предупреждения спортивных травм ей необходима удобна обувь.</p>
+                        </div>
+                        <div class="kids-list__item-payment col-xs-2 right-col">
+                            <p class="kids-list__item-price">2200 грн.</p>
+                            <p class="btn btn--full kids-list__item-pay kids-list__item-pay--payed">Оплачено</p>
+                            <p class="kids-list__item-date">
+                                Оплачено:<br>
+                                10 августа 2015 года
+                            </p>
+                        </div>
+                    </div>
+                    <div class="kids-list__item kids-list__item--fin clearfix">
+                        <div class="col-xs-4 left-col">
+                            <p class="kids-list__item-title">3 занятия с тренером по бегу</p>
+                            <p class="kids-list__item-text">Для постановки техники бега, Маше необходимо провести несколько тренировок с тренером.</p>
+                        </div>
+                        <div class="kids-list__item-payment col-xs-2 right-col">
+                            <p class="kids-list__item-price">2200 грн.</p>
+                            <p class="btn btn--full kids-list__item-pay kids-list__item-pay--fin">Просрочено</p>
+                            <p class="kids-list__item-date">
+                                Актуально до:<br>
+                                10 августа 2015 года
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="kids-list__item-block js-kid-tab" id="kid2">
+                    <div class="kids-list__item kids-list__item--fin clearfix">
+                        <div class="col-xs-4 left-col">
+                            <p class="kids-list__item-title">3 занятия с тренером по бегу</p>
+                            <p class="kids-list__item-text">Для постановки техники бега, Маше необходимо провести несколько тренировок с тренером.</p>
+                        </div>
+                        <div class="kids-list__item-payment col-xs-2 right-col">
+                            <p class="kids-list__item-price">2200 грн.</p>
+                            <p class="btn btn--full kids-list__item-pay kids-list__item-pay--fin">Просрочено</p>
+                            <p class="kids-list__item-date">
+                                Актуально до:<br>
+                                10 августа 2015 года
+                            </p>
+                        </div>
+                    </div>
+                    <div class="kids-list__item kids-list__item--fin clearfix">
+                        <div class="col-xs-4 left-col">
+                            <p class="kids-list__item-title">Кроссовки для занятия бегом Nike Air</p>
+                            <p class="kids-list__item-text">Маша стала серьезно относиться к спорту и дисциплине, у нее появился график и она каждое утро стала совершать пробежки. Также, Маша записалась на участие в кроссе. Для предупреждения спортивных травм ей необходима удобна обувь.</p>
+                        </div>
+                        <div class="kids-list__item-payment col-xs-2 right-col">
+                            <p class="kids-list__item-price">2200 грн.</p>
+                            <p class="btn btn--full kids-list__item-pay kids-list__item-pay--payed">Оплачено</p>
+                            <p class="kids-list__item-date">
+                                Оплачено:<br>
+                                10 августа 2015 года
+                            </p>
+                        </div>
+                    </div>
+                    <div class="kids-list__item clearfix">
+                        <div class="col-xs-4 left-col">
+                            <p class="kids-list__item-title">Кроссовки для занятия бегом Nike Air</p>
+                            <p class="kids-list__item-text">Маша стала серьезно относиться к спорту и дисциплине, у нее появился график и она каждое утро стала совершать пробежки. Также, Маша записалась на участие в кроссе. Для предупреждения спортивных травм ей необходима удобна обувь.</p>
+                        </div>
+                        <div class="kids-list__item-payment col-xs-2 right-col">
+                            <p class="kids-list__item-price">2200 грн.</p>
+                            <p class="btn btn--full kids-list__item-pay">Оплатить</p>
+                            <p class="kids-list__item-date">
+                                Актуально до:<br>
+                                10 августа 2015 года
+                            </p>
+                            <a class="kids-list__item-decline" href="">отказаться</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="kids-list__more">показать еще</div>
+            </div>
+            <div class="curator right-col col-xs-4">
+                <div class="curator__ava centered-col">
+                    <img src="img_tpl/ava.jpg" alt="Вероника Игоревна Шатальская"/>
+                </div>
+                <p class="curator__name">Вероника Игоревна Шатальская</p>
+                <p class="curator__link">Редактировать профиль</p>
+                <p class="curator__link"><a href="/">Правила и условия попечительства</a></p>
+                <p class="curator__status">Статус: Попечитель. Дети: 2</p>
+                <div class="separator"></div>
+                <div class="btn btn--full btn--gray modal-open" data-src="question-form">Задать вопрос</div>
+                <div class="curator__filter">
+                    <p class="curator__link curator__link--filter active">Показать все проекты</p>
+                    <p class="curator__link curator__link--filter">Показать только активные проекты</p>
+                    <p class="curator__link curator__link--filter">Показать реализованные проекты</p>
+                    <p class="curator__link curator__link--filter">Показать просроченные проекты</p>
+                </div>
+                <div class="btn btn--full btn--small-text">Оплатить все текущие проекты этого ребенка</div>
+                <div class="btn btn--full marg10-10">Оплатить выбранные проекты</div>
+
+            </div>
+        </div>
+        <div class="to_begin"></div>
+    </div>
+    <section class="payment clearfix">
+        <div class="payment__wrapper">
+            <p class="payment__title justify-block">Пожертвовать фонду любую сумму</p>
+            <p class="payment__desc justify-block">Любая перечисленная сумма будет потрачена на нужды детей</p>
+            <input class="payment__count col-xs-3" type="text"/>
+            <button class="payment__btn col-xs-3" type="submit" name="pay">Перечислить</button>
+            <div class="payment__tools justify-block">
+                <img src="img/payment_visa.png" alt=""/>
+                <img src="img/payment_master.png" alt=""/>
+                <img src="img/payment_maestro.png" alt=""/>
+                <img src="img/payment_paypal.png" alt=""/>
+                <img src="img/payment_webmoney.png" alt=""/>
+                <img src="img/payment_yandex.png" alt=""/>
+            </div>
+        </div>
+    </section>
+    <footer class="footer clearfix">
+        <div class="wrapper footer-wrapper clearfix">
+            <nav class="bottom-menu">
+                <ul class="bottom-menu__list">
+                    <li class="bottom-menu__item"><a href="">Новости</a></li>
+                    <li class="bottom-menu__item"><a href="">Информация о фонде</a></li>
+                    <li class="bottom-menu__item"><a href="">Попечительский совет</a></li>
+                    <li class="bottom-menu__item"><a href="">Обратная связь</a></li>
+                    <li class="bottom-menu__item"><a href="">Контакты</a></li>
+                </ul>
+                <ul class="bottom-menu__list">
+                    <li class="bottom-menu__item"><a href="">Стать попечителем</a></li>
+                    <li class="bottom-menu__item"><a href="">Помочь</a></li>
+                    <li class="bottom-menu__item"><a href="">Отчеты</a></li>
+                    <li class="bottom-menu__item"><a href="">Вопросы и ответы?</a></li>
+                </ul>
+                <ul class="bottom-menu__list">
+                    <li class="bottom-menu__item"><a href="">Наш персонал</a></li>
+                    <li class="bottom-menu__item"><a href="">Партнеры и попечители</a></li>
+                </ul>
+            </nav>
+            <div class="social col-xs-3">
+                <a href="/" class="social__item"><img src="img/ico_fb.png" alt=""/></a>
+                <a href="/" class="social__item"><img src="img/ico_vk.png" alt=""/></a>
+            </div>
+            <div class="lang-list col-xs-3">
+                <div class="pseudo-select">
+                    <div class="pseudo-select__text">Русский</div>
+                    <ul class="pseudo-select__list">
+                        <li class="pseudo-select__option" data-value="1">Русский</li>
+                        <li class="pseudo-select__option" data-value="2">Английский</li>
+                    </ul>
+                    <select name="lang" class="pseudo-select__real">
+                        <option value="1" selected="selected">Русский</option>
+                        <option value="2">Английский</option>
+                    </select>
+                </div>
+            </div>
+            <div class="design-info col-xs-5">
+                <p class="design-info__text col-xs-3">дизайн создан<br>в брендинговом агентстве:</p>
+                <p class="design-info__links">
+                    <a href="http://startbrand.ru" target="_blank"><img src="img/starbrand_logo.png" alt=""/></a><br>
+                    <a href="http://startbrand.ru" class="design-info__site" target="_blank">www.startbrand.ru</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Модальное окно -->
+    <div id="auth-form" class="modal-wnd modal-wnd--auth clearfix">
+        <div class="modal-wnd__content">
+            <form action="/" method="POST" class="auth-form">
+                <p class="auth-form__title">Вход для зарегистрированных пользователей</p>
+                <div class="auth-form__error"></div>
+                <div class="col-xs-4 centered-col">
+                    <input class="auth-form__input" type="text" name="login" placeholder="Логин"/>
+                    <input class="auth-form__input" type="text" name="password" placeholder="Пароль"/>
+                    <button class="auth-form__submit">Войти</button>
+                    <p class="auth-form__link"><a href="/">Зарегистрироваться</a></p>
+                    <p class="auth-form__link"><a href="/">Забыли пароль?</a></p>
+                </div>
+            </form>
+        </div>
+        <span class="modal-wnd__close" href="/"></span>
+    </div>
+    <div id="question-form" class="modal-wnd modal-wnd--wide clearfix">
+        <div class="modal-wnd__content modal-wnd__content--padd15">
+            <form action="/" method="POST" class="simple-form">
+                <p class="simple-form__title">Задать вопрос</p>
+                <p class="simple-form__text">Если у вас возник вопрос относительно размещенных проектов или по работе системы, напишите нам через форму представленную ниже. Мы в ближайшее время свяжемся с вами.</p>
+                <label class="simple-form__label" for="form-subject">Выберете тему вопроса:</label>
+                <div class="pseudo-select pseudo-select--white">
+                    <div class="pseudo-select__text">Сообщение по описанию проекта</div>
+                    <ul class="pseudo-select__list">
+                        <li class="pseudo-select__option" data-value="1">Сообщение по описанию проекта</li>
+                        <li class="pseudo-select__option" data-value="2">Сообщение по оплате проекта</li>
+                    </ul>
+                    <select name="subject" class="pseudo-select__real" id="form-subject">
+                        <option value="1" selected="selected">Сообщение по описанию проекта</option>
+                        <option value="2">Сообщение по оплате проекта</option>
+                    </select>
+                </div>
+                <textarea name="message" class="simple-form__textarea" placeholder="Текст сообщения"></textarea>
+                <div class="col-xs-4 simple-form__submit-block">
+                    <button class="btn btn--full" type="submit" name="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+        <span class="modal-wnd__close" href="/"></span>
+    </div>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

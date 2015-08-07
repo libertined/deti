@@ -78,6 +78,11 @@ body::before{
     text-align: right;
     line-height: 75px;
 
+    &--auth{
+      padding-top: 23px;
+      line-height: 20px;
+    }
+
     & div{
       display: inline-block;
       margin: 0 10px 0;
@@ -99,6 +104,17 @@ body::before{
         }
 
       }
+
+      &.payment-info{
+        position: absolute;
+        top: 85px;
+        left: 0;
+        text-align: left;
+        font: $text-size13 $font-semibold;
+        color: $color-main;
+        z-index: 2;
+        text-transform: none;
+      }
     }
 
     & .auth{
@@ -107,6 +123,16 @@ body::before{
       text-transform: none;
     }
   }
+}
+
+.profile-text{
+  display: block;
+  clear: both;
+  text-align: left;
+  padding-left: 10px;
+  font: $text-size15 $font-bold;
+  color: $color-light;
+  text-decoration: none;
 }
 
 /* Верхнее меню */
@@ -742,5 +768,214 @@ body::before{
     width: 40px;
     height: 20px;
     font: $text-size17 $font-semibold;
+  }
+}
+
+// *** ЛК - список детей *** //
+.kids-list{
+  &__title{
+    font-weight: normal;
+    font: $text-size16 $font-semibold;
+    padding-bottom: 5px;
+    margin: 0;
+    border-bottom: 1px solid $border-light-grey;
+  }
+  &__list-icon{
+    margin-bottom: 10px;
+  }
+
+  &__item-block{
+    display: none;
+
+    &.active{
+      display: block;
+    }
+  }
+
+  &__more{
+    text-align: center;
+    font: $text-size16 $font-semibold;
+    color: $red;
+    padding: 20px;
+    border-bottom: 1px solid $border-light-grey;
+  }
+
+  &__item{
+    margin: 5px 0 0;
+    padding: 5px 0 5px;
+    border-bottom: 1px solid $red;
+    border-top: 1px solid $red;
+
+    &-title{
+      font: $text-size16 $font-semibold;
+      margin: 0;
+    }
+
+    &-text{
+      margin: 5px 0 0;
+    }
+
+    &-payment{
+      text-align: right;
+      color: $red;
+    }
+
+    &-price{
+      margin: 0;
+      font: $text-size16 $font-bold;
+    }
+
+    &-pay{
+      margin: 5px 0 5px;
+
+      &--payed{
+        background-color: $green-bg;
+      }
+
+      &--fin{
+        background-color: $gray-bg;
+      }
+    }
+
+    &-date{
+      margin: 5px 0 0;
+    }
+
+    &-decline{
+      color: $red;
+    }
+
+    &--fin{
+      border-color: $border-light-grey;
+
+      .kids-list__item-payment{
+        color: $grey;
+      }
+    }
+  }
+}
+
+.kid-icon{
+  float: left;
+  text-align: center;
+  padding: 5px 0 5px;
+
+  &__img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    background:$gray-bg url("#{$dir}/ico_chide-choose.png") center no-repeat;
+
+  }
+
+  &__text{
+    clear: both;
+    font: $text-size20 $font-bold;
+    color: $grey;
+    cursor: pointer;
+    padding-bottom: 5px;
+    text-decoration: none;
+
+    &:hover{
+      color: $grey;
+    }
+  }
+
+  &.active{
+    .kid-icon__text{
+      border-bottom: 3px solid $gray-bg;
+    }
+  }
+
+  &--girl{
+    .kid-icon__img{
+      background:$girl-bg url("#{$dir}/ico-girl.png") center no-repeat;
+    }
+    .kid-icon__text{
+      color: $red;
+    }
+
+    &.active{
+      .kid-icon__text{
+        border-bottom: 3px solid $girl-bg;
+
+        &:hover{
+          color: $red;
+        }
+      }
+    }
+  }
+
+  &--boy{
+    .kid-icon__img{
+      background:$boy-bg url("#{$dir}/ico-boy.png") center no-repeat;
+    }
+    .kid-icon__text{
+      color: $blue;
+    }
+
+    &.active{
+      .kid-icon__text{
+        border-bottom: 3px solid $boy-bg;
+
+        &:hover{
+          color: $blue;
+        }
+      }
+    }
+  }
+}
+
+.curator{
+  padding-top: 4px;
+
+  &__ava{
+    width: 160px;
+    height: 160px;
+    background: $border-light-grey url("#{$dir}/ava-def.png") center no-repeat;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+
+    &--not-empty{
+      background: none;
+    }
+  }
+
+  &__name{
+    color: $red;
+    font: $text-size18 $font-semibold;
+    margin: 15px 0 10px;
+  }
+
+  &__link{
+    margin: 3px 0 3px;
+    font: $text-size14 $font-semibold;
+    text-decoration: underline;
+
+    & a{
+      text-decoration: underline;
+      color: $color-main;
+    }
+
+    &--filter{
+      margin: 9px 0 9px;
+    }
+
+    &.active{
+      color: $red;
+    }
+  }
+
+  &__status{
+    font: $text-size15 $font-semibold;
+    margin: 10px 0 10px;
+  }
+
+  &__filter{
+    margin: 20px 0 20px;
   }
 }
