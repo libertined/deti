@@ -335,6 +335,7 @@ body::before {
         .header__info div a:hover {
           color: #f51b49; }
       .header__info div.payment-info {
+        display: none;
         position: absolute;
         top: 85px;
         left: 0;

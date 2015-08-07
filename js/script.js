@@ -120,6 +120,29 @@ $(document).ready(function() {
         $('.js-kid-tab').removeClass('active');
         $('#kid' + tabID).addClass('active');
 
+        return false;
+    });
+
+    //Добавляем проект к оплате
+    $(document).on('click', '.js-kid-pay', function() {
+        if($(this).hasClass('active')){
+            $(this).removeClass('active');
+            $(this).text('Оплатить');
+        }
+        else{
+            $(this).addClass('active');
+            $(this).text('Отказаться');
+        }
+
+        var countProj = $('.js-kid-pay.active').length;
+
+        if(countProj > 0){
+            $('.js-pay-count').show();
+            $('.js-pay-count span').text(countProj);
+        }
+        else{
+            $('.js-pay-count').hide();
+        }
 
         return false;
     });

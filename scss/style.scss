@@ -106,6 +106,7 @@ body::before{
       }
 
       &.payment-info{
+        display: none;
         position: absolute;
         top: 85px;
         left: 0;
