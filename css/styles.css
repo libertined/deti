@@ -103,9 +103,6 @@ a:hover {
   height: 1px;
   background-color: #a8a8a8; }
 
-.marg10-10 {
-  margin: 10px 0 10px; }
-
 .justify-block {
   text-align: justify;
   height: 25px; }
@@ -814,10 +811,19 @@ body::before {
     display: block; }
 .kids-list__more {
   text-align: center;
+  cursor: pointer;
   font: 16px "ProximaNovaSemibold", sans-serif;
   color: #f51b49;
-  padding: 20px;
+  margin-top: 10px;
+  padding: 10px 20px 20px;
   border-bottom: 1px solid #a8a8a8; }
+.kids-list__filter {
+  font: 13px "ProximaNovaSemibold", sans-serif;
+  padding-top: 5px; }
+  .kids-list__filter-item {
+    display: inline-block; }
+    .kids-list__filter-item.active {
+      text-decoration: underline; }
 .kids-list__item {
   margin: 5px 0 0;
   padding: 5px 0 5px;
@@ -861,32 +867,35 @@ body::before {
     border-radius: 40px;
     cursor: pointer;
     background: #959595 url("../img/ico_chide-choose.png") center no-repeat; }
-  .kid-icon__text {
+  .kid-icon__text, .kid-icon__age, .kid-icon--girl .kid-icon__age, .kid-icon--boy .kid-icon__age {
     clear: both;
     font: 20px "ProximaNovaBold", sans-serif;
     color: #636363;
     cursor: pointer;
     padding-bottom: 5px;
     text-decoration: none; }
-    .kid-icon__text:hover {
+    .kid-icon__text:hover, .kid-icon__age:hover {
       color: #636363; }
-  .kid-icon.active .kid-icon__text {
+  .kid-icon__age {
+    display: block;
+    padding-bottom: 15px; }
+  .kid-icon.active .kid-icon__text, .kid-icon.active .kid-icon__age {
     border-bottom: 3px solid #959595; }
   .kid-icon--girl .kid-icon__img {
     background: #f33070 url("../img/ico-girl.png") center no-repeat; }
-  .kid-icon--girl .kid-icon__text {
+  .kid-icon--girl .kid-icon__text, .kid-icon--girl .kid-icon__age {
     color: #f51b49; }
-  .kid-icon--girl.active .kid-icon__text {
+  .kid-icon--girl.active .kid-icon__text, .kid-icon--girl.active .kid-icon__age {
     border-bottom: 3px solid #f33070; }
-    .kid-icon--girl.active .kid-icon__text:hover {
+    .kid-icon--girl.active .kid-icon__text:hover, .kid-icon--girl.active .kid-icon__age:hover {
       color: #f51b49; }
   .kid-icon--boy .kid-icon__img {
     background: #0299df url("../img/ico-boy.png") center no-repeat; }
-  .kid-icon--boy .kid-icon__text {
+  .kid-icon--boy .kid-icon__text, .kid-icon--boy .kid-icon__age {
     color: #009ef4; }
-  .kid-icon--boy.active .kid-icon__text {
+  .kid-icon--boy.active .kid-icon__text, .kid-icon--boy.active .kid-icon__age {
     border-bottom: 3px solid #0299df; }
-    .kid-icon--boy.active .kid-icon__text:hover {
+    .kid-icon--boy.active .kid-icon__text:hover, .kid-icon--boy.active .kid-icon__age:hover {
       color: #009ef4; }
 
 .avatar {
@@ -944,3 +953,6 @@ body::before {
     color: #009ef4;
     text-decoration: underline;
     cursor: pointer; }
+
+.marg10-10 {
+  margin: 10px 0 10px; }
