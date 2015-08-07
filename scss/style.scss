@@ -901,6 +901,10 @@ body::before{
     }
   }
 
+  &__pseudo_link{
+    display: none;
+  }
+
   &__age{
     @extend .kid-icon__text;
     display: block;

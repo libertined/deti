@@ -147,4 +147,11 @@ $(document).ready(function() {
         return false;
     });
 
+    // Информация по ребенку
+    $(document).on('click', '.js-kid-info', function() {
+        //Ajax олучаем информацию по ребенку
+        $('.js-kid-info-link').trigger('click');
+    });
+
+
 });

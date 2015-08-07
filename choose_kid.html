@@ -55,53 +55,52 @@
                     <span class="kids-list__filter-item active js-kl-age">Любой возраст</span>
                 </div>
                 <div class="kids-list__list-icon clearfix">
-                    <div class="kid-icon kid-icon--girl" style="width: 25%" data-kid="1">
+                    <div class="kid-icon kid-icon--girl js-kid-info" style="width: 25%" data-kid="1">
                         <div class="kid-icon__img centered-col"></div>
                         <span class="kid-icon__text">Вероника</span>
                         <span class="kid-icon__age">9 лет</span>
                     </div>
-                    <div class="kid-icon kid-icon--girl" style="width: 25%" data-kid="1">
+                    <div class="kid-icon kid-icon--girl js-kid-info" style="width: 25%" data-kid="1">
                         <div class="kid-icon__img centered-col"></div>
                         <span class="kid-icon__text">Вероника</span>
                         <span class="kid-icon__age">3 года</span>
                     </div>
-                    <div class="kid-icon kid-icon--boy" style="width: 25%" data-kid="2">
+                    <div class="kid-icon kid-icon--boy js-kid-info" style="width: 25%" data-kid="2">
                         <div class="kid-icon__img centered-col"></div>
                         <span class="kid-icon__text">Рустам</span>
                         <span class="kid-icon__age">3 года</span>
                     </div>
-                    <div class="kid-icon kid-icon--boy" style="width: 25%" data-kid="2">
+                    <div class="kid-icon kid-icon--boy js-kid-info" style="width: 25%" data-kid="2">
                         <div class="kid-icon__img centered-col"></div>
                         <span class="kid-icon__text">Коля</span>
                         <span class="kid-icon__age">11 лет</span>
                     </div>
-                    <div class="kid-icon kid-icon--girl" style="width: 25%" data-kid="1">
+                    <div class="kid-icon kid-icon--girl js-kid-info" style="width: 25%" data-kid="1">
                         <div class="kid-icon__img centered-col"></div>
                         <span class="kid-icon__text">Вероника</span>
                         <span class="kid-icon__age">10 лет</span>
                     </div>
-                    <div class="kid-icon kid-icon--boy" style="width: 25%" data-kid="2">
+                    <div class="kid-icon kid-icon--boy js-kid-info" style="width: 25%" data-kid="2">
                         <div class="kid-icon__img centered-col"></div>
                         <span class="kid-icon__text">Миша</span>
                         <span class="kid-icon__age">15 лет</span>
                     </div>
-                    <div class="kid-icon kid-icon--girl" style="width: 25%" data-kid="1">
+                    <div class="kid-icon kid-icon--girl js-kid-info" style="width: 25%" data-kid="1">
                         <div class="kid-icon__img centered-col"></div>
                         <span class="kid-icon__text">Вероника</span>
                         <span class="kid-icon__age">13 лет</span>
                     </div>
-                    <div class="kid-icon kid-icon--boy" style="width: 25%" data-kid="2">
+                    <div class="kid-icon kid-icon--boy js-kid-info" style="width: 25%" data-kid="2">
                         <div class="kid-icon__img centered-col"></div>
                         <span class="kid-icon__text">Сережа</span>
                         <span class="kid-icon__age">10 лет</span>
                     </div>
+                    <p class="kid-icon__pseudo_link modal-open js-kid-info-link" data-src="choose-kid"></p>
                 </div>
                 <div class="kids-list__more">показать еще</div>
             </div>
             <div class="curator right-col col-xs-4">
-                <div class="curator__ava avatar centered-col">
-                    <img src="img_tpl/ava.jpg" alt="Вероника Игоревна Шатальская"/>
-                </div>
+                <div class="curator__ava avatar centered-col"></div>
                 <p class="curator__name">Вероника Игоревна Шатальская</p>
                 <p class="curator__link modal-open" data-src="edit-profile">Редактировать профиль</p>
                 <p class="curator__link"><a href="/">Правила и условия попечительства</a></p>
@@ -109,7 +108,6 @@
                 <div class="separator"></div>
                 <div class="btn btn--full btn--gray modal-open" data-src="question-form">Задать вопрос</div>
                 <p class="curator__link marg10-10"><a href="/">Перейти к Мои дети</a></p>
-
             </div>
         </div>
         <div class="to_begin"></div>
@@ -237,6 +235,15 @@
                     <p class="edit-profile__info"><span class="edit-profile__info-title">Дата рождения:</span> 28 января 1980 <span class="edit-profile__info-link">Редактировать</span></p>
                     <p class="edit-profile__info"><span class="edit-profile__info-title">Гражданство:</span> Россия <span class="edit-profile__info-link">Редактировать</span></p>
                 </div>
+            </form>
+        </div>
+        <span class="modal-wnd__close" href="/"></span>
+    </div>
+    <div id="choose-kid" class="modal-wnd modal-wnd--wide modal-wnd--choose clearfix">
+        <div class="modal-wnd__content modal-wnd__content--padd15">
+            <form action="/" method="POST" class="simple-form edit-profile">
+                <p class="simple-form__title">Ребенок нуждается в попечителе</p>
+
             </form>
         </div>
         <span class="modal-wnd__close" href="/"></span>

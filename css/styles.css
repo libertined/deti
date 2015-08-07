@@ -876,6 +876,8 @@ body::before {
     text-decoration: none; }
     .kid-icon__text:hover, .kid-icon__age:hover {
       color: #636363; }
+  .kid-icon__pseudo_link {
+    display: none; }
   .kid-icon__age {
     display: block;
     padding-bottom: 15px; }
