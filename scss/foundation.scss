@@ -133,7 +133,7 @@ a:hover{
       padding-top: 5px;
       height: $input-height;
       line-height: $input-height;
-      font: $text-size18 $font-main;
+      @include font_size(normal, $text-size18);
       background: $white;
       border: 1px solid $border-grey;
       color: $grey;
@@ -239,7 +239,7 @@ a:hover{
   background: $red;
   border: 0;
   color: $color-light;
-  font: $text-size15 $font-bold;
+  @include font_size(bold, $text-size15);
   text-transform: uppercase;
 
   &--full{

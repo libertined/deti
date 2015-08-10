@@ -1,6 +1,6 @@
 @import 'variables.scss';
-@import 'mixins.scss';
 @import 'fonts.scss';
+@import 'mixins.scss';
 @import 'foundation.scss';
 
 html, body{
@@ -9,7 +9,7 @@ html, body{
   background:  url("#{$dir}/bg.jpg") repeat-y;
   background-size: 100%;
   color: $color-main;
-  font-family: $font-main;
+  @include font(normal);
   font-size: $text-size14;
 }
 
@@ -46,7 +46,7 @@ body::before{
 
     &-text{
       display: block;
-      font: 13.6px $font-bold;
+      @include font_size(bold, 13.6px);
       color: $color-light;
       text-transform: uppercase;
       text-decoration: none;
@@ -88,7 +88,7 @@ body::before{
       margin: 0 10px 0;
       padding: 5px 0 5px;
       color: $color-light;
-      font: $text-size15 $font-bold;
+      @include font_size(bold, $text-size15);
       text-transform: uppercase;
 
       & a{
@@ -111,7 +111,7 @@ body::before{
         top: 85px;
         left: 0;
         text-align: left;
-        font: $text-size13 $font-semibold;
+        @include font_size(semibold, $text-size13);
         color: $color-main;
         z-index: 2;
         text-transform: none;
@@ -131,7 +131,7 @@ body::before{
   clear: both;
   text-align: left;
   padding-left: 10px;
-  font: $text-size15 $font-bold;
+  @include font_size(bold, $text-size15);
   color: $color-light;
   text-decoration: none;
 }
@@ -154,7 +154,7 @@ body::before{
     text-align: left;
     margin: 0;
     line-height: 75px;
-    font: $text-size14 $font-semibold;
+    @include font_size(semibold, $text-size14);
 
     &:first-child{
       margin-left: 0px;
@@ -185,8 +185,7 @@ body::before{
   &--h1{
     margin: 0;
     padding: 40px 0 0;
-    font-weight: normal;
-    font: $text-size20 $font-bold;
+    @include font_size(bold, $text-size20);
     color: $color-blue;
   }
 
@@ -202,7 +201,7 @@ body::before{
     display: inline-block;
     text-align: left;
     margin: 0 10px 0;
-    font: 20px $font-bold;
+    @include font_size(bold, $text-size20);
     text-transform: uppercase;
 
     & a{
@@ -222,7 +221,7 @@ body::before{
 }
 
 .breadcrumbs{
-  font: $text-size14 $font-bold;
+  @include font_size(bold, $text-size14);
   color: $color-main;
   padding-top: 15px;
   text-transform: lowercase;
@@ -303,7 +302,7 @@ body::before{
     text-align: left;
     color: $color-blue;
     text-decoration: none;
-    font: $text-size16 $font-semibold;
+    @include font_size(semibold, $text-size16);
   }
 
   &__item-desc{
@@ -359,7 +358,7 @@ body::before{
   &__desc{
     margin: 0;
     padding: 5px 0 5px;
-    font: $text-size14 $font-semibold;
+    @include font_size(semibold, $text-size14);
     color: $color-main;
     text-transform: none;
   }
@@ -377,7 +376,7 @@ body::before{
     @extend .payment__count;
     float: right;
     padding: 10px 0 10px;
-    font: $text-size15 $font-bold;
+    @include font_size(bold, $text-size15);
     background-color: $red;
     color: $color-light;
     text-transform: uppercase;
@@ -468,7 +467,7 @@ body::before{
   box-sizing: border-box;
 
   &__title{
-    font: $text-size20 $font-bold;
+    @include font_size(bold, $text-size20);
     color: $color-blue;
     margin: 0;
   }
@@ -477,13 +476,13 @@ body::before{
     clear: both;
     text-align: left;
     margin: 7px 0 7px;
-    font: $text-size15 $font-main;
+    @include font_size(normal, $text-size15);
     color: $grey;
   }
 
   &__label{
     display: block;
-    font: $text-size13 $font-main;
+    @include font_size(normal, $text-size13);
     color: $grey;
     margin: 10px 0 3px;
   }
@@ -521,7 +520,7 @@ body::before{
   @extend .simple-form;
 
   &__title{
-    font: $text-size20 $font-bold;
+    @include font_size(bold, $text-size20);
     color: $color-blue;
     margin: 0;
   }
@@ -532,13 +531,13 @@ body::before{
     float: none;
     text-align: center;
     padding: 30px;
-    font: $text-size12 $font-semibold;
+    @include font_size(semibold, $text-size12);
     color: $color-gray;
   }
 
   &__label{
     display: block;
-    font: $text-size14 $font-semibold;
+    @include font_size(semibold, $text-size14);
     color: $color-gray;
     margin: 10px 0 3px;
   }
@@ -574,7 +573,7 @@ body::before{
     background: $red;
     border: 0;
     color: $color-light;
-    font: $text-size18 $font-bold;
+    @include font_size(bold, $text-size18);
     text-transform: uppercase;
   }
 }
@@ -584,7 +583,7 @@ body::before{
   @extend .simple-form;
 
   &__title{
-    font: $text-size18 $font-bold;
+    @include font_size(bold, $text-size18);
     color: $color-blue;
     margin: 0;
     text-align: center;
@@ -700,11 +699,11 @@ body::before{
 
   &__info-item{
     margin: 10px 0 10px;
-    font: $text-size15 $font-semibold;
+    @include font_size(semibold, $text-size15);
    }
 
   &__price{
-    font: $text-size17 $font-bold;
+    @include font_size(bold, $text-size17);
     color: $color-blue;
   }
 
@@ -739,7 +738,7 @@ body::before{
 
   &__title{
     color: $color-blue;
-    font: $text-size15 $font-semibold;
+    @include font_size(semibold, $text-size15);
     margin: 0 0 3px;
   }
 
@@ -768,15 +767,14 @@ body::before{
     margin-top: -10px;
     width: 40px;
     height: 20px;
-    font: $text-size17 $font-semibold;
+    @include font_size(semibold, $text-size17);
   }
 }
 
 // *** ЛК - список детей *** //
 .kids-list{
   &__title{
-    font-weight: normal;
-    font: $text-size16 $font-semibold;
+    @include font_size(semibold, $text-size16);
     padding-bottom: 5px;
     margin: 0;
     border-bottom: 1px solid $border-light-grey;
@@ -796,7 +794,7 @@ body::before{
   &__more{
     text-align: center;
     cursor: pointer;
-    font: $text-size16 $font-semibold;
+    @include font_size(semibold, $text-size16);
     color: $red;
     margin-top: 10px;
     padding: 10px 20px 20px;
@@ -804,7 +802,7 @@ body::before{
   }
 
   &__filter{
-    font: $text-size13 $font-semibold;
+    @include font_size(semibold, $text-size13);
     padding-top: 5px;
 
     &-item{
@@ -824,7 +822,7 @@ body::before{
     border-top: 1px solid $red;
 
     &-title{
-      font: $text-size16 $font-semibold;
+      @include font_size(semibold, $text-size16);
       margin: 0;
     }
 
@@ -839,7 +837,7 @@ body::before{
 
     &-price{
       margin: 0;
-      font: $text-size16 $font-bold;
+      @include font_size(bold, $text-size16);
     }
 
     &-pay{
@@ -890,7 +888,7 @@ body::before{
 
   &__text{
     clear: both;
-    font: $text-size20 $font-bold;
+    @include font_size(bold, $text-size20);
     color: $grey;
     cursor: pointer;
     padding-bottom: 5px;
@@ -982,13 +980,13 @@ body::before{
 
   &__name{
     color: $red;
-    font: $text-size18 $font-semibold;
+    @include font_size(semibold, $text-size18);
     margin: 15px 0 10px;
   }
 
   &__link{
     margin: 3px 0 3px;
-    font: $text-size14 $font-semibold;
+    @include font_size(semibold, $text-size14);
     text-decoration: underline;
     cursor: pointer;
 
@@ -1007,7 +1005,7 @@ body::before{
   }
 
   &__status{
-    font: $text-size15 $font-semibold;
+    @include font_size(semibold, $text-size15);
     margin: 10px 0 10px;
   }
 
@@ -1024,7 +1022,7 @@ body::before{
   &__img-link{
     display: block;
     clear: both;
-    font-family: $font-semibold;
+    @include font_size(semibold, $text-size14);
     color: $blue;
     text-decoration: underline;
     margin: 15px 30px 0;
@@ -1036,11 +1034,11 @@ body::before{
   }
 
   &__info{
-    font-family: $font-semibold;
+    @include font_size(semibold, $text-size14);
     margin: 7px 0 7px;
 
     &-title{
-      font-family: $font-bold;
+      @include font_size(bold, $text-size14);
     }
 
     &-link{
