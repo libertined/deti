@@ -41,7 +41,7 @@ body::before{
 
     &-text{
       display: block;
-      @include font_size(bold, $text-size13);
+      @include font_size(bold, $text-size12);
       color: $color-light;
       text-transform: uppercase;
       text-decoration: none;

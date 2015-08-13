@@ -46,13 +46,13 @@
   }
   @else{
     @if $type == normal {
-      font: 400 $size 'Roboto', sans-serif;
+      font: 400 $size 'Open Sans', sans-serif;
     }
     @else if $type == semibold{
-      font: 500 $size 'Roboto', sans-serif;
+      font: 500 $size 'Open Sans', sans-serif;
     }
     @else if $type == bold{
-      font: 700 $size 'Roboto', sans-serif;
+      font: 700 $size 'Open Sans', sans-serif;
     }
   }
 }
@@ -74,15 +74,15 @@
   }
   @else{
     @if $type == normal {
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-weight: 400;
     }
     @else if $type == semibold{
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-weight: 600;
     }
     @else if $type == bold{
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-weight: 700;
     }
   }

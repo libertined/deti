@@ -170,7 +170,7 @@ a:hover {
       padding-top: 7px;
       height: 35px;
       line-height: 35px;
-      font: 500 16px "Roboto", sans-serif;
+      font: 500 16px "Open Sans", sans-serif;
       background: #fff;
       border: 1px solid #828285;
       color: #272727; }
@@ -248,7 +248,7 @@ a:hover {
   background: #f51b49;
   border: 0;
   color: #fff;
-  font: 700 15px "Roboto", sans-serif;
+  font: 700 15px "Open Sans", sans-serif;
   text-transform: uppercase; }
   .btn--full {
     width: 100%; }
@@ -266,7 +266,7 @@ html, body {
   background: url("../img/bg.jpg") repeat-y;
   background-size: 100%;
   color: #272727;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px; }
 
@@ -296,7 +296,7 @@ body::before {
     text-align: left; }
     .header__logo-text {
       display: block;
-      font: 700 13px "Roboto", sans-serif;
+      font: 700 12px "Open Sans", sans-serif;
       color: #fff;
       text-transform: uppercase;
       text-decoration: none;
@@ -327,7 +327,7 @@ body::before {
       margin: 0 10px 0;
       padding: 5px 0 5px;
       color: #fff;
-      font: 700 15px "Roboto", sans-serif;
+      font: 700 15px "Open Sans", sans-serif;
       text-transform: uppercase; }
       .header__info div a {
         color: #fff;
@@ -342,7 +342,7 @@ body::before {
         top: 85px;
         left: 0;
         text-align: left;
-        font: 500 13px "Roboto", sans-serif;
+        font: 500 13px "Open Sans", sans-serif;
         color: #272727;
         z-index: 2;
         text-transform: none; }
@@ -356,7 +356,7 @@ body::before {
   clear: both;
   text-align: left;
   padding-left: 10px;
-  font: 700 15px "Roboto", sans-serif;
+  font: 700 15px "Open Sans", sans-serif;
   color: #fff;
   text-decoration: none; }
 
@@ -375,7 +375,7 @@ body::before {
     text-align: left;
     margin: 0;
     line-height: 75px;
-    font: 500 14px "Roboto", sans-serif; }
+    font: 500 14px "Open Sans", sans-serif; }
     .top-menu__item:first-child {
       margin-left: 0px; }
     .top-menu__item a {
@@ -394,7 +394,7 @@ body::before {
   .page-title--h1 {
     margin: 0;
     padding: 40px 0 0;
-    font: 700 20px "Roboto", sans-serif;
+    font: 700 20px "Open Sans", sans-serif;
     color: #0099e2; }
   .page-title__list {
     margin: 60px 0 0;
@@ -406,7 +406,7 @@ body::before {
     display: inline-block;
     text-align: left;
     margin: 0 10px 0;
-    font: 700 20px "Roboto", sans-serif;
+    font: 700 20px "Open Sans", sans-serif;
     text-transform: uppercase; }
     .page-title__item a {
       color: #fff;
@@ -418,7 +418,7 @@ body::before {
       border-bottom: 7px solid #0042fe; }
 
 .breadcrumbs {
-  font: 700 14px "Roboto", sans-serif;
+  font: 700 14px "Open Sans", sans-serif;
   color: #272727;
   padding-top: 15px;
   text-transform: lowercase; }
@@ -466,7 +466,7 @@ body::before {
   .payment__desc {
     margin: 0;
     padding: 5px 0 5px;
-    font: 500 14px "Roboto", sans-serif;
+    font: 500 14px "Open Sans", sans-serif;
     color: #272727;
     text-transform: none; }
   .payment__count, .payment__btn {
@@ -479,7 +479,7 @@ body::before {
   .payment__btn {
     float: right;
     padding: 10px 0 10px;
-    font: 700 15px "Roboto", sans-serif;
+    font: 700 15px "Open Sans", sans-serif;
     background-color: #f51b49;
     color: #fff;
     text-transform: uppercase; }
@@ -577,7 +577,7 @@ body::before {
     text-align: left;
     color: #0099e2;
     text-decoration: none;
-    font: 500 16px "Roboto", sans-serif; }
+    font: 500 16px "Open Sans", sans-serif; }
   .project-list__item-desc {
     padding: 0 10px 0;
     margin: 0;
@@ -595,18 +595,18 @@ body::before {
   text-align: left;
   box-sizing: border-box; }
   .simple-form__title {
-    font: 700 18px "Roboto", sans-serif;
+    font: 700 18px "Open Sans", sans-serif;
     color: #0099e2;
     margin: 0; }
   .simple-form__text {
     clear: both;
     text-align: left;
     margin: 7px 0 7px;
-    font: 400 15px "Roboto", sans-serif;
+    font: 400 15px "Open Sans", sans-serif;
     color: #626262; }
   .simple-form__label {
     display: block;
-    font: 400 13px "Roboto", sans-serif;
+    font: 400 13px "Open Sans", sans-serif;
     color: #626262;
     margin: 10px 0 3px; }
   .simple-form__textarea {
@@ -632,7 +632,7 @@ body::before {
     padding-top: 10px; }
 
 .reg-form__title {
-  font: 700 20px "Roboto", sans-serif;
+  font: 700 20px "Open Sans", sans-serif;
   color: #0099e2;
   margin: 0; }
 .reg-form__text {
@@ -641,11 +641,11 @@ body::before {
   float: none;
   text-align: center;
   padding: 30px;
-  font: 500 12px "Roboto", sans-serif;
+  font: 500 12px "Open Sans", sans-serif;
   color: #272727; }
 .reg-form__label {
   display: block;
-  font: 500 14px "Roboto", sans-serif;
+  font: 500 14px "Open Sans", sans-serif;
   color: #272727;
   margin: 10px 0 3px; }
 .reg-form__input {
@@ -673,11 +673,11 @@ body::before {
   background: #f51b49;
   border: 0;
   color: #fff;
-  font: 700 18px "Roboto", sans-serif;
+  font: 700 18px "Open Sans", sans-serif;
   text-transform: uppercase; }
 
 .auth-form__title {
-  font: 700 18px "Roboto", sans-serif;
+  font: 700 18px "Open Sans", sans-serif;
   color: #0099e2;
   margin: 0;
   text-align: center; }
@@ -752,9 +752,9 @@ body::before {
     padding-top: 5px; }
   .project-detail__info-item, .project-detail__payment-item {
     margin: 10px 0 10px;
-    font: 500 15px "Roboto", sans-serif; }
+    font: 500 15px "Open Sans", sans-serif; }
   .project-detail__price {
-    font: 700 17px "Roboto", sans-serif;
+    font: 700 17px "Open Sans", sans-serif;
     color: #0099e2; }
   .project-detail__payment {
     border-top: 1px solid #a8a8a8; }
@@ -776,7 +776,7 @@ body::before {
   margin: 10px 0 15px; }
   .progress__title {
     color: #0099e2;
-    font: 500 15px "Roboto", sans-serif;
+    font: 500 15px "Open Sans", sans-serif;
     margin: 0 0 3px; }
   .progress__empty {
     position: relative;
@@ -799,10 +799,10 @@ body::before {
     margin-top: -10px;
     width: 40px;
     height: 20px;
-    font: 500 17px "Roboto", sans-serif; }
+    font: 500 17px "Open Sans", sans-serif; }
 
 .kids-list__title {
-  font: 500 16px "Roboto", sans-serif;
+  font: 500 16px "Open Sans", sans-serif;
   padding-bottom: 5px;
   margin: 0;
   border-bottom: 1px solid #a8a8a8; }
@@ -815,13 +815,13 @@ body::before {
 .kids-list__more {
   text-align: center;
   cursor: pointer;
-  font: 500 16px "Roboto", sans-serif;
+  font: 500 16px "Open Sans", sans-serif;
   color: #f51b49;
   margin-top: 10px;
   padding: 10px 20px 20px;
   border-bottom: 1px solid #a8a8a8; }
 .kids-list__filter {
-  font: 500 13px "Roboto", sans-serif;
+  font: 500 13px "Open Sans", sans-serif;
   padding-top: 5px; }
   .kids-list__filter-item {
     display: inline-block; }
@@ -833,7 +833,7 @@ body::before {
   border-bottom: 1px solid #f51b49;
   border-top: 1px solid #f51b49; }
   .kids-list__item-title {
-    font: 500 16px "Roboto", sans-serif;
+    font: 500 16px "Open Sans", sans-serif;
     margin: 0; }
   .kids-list__item-text {
     margin: 5px 0 0; }
@@ -842,7 +842,7 @@ body::before {
     color: #f51b49; }
   .kids-list__item-price {
     margin: 0;
-    font: 700 16px "Roboto", sans-serif; }
+    font: 700 16px "Open Sans", sans-serif; }
   .kids-list__item-pay {
     margin: 5px 0 5px; }
     .kids-list__item-pay--payed {
@@ -872,7 +872,7 @@ body::before {
     background: #828285 url("../img/ico_chide-choose.png") center no-repeat; }
   .kid-icon__text, .kid-icon__age, .kid-icon--girl .kid-icon__age, .kid-icon--boy .kid-icon__age {
     clear: both;
-    font: 700 20px "Roboto", sans-serif;
+    font: 700 20px "Open Sans", sans-serif;
     color: #626262;
     cursor: pointer;
     padding-bottom: 5px;
@@ -917,11 +917,11 @@ body::before {
   padding-top: 4px; }
   .curator__name, .edit-profile__name {
     color: #f51b49;
-    font: 500 18px "Roboto", sans-serif;
+    font: 500 18px "Open Sans", sans-serif;
     margin: 15px 0 10px; }
   .curator__link {
     margin: 3px 0 3px;
-    font: 500 14px "Roboto", sans-serif;
+    font: 500 14px "Open Sans", sans-serif;
     text-decoration: underline;
     cursor: pointer; }
     .curator__link a {
@@ -932,7 +932,7 @@ body::before {
     .curator__link.active {
       color: #f51b49; }
   .curator__status {
-    font: 500 15px "Roboto", sans-serif;
+    font: 500 15px "Open Sans", sans-serif;
     margin: 10px 0 10px; }
   .curator__filter {
     margin: 20px 0 20px; }
@@ -942,17 +942,17 @@ body::before {
 .edit-profile__img-link {
   display: block;
   clear: both;
-  font: 500 14px "Roboto", sans-serif;
+  font: 500 14px "Open Sans", sans-serif;
   color: #0099e2;
   text-decoration: underline;
   margin: 15px 30px 0; }
 .edit-profile__name {
   margin-top: 0; }
 .edit-profile__info {
-  font: 500 14px "Roboto", sans-serif;
+  font: 500 14px "Open Sans", sans-serif;
   margin: 7px 0 7px; }
   .edit-profile__info-title {
-    font: 700 14px "Roboto", sans-serif; }
+    font: 700 14px "Open Sans", sans-serif; }
   .edit-profile__info-link {
     font-size: 12px;
     color: #0099e2;
