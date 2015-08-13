@@ -1,0 +1,701 @@
+@import 'variables.scss';
+@import 'fonts.scss';
+@import 'mixins.scss';
+@import 'foundation.scss';
+@import "tpl.scss";
+
+/* Список проектов */
+.project-list{
+  position: relative;
+  clear: both;
+  padding-bottom: 60px;
+
+  &__item{
+    @extend .col-xs-3;
+    background-color: $white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  &__img{
+    margin: 10px 10px 0;
+    position: relative;
+    display: block;
+
+    & img{
+      width: 100%;
+      margin: 0;
+    }
+
+    &--finish::after{
+      display: block;
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  &__item-finish-text{
+    margin: 0 auto;
+    margin-top: -50px;
+    padding: 0 15px 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 17px;
+    color: $grey;
+    text-transform: uppercase;
+    z-index: 10;
+  }
+
+  &__item-title{
+    display: block;
+    padding: 3px 10px 3px;
+    margin: 0;
+    text-align: left;
+    color: $blue;
+    text-decoration: none;
+    @include font_size(semibold, $text-size16);
+  }
+
+  &__item-desc{
+    padding: 0 10px 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  &__item-link{
+    display: block;
+    color: $blue;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 10px 10px;
+  }
+
+  &__more{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: $white;
+    text-align: center;
+    cursor: pointer;
+
+    &--hide{
+      display: none;
+    }
+
+    & span{
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 3px;
+      background-color: $grey;
+      margin: 28px 2px 0;
+    }
+  }
+}
+
+// *** Стандартная форма *** //
+.simple-form{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  box-sizing: border-box;
+
+  &__title{
+    @include font_size(bold, $text-size18);
+    color: $blue;
+    margin: 0;
+  }
+
+  &__text{
+    clear: both;
+    text-align: left;
+    margin: 7px 0 7px;
+    @include font_size(normal, $text-size15);
+    color: $grey;
+  }
+
+  &__label{
+    display: block;
+    @include font_size(normal, $text-size13);
+    color: $grey;
+    margin: 10px 0 3px;
+  }
+
+  &__textarea{
+    box-sizing: border-box;
+    border: 1px solid $gray-bg;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+  }
+
+  &__input{
+    box-sizing: border-box;
+    border: 1px solid $gray-bg;
+    background-color: rgba(255,255,255, 0.8);
+    padding-left:5px;
+    height: $input-height;
+    line-height: $input-height;
+    width: 100%;
+    font-size: $text-size18;
+  }
+
+  &__submit-block{
+    margin: 0 auto;
+    clear: both;
+    float: none;
+    padding-top: 10px;
+  }
+}
+
+// *** Форма регистрации *** //
+.reg-form{
+  @extend .simple-form;
+
+  &__title{
+    @include font_size(bold, $text-size20);
+    color: $blue;
+    margin: 0;
+  }
+
+  &__text{
+    margin:0 auto;
+    clear: both;
+    float: none;
+    text-align: center;
+    padding: 30px;
+    @include font_size(semibold, $text-size12);
+    color: $color-main;
+  }
+
+  &__label{
+    display: block;
+    @include font_size(semibold, $text-size14);
+    color: $color-main;
+    margin: 10px 0 3px;
+  }
+
+  &__input{
+    box-sizing: border-box;
+    border: 1px solid $gray-bg;
+    background-color: rgba(255,255,255, 0.8);
+    padding-left:5px;
+    height: $input-height;
+    line-height: $input-height;
+    width: 100%;
+    font-size: $text-size18;
+
+    &--correct{
+      background:rgba(255,255,255, 0.8) url("#{$dir}/input-correct.png") 99% 50% no-repeat;
+      padding-right: 30px;
+    }
+
+    &--error{
+      background:rgba(255,255,255, 0.8) url("#{$dir}/input-error.png") 99% 50% no-repeat;
+      padding-right: 30px;
+    }
+  }
+
+  &__submit{
+    display: block;
+    margin:0 auto;
+    float: none;
+    clear: both;
+    text-align: center;
+    padding: 8px;
+    background: $red;
+    border: 0;
+    color: $color-light;
+    @include font_size(bold, $text-size18);
+    text-transform: uppercase;
+  }
+}
+
+// *** Форма авторизации *** //
+.auth-form{
+  @extend .simple-form;
+
+  &__title{
+    @include font_size(bold, $text-size18);
+    color: $blue;
+    margin: 0;
+    text-align: center;
+  }
+
+  &__input{
+    box-sizing: border-box;
+    border: 1px solid $gray-bg;
+    background-color: $white;
+    padding-left:5px;
+    height: $input-height+10px;
+    line-height: $input-height+10px;
+    width: 100%;
+    font-size: $text-size18;
+    margin-bottom: 7px;
+    text-align: center;
+  }
+
+  &__submit{
+    @extend .reg-form__submit;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 5px 10px;
+    margin-bottom: 5px;
+  }
+  
+  &__error{
+    margin: 10px 0 7px;
+    min-height: 20px;
+    color: $red;
+  }
+
+  &__link{
+    margin: 10px 0 0;
+
+    & a{
+      color: $grey;
+      text-decoration: none;
+    }
+  }
+}
+
+// *** Детальная страница проекта *** //
+.project-detail{
+  padding-bottom: 50px;
+
+  &__images{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $grey-light;
+
+    & div{
+      float: right;
+      overflow: hidden;
+      text-align: center;
+
+      &:nth-child(1){
+        width: 460px;
+        height: 240px;
+        float: left;
+
+        & img{
+          width: 460px;
+        }
+      }
+
+      &:nth-child(2), &:nth-child(3){
+        width: 150px;
+        height: 130px;
+        margin-left: 10px;
+
+        & img{
+          width: 150px;
+        }
+      }
+
+      &:nth-child(4){
+        width: 310px;
+        height: 100px;
+        margin-top: 10px;
+
+        & img{
+          width: 310px;
+        }
+      }
+    }
+  }
+
+  &__text{
+    padding-top: 15px;
+
+    & p{
+    margin: 0;
+    }
+  }
+
+  &__social{
+    clear: both;
+    margin-top: 55px;
+    padding-top: 15px;
+    border-top: 1px solid $grey-light;
+
+    & img{
+      margin-right: 10px;
+    }
+  }
+
+  &__info{
+    padding-top: 5px;
+  }
+
+  &__info-item{
+    margin: 10px 0 10px;
+    @include font_size(semibold, $text-size15);
+   }
+
+  &__price{
+    @include font_size(bold, $text-size17);
+    color: $blue;
+  }
+
+  &__payment{
+    border-top: 1px solid $grey-light;
+
+    &-item{
+      @extend .project-detail__info-item;
+      margin-top: 15px;
+
+      &:first-child{
+        margin-top: 10px;
+      }
+    }
+
+    &-numb{
+      box-sizing: border-box;
+      padding-left: 10px;
+      height: 40px;
+      line-height: 40px;
+      border: 1px solid $red;
+      font-size: $text-size15;
+      width: 100%;
+    }
+  }
+}
+
+// *** Индикатор прогресса *** //
+.progress{
+  position: relative;
+  margin: 10px 0 15px;
+
+  &__title{
+    color: $blue;
+    @include font_size(semibold, $text-size15);
+    margin: 0 0 3px;
+  }
+
+  &__empty{
+    position: relative;
+    border: 1px solid $blue;
+    width: 100%;
+    height: 40px;
+  }
+
+  &__fill{
+    position: absolute;
+    width: 0;
+    height: 40px;
+    left: 0;
+    top: 0;
+    background-color: $blue;
+  }
+
+  &__num{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -10px;
+    width: 40px;
+    height: 20px;
+    @include font_size(semibold, $text-size17);
+  }
+}
+
+// *** ЛК - список детей *** //
+.kids-list{
+  &__title{
+    @include font_size(semibold, $text-size16);
+    padding-bottom: 5px;
+    margin: 0;
+    border-bottom: 1px solid $grey-light;
+  }
+  &__list-icon{
+    margin-bottom: 10px;
+  }
+
+  &__item-block{
+    display: none;
+
+    &.active{
+      display: block;
+    }
+  }
+
+  &__more{
+    text-align: center;
+    cursor: pointer;
+    @include font_size(semibold, $text-size16);
+    color: $red;
+    margin-top: 10px;
+    padding: 10px 20px 20px;
+    border-bottom: 1px solid $grey-light;
+  }
+
+  &__filter{
+    @include font_size(semibold, $text-size13);
+    padding-top: 5px;
+
+    &-item{
+      display: inline-block;
+
+      &.active{
+        text-decoration: underline;
+      }
+    }
+
+  }
+
+  &__item{
+    margin: 5px 0 0;
+    padding: 5px 0 5px;
+    border-bottom: 1px solid $red;
+    border-top: 1px solid $red;
+
+    &-title{
+      @include font_size(semibold, $text-size16);
+      margin: 0;
+    }
+
+    &-text{
+      margin: 5px 0 0;
+    }
+
+    &-payment{
+      text-align: right;
+      color: $red;
+    }
+
+    &-price{
+      margin: 0;
+      @include font_size(bold, $text-size16);
+    }
+
+    &-pay{
+      margin: 5px 0 5px;
+
+      &--payed{
+        background-color: $green-bg;
+      }
+
+      &--fin{
+        background-color: $gray-bg;
+      }
+    }
+
+    &-date{
+      margin: 5px 0 0;
+    }
+
+    &-decline{
+      color: $red;
+    }
+
+    &--fin{
+      border-color: $grey-light;
+
+      .kids-list__item-payment{
+        color: $grey;
+      }
+    }
+  }
+}
+
+.kid-icon{
+  float: left;
+  text-align: center;
+  padding: 5px 0 5px;
+
+  &__img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    background:$gray-bg url("#{$dir}/ico_chide-choose.png") center no-repeat;
+
+  }
+
+  &__text{
+    clear: both;
+    display: inline-block;
+    @include font_size(bold, $text-size17);
+    min-width: 80px;
+    color: $grey;
+    cursor: pointer;
+    padding-bottom: 5px;
+    text-decoration: none;
+
+    &:hover{
+      color: $grey;
+    }
+  }
+
+  &__pseudo_link{
+    display: none;
+  }
+
+  &__age{
+    @extend .kid-icon__text;
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  &.active{
+    .kid-icon__text{
+      border-bottom: 3px solid $gray-bg;
+    }
+  }
+
+  &--girl{
+    .kid-icon__img{
+      background:$girl-bg url("#{$dir}/ico-girl.png") center no-repeat;
+    }
+    .kid-icon__text{
+      color: $red;
+    }
+    .kid-icon__age{
+      @extend .kid-icon__text;
+    }
+
+    &.active{
+      .kid-icon__text{
+        border-bottom: 3px solid $girl-bg;
+
+        &:hover{
+          color: $red;
+        }
+      }
+    }
+  }
+
+  &--boy{
+    .kid-icon__img{
+      background:$blue url("#{$dir}/ico-boy.png") center no-repeat;
+    }
+    .kid-icon__text{
+      color: $blue;
+    }
+
+    .kid-icon__age{
+      @extend .kid-icon__text;
+    }
+
+    &.active{
+      .kid-icon__text{
+        border-bottom: 3px solid $blue;
+
+        &:hover{
+          color: $blue;
+        }
+      }
+    }
+  }
+}
+.avatar{
+  width: 160px;
+  height: 160px;
+  background: $grey-light url("#{$dir}/ava-def.png") center no-repeat;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+
+  &--not-empty{
+    background: none;
+  }
+}
+
+.curator{
+  padding-top: 4px;
+
+  &__ava{ }
+
+  &__name{
+    color: $red;
+    @include font_size(semibold, $text-size18);
+    margin: 15px 0 10px;
+  }
+
+  &__link{
+    margin: 3px 0 3px;
+    @include font_size(semibold, $text-size14);
+    text-decoration: underline;
+    cursor: pointer;
+
+    & a{
+      text-decoration: underline;
+      color: $color-main;
+    }
+
+    &--filter{
+      margin: 9px 0 9px;
+    }
+
+    &.active{
+      color: $red;
+    }
+  }
+
+  &__status{
+    @include font_size(semibold, $text-size15);
+    margin: 10px 0 10px;
+  }
+
+  &__filter{
+    margin: 20px 0 20px;
+  }
+}
+
+.edit-profile{
+  &__img-block{
+    padding-top: 15px;
+  }
+
+  &__img-link{
+    display: block;
+    clear: both;
+    @include font_size(semibold, $text-size14);
+    color: $blue;
+    text-decoration: underline;
+    margin: 15px 30px 0;
+  }
+
+  &__name{
+    @extend .curator__name;
+    margin-top: 0;
+  }
+
+  &__info{
+    @include font_size(semibold, $text-size14);
+    margin: 7px 0 7px;
+
+    &-title{
+      @include font_size(bold, $text-size14);
+    }
+
+    &-link{
+      font-size: 12px;
+      color: $blue;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
+
+@import 'additional.scss';

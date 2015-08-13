@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О фонде",
+		"/about/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Помочь",
+		"/help/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Посмотреть",
+		"/show/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Связаться",
+		"/contact/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Наши друзья",
+		"/friends/",
+		Array(),
+		Array(),
+		""
+	)
+);
+?>

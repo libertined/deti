@@ -1,0 +1,89 @@
+// *** Сетка *** //
+@mixin make-grid-columns($i: 1, $list: ".col-xs-#{$i}") {
+  @for $i from (1 + 1) through $grid-columns {
+    $list: "#{$list}, .col-xs-#{$i}";
+  }
+  #{$list} {
+    position: relative;
+    // Prevent columns from collapsing when empty
+    min-height: 1px;
+    // Inner gutter via padding
+    margin-left:  ceil(($grid-gutter-width / 2));
+    margin-right: floor(($grid-gutter-width / 2));
+    float: left;
+  }
+}
+@mixin calc-grid-column($index, $class, $type) {
+  @if ($index > 0) {
+    .col-#{$class}-#{$index} {
+      width: ($main-width/$grid-columns)*$index - $grid-gutter-width;
+    }
+  }
+}
+// [converter] This is defined recursively in LESS, but Sass supports real loops
+@mixin loop-grid-columns($columns, $class, $type) {
+  @for $i from 0 through $columns {
+    @include calc-grid-column($i, $class, $type);
+  }
+}
+// Create grid for specific class
+@mixin make-grid($class) {
+  @include loop-grid-columns($grid-columns, $class, width);
+}
+
+// *** Шрифты *** //
+@mixin font_size($type, $size){
+  @if $import == 1 {
+    @if $type == normal {
+      font: normal $size $font-main;
+    }
+    @else if $type == semibold{
+      font: normal $size $font-semibold;
+    }
+    @else if $type == bold{
+      font: normal $size $font-bold;
+    }
+  }
+  @else{
+    @if $type == normal {
+      font: 400 $size 'Open Sans', sans-serif;
+    }
+    @else if $type == semibold{
+      font: 600 $size 'Open Sans', sans-serif;
+    }
+    @else if $type == bold{
+      font: 700 $size 'Open Sans', sans-serif;
+    }
+  }
+}
+
+@mixin font($type){
+  @if $import == 1 {
+    @if $type == normal {
+      font-family: $font-main;
+      font-weight: normal;
+    }
+    @else if $type == semibold{
+      font-family: $font-semibold;
+      font-weight: normal;
+    }
+    @else if $type == bold{
+      font-family: $font-bold;
+      font-weight: normal;
+    }
+  }
+  @else{
+    @if $type == normal {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+    }
+    @else if $type == semibold{
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+    }
+    @else if $type == bold{
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+    }
+  }
+}

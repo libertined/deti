@@ -1,4 +1,33 @@
 @charset "UTF-8";
+/*@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../css/fonts/ProximaNovaRegular.eot");
+  src: url("../css/fonts/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+  url("../css/fonts/ProximaNovaRegular.woff") format("woff"),
+  url("../css/fonts/ProximaNovaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}*/
+/* font-family: "ProximaNovaBold"; */
+/*@font-face {
+  font-family: "ProximaNovaBold";
+  src: url("../css/fonts/ProximaNovaBold.eot");
+  src: url("../css/fonts/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+  url("../css/fonts/ProximaNovaBold.woff") format("woff"),
+  url("../css/fonts/ProximaNovaBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}*/
+/* font-family: "ProximaNovaSemibold"; */
+/*@font-face {
+  font-family: "ProximaNovaSemibold";
+  src: url("../css/fonts/ProximaNovaSemibold.eot");
+  src: url("../css/fonts/ProximaNovaSemibold.eot?#iefix")format("embedded-opentype"),
+  url("../css/fonts/ProximaNovaSemibold.woff") format("woff"),
+  url("../css/fonts/ProximaNovaSemibold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}*/
 .wrapper {
   width: 960px;
   margin: 0 auto;
@@ -112,7 +141,7 @@ a:hover {
       position: absolute;
       top: -1px;
       right: -1px;
-      background: url("../img/ico_select.png") no-repeat center;
+      background: url("/local/img/ico_select.png") no-repeat center;
       width: 40px;
       height: 40px; }
   .pseudo-select__list {
@@ -155,7 +184,7 @@ a:hover {
       border: 1px solid #828285;
       color: #272727; }
       .pseudo-select--white .pseudo-select__text:after {
-        background: url("../img/ico_select-white.png") no-repeat center;
+        background: url("/local/img/ico_select-white.png") no-repeat center;
         width: 35px;
         height: 35px; }
     .pseudo-select--white .pseudo-select__list {
@@ -201,11 +230,11 @@ a:hover {
     top: -20px;
     width: 20px;
     height: 20px;
-    background: url("../img/ico_close.png") 0 0 no-repeat; }
+    background: url("/local/img/ico_close.png") 0 0 no-repeat; }
   .modal-wnd--regist {
     width: 940px;
     margin-left: -470px;
-    background: #fff url("../img/reg_bg.jpg") 100% 100% no-repeat; }
+    background: #fff url("/local/img/reg_bg.jpg") 100% 100% no-repeat; }
   .modal-wnd--auth {
     width: 460px;
     margin-left: -230px;
@@ -243,7 +272,7 @@ button.btn, input.btn {
 html, body {
   padding: 0;
   margin: 0;
-  background: url("../img/bg.jpg") repeat-y;
+  background: url("/local/img/bg.jpg") repeat-y;
   background-size: 100%;
   color: #272727;
   font-family: 'Open Sans', sans-serif;
@@ -328,7 +357,7 @@ body::before {
         text-transform: none; }
     .header__info .auth {
       padding-right: 25px;
-      background: url("../img/ico_enter.png") 100% 3px no-repeat;
+      background: url("/local/img/ico_enter.png") 100% 3px no-repeat;
       text-transform: none; }
 
 .profile-text {
@@ -393,7 +422,7 @@ body::before {
       text-decoration: none; }
       .page-title__item a:hover {
         color: #f51b49; }
-    .page-title__item--active a {
+    .page-title__item.active a {
       color: #0042fe;
       border-bottom: 7px solid #0042fe; }
 
@@ -416,7 +445,7 @@ body::before {
   padding: 25px 0 25px; }
 
 .to_begin {
-  background: url("../img/to_begin.png") center no-repeat;
+  background: url("/local/img/to_begin.png") center no-repeat;
   width: 60px;
   height: 60px;
   right: 50%;
@@ -473,7 +502,7 @@ body::before {
   background-color: rgba(0, 0, 0, 0.5);
   clear: both; }
   .footer-wrapper {
-    background: url("../img/logo_white.png") 95% 15px no-repeat;
+    background: url("/local/img/logo_white.png") 95% 15px no-repeat;
     padding-bottom: 50px; }
 
 .bottom-menu {
@@ -516,7 +545,8 @@ body::before {
 /* Список проектов */
 .project-list {
   position: relative;
-  clear: both; }
+  clear: both;
+  padding-bottom: 60px; }
   .project-list__item {
     background-color: #fff;
     text-align: center;
@@ -568,6 +598,26 @@ body::before {
     text-decoration: none;
     margin: 0;
     padding: 0 10px 10px; }
+  .project-list__more {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer; }
+    .project-list__more--hide {
+      display: none; }
+    .project-list__more span {
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 3px;
+      background-color: #626262;
+      margin: 28px 2px 0; }
 
 .simple-form, .reg-form, .auth-form {
   margin: 0;
@@ -638,10 +688,10 @@ body::before {
   width: 100%;
   font-size: 18px; }
   .reg-form__input--correct {
-    background: rgba(255, 255, 255, 0.8) url("../img/input-correct.png") 99% 50% no-repeat;
+    background: rgba(255, 255, 255, 0.8) url("/local/img/input-correct.png") 99% 50% no-repeat;
     padding-right: 30px; }
   .reg-form__input--error {
-    background: rgba(255, 255, 255, 0.8) url("../img/input-error.png") 99% 50% no-repeat;
+    background: rgba(255, 255, 255, 0.8) url("/local/img/input-error.png") 99% 50% no-repeat;
     padding-right: 30px; }
 .reg-form__submit, .auth-form__submit {
   display: block;
@@ -849,7 +899,7 @@ body::before {
     border: 0;
     border-radius: 40px;
     cursor: pointer;
-    background: #828285 url("../img/ico_chide-choose.png") center no-repeat; }
+    background: #828285 url("/local/img/ico_chide-choose.png") center no-repeat; }
   .kid-icon__text, .kid-icon__age, .kid-icon--girl .kid-icon__age, .kid-icon--boy .kid-icon__age {
     clear: both;
     display: inline-block;
@@ -869,7 +919,7 @@ body::before {
   .kid-icon.active .kid-icon__text, .kid-icon.active .kid-icon__age {
     border-bottom: 3px solid #828285; }
   .kid-icon--girl .kid-icon__img {
-    background: #f33070 url("../img/ico-girl.png") center no-repeat; }
+    background: #f33070 url("/local/img/ico-girl.png") center no-repeat; }
   .kid-icon--girl .kid-icon__text, .kid-icon--girl .kid-icon__age {
     color: #f51b49; }
   .kid-icon--girl.active .kid-icon__text, .kid-icon--girl.active .kid-icon__age {
@@ -877,7 +927,7 @@ body::before {
     .kid-icon--girl.active .kid-icon__text:hover, .kid-icon--girl.active .kid-icon__age:hover {
       color: #f51b49; }
   .kid-icon--boy .kid-icon__img {
-    background: #0099e2 url("../img/ico-boy.png") center no-repeat; }
+    background: #0099e2 url("/local/img/ico-boy.png") center no-repeat; }
   .kid-icon--boy .kid-icon__text, .kid-icon--boy .kid-icon__age {
     color: #0099e2; }
   .kid-icon--boy.active .kid-icon__text, .kid-icon--boy.active .kid-icon__age {
@@ -888,7 +938,7 @@ body::before {
 .avatar {
   width: 160px;
   height: 160px;
-  background: #a8a8a8 url("../img/ava-def.png") center no-repeat;
+  background: #a8a8a8 url("/local/img/ava-def.png") center no-repeat;
   border-radius: 5px;
   overflow: hidden;
   text-align: center; }
