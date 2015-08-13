@@ -33,7 +33,7 @@
   clear: both; }
 
 /* СЕТКА */
-.col-xs-1, .col-xs-2, .col-xs-3, .project-list__item, .bottom-menu__list, .col-xs-4, .col-xs-5, .col-xs-6, .payment__wrapper, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+.col-xs-1, .col-xs-2, .col-xs-3, .bottom-menu__list, .project-list__item, .col-xs-4, .col-xs-5, .col-xs-6, .payment__wrapper, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   position: relative;
   min-height: 1px;
   margin-left: 10px;
@@ -46,7 +46,7 @@
 .col-xs-2 {
   width: 140px; }
 
-.col-xs-3, .project-list__item, .bottom-menu__list {
+.col-xs-3, .bottom-menu__list, .project-list__item {
   width: 220px; }
 
 .col-xs-4 {
@@ -171,7 +171,7 @@ a:hover {
       font: 400 18px "Roboto", sans-serif;
       background: #fff;
       border: 1px solid #828285;
-      color: #636363; }
+      color: #626262; }
       .pseudo-select--white .pseudo-select__text:after {
         background: url("../img/ico_select-white.png") no-repeat center;
         width: 35px;
@@ -250,7 +250,7 @@ a:hover {
   .btn--full {
     width: 100%; }
   .btn--gray {
-    background-color: #636363; }
+    background-color: #626262; }
   .btn--small-text {
     font-size: 10px; }
 
@@ -279,7 +279,7 @@ body::before {
   position: relative;
   width: 100%;
   height: 75px;
-  background-color: #00a1fc; }
+  background-color: #0099e2; }
   .header.scroll {
     background-color: rgba(0, 161, 252, 0.8);
     top: 0;
@@ -293,11 +293,12 @@ body::before {
     text-align: left; }
     .header__logo-text {
       display: block;
-      font: 700 13.6px "Roboto", sans-serif;
+      font: 700 13px "Roboto", sans-serif;
       color: #fff;
       text-transform: uppercase;
       text-decoration: none;
-      padding: 10px 0 10px; }
+      padding: 10px 0 10px;
+      height: 15px; }
     .header__logo-img {
       background-color: #fff;
       text-align: center;
@@ -391,7 +392,7 @@ body::before {
     margin: 0;
     padding: 40px 0 0;
     font: 700 20px "Roboto", sans-serif;
-    color: #00a1fc; }
+    color: #0099e2; }
   .page-title__list {
     margin: 60px 0 0;
     padding: 0;
@@ -431,62 +432,6 @@ body::before {
   clear: both;
   padding: 25px 0 25px; }
 
-/* Список проектов */
-.project-list {
-  position: relative;
-  clear: both; }
-  .project-list__item {
-    background-color: #fff;
-    text-align: center;
-    margin-bottom: 20px; }
-  .project-list__img {
-    margin: 10px 10px 0;
-    position: relative;
-    display: block; }
-    .project-list__img img {
-      width: 100%;
-      margin: 0; }
-    .project-list__img--finish::after {
-      display: block;
-      content: '';
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      left: 0;
-      top: 0;
-      background-color: rgba(255, 255, 255, 0.5); }
-  .project-list__item-finish-text {
-    margin: 0 auto;
-    margin-top: -50px;
-    padding: 0 15px 0;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 17px;
-    color: #626262;
-    text-transform: uppercase;
-    z-index: 10; }
-  .project-list__item-title {
-    display: block;
-    padding: 3px 10px 3px;
-    margin: 0;
-    text-align: left;
-    color: #00a1fc;
-    text-decoration: none;
-    font: 500 16px "Roboto", sans-serif; }
-  .project-list__item-desc {
-    padding: 0 10px 0;
-    margin: 0;
-    text-align: left; }
-  .project-list__item-link {
-    display: block;
-    color: #00a1fc;
-    text-decoration: none;
-    margin: 0;
-    padding: 0 10px 10px; }
-
 .to_begin {
   background: url("../img/to_begin.png") center no-repeat;
   width: 60px;
@@ -511,7 +456,7 @@ body::before {
     padding: 25px 0 25px; }
   .payment__title {
     font: 22px "ProximaNovaSemibold", sans-serif;
-    color: #2d2d2d;
+    color: #272727;
     text-transform: uppercase;
     margin: 10px 0 0;
     height: 30px; }
@@ -585,6 +530,62 @@ body::before {
     text-decoration: none;
     font-size: 13px; }
 
+/* Список проектов */
+.project-list {
+  position: relative;
+  clear: both; }
+  .project-list__item {
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 20px; }
+  .project-list__img {
+    margin: 10px 10px 0;
+    position: relative;
+    display: block; }
+    .project-list__img img {
+      width: 100%;
+      margin: 0; }
+    .project-list__img--finish::after {
+      display: block;
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: rgba(255, 255, 255, 0.5); }
+  .project-list__item-finish-text {
+    margin: 0 auto;
+    margin-top: -50px;
+    padding: 0 15px 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 17px;
+    color: #626262;
+    text-transform: uppercase;
+    z-index: 10; }
+  .project-list__item-title {
+    display: block;
+    padding: 3px 10px 3px;
+    margin: 0;
+    text-align: left;
+    color: #0099e2;
+    text-decoration: none;
+    font: 500 16px "Roboto", sans-serif; }
+  .project-list__item-desc {
+    padding: 0 10px 0;
+    margin: 0;
+    text-align: left; }
+  .project-list__item-link {
+    display: block;
+    color: #0099e2;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 10px 10px; }
+
 .simple-form, .reg-form, .auth-form {
   margin: 0;
   padding: 0;
@@ -592,18 +593,18 @@ body::before {
   box-sizing: border-box; }
   .simple-form__title {
     font: 700 20px "Roboto", sans-serif;
-    color: #00a1fc;
+    color: #0099e2;
     margin: 0; }
   .simple-form__text {
     clear: both;
     text-align: left;
     margin: 7px 0 7px;
     font: 400 15px "Roboto", sans-serif;
-    color: #636363; }
+    color: #626262; }
   .simple-form__label {
     display: block;
     font: 400 13px "Roboto", sans-serif;
-    color: #636363;
+    color: #626262;
     margin: 10px 0 3px; }
   .simple-form__textarea {
     box-sizing: border-box;
@@ -629,7 +630,7 @@ body::before {
 
 .reg-form__title {
   font: 700 20px "Roboto", sans-serif;
-  color: #00a1fc;
+  color: #0099e2;
   margin: 0; }
 .reg-form__text {
   margin: 0 auto;
@@ -638,11 +639,11 @@ body::before {
   text-align: center;
   padding: 30px;
   font: 500 12px "Roboto", sans-serif;
-  color: #2b2b2b; }
+  color: #272727; }
 .reg-form__label {
   display: block;
   font: 500 14px "Roboto", sans-serif;
-  color: #2b2b2b;
+  color: #272727;
   margin: 10px 0 3px; }
 .reg-form__input {
   box-sizing: border-box;
@@ -674,13 +675,13 @@ body::before {
 
 .auth-form__title {
   font: 700 18px "Roboto", sans-serif;
-  color: #00a1fc;
+  color: #0099e2;
   margin: 0;
   text-align: center; }
 .auth-form__input {
   box-sizing: border-box;
   border: 1px solid #828285;
-  background-color: #f4f4f4;
+  background-color: #fff;
   padding-left: 5px;
   height: 45px;
   line-height: 45px;
@@ -700,7 +701,7 @@ body::before {
 .auth-form__link {
   margin: 10px 0 0; }
   .auth-form__link a {
-    color: #636363;
+    color: #626262;
     text-decoration: none; }
 
 .project-detail {
@@ -751,7 +752,7 @@ body::before {
     font: 500 15px "Roboto", sans-serif; }
   .project-detail__price {
     font: 700 17px "Roboto", sans-serif;
-    color: #00a1fc; }
+    color: #0099e2; }
   .project-detail__payment {
     border-top: 1px solid #a8a8a8; }
     .project-detail__payment-item {
@@ -771,12 +772,12 @@ body::before {
   position: relative;
   margin: 10px 0 15px; }
   .progress__title {
-    color: #00a1fc;
+    color: #0099e2;
     font: 500 15px "Roboto", sans-serif;
     margin: 0 0 3px; }
   .progress__empty {
     position: relative;
-    border: 1px solid #00a1fc;
+    border: 1px solid #0099e2;
     width: 100%;
     height: 40px; }
   .progress__fill {
@@ -785,7 +786,7 @@ body::before {
     height: 40px;
     left: 0;
     top: 0;
-    background-color: #00a1fc; }
+    background-color: #0099e2; }
   .progress__num {
     position: absolute;
     text-align: center;
@@ -844,7 +845,7 @@ body::before {
     .kids-list__item-pay--payed {
       background-color: #569856; }
     .kids-list__item-pay--fin {
-      background-color: #959595; }
+      background-color: #828285; }
   .kids-list__item-date {
     margin: 5px 0 0; }
   .kids-list__item-decline {
@@ -852,7 +853,7 @@ body::before {
   .kids-list__item--fin {
     border-color: #a8a8a8; }
     .kids-list__item--fin .kids-list__item-payment {
-      color: #636363; }
+      color: #626262; }
 
 .kid-icon {
   float: left;
@@ -865,23 +866,23 @@ body::before {
     border: 0;
     border-radius: 40px;
     cursor: pointer;
-    background: #959595 url("../img/ico_chide-choose.png") center no-repeat; }
+    background: #828285 url("../img/ico_chide-choose.png") center no-repeat; }
   .kid-icon__text, .kid-icon__age, .kid-icon--girl .kid-icon__age, .kid-icon--boy .kid-icon__age {
     clear: both;
     font: 700 20px "Roboto", sans-serif;
-    color: #636363;
+    color: #626262;
     cursor: pointer;
     padding-bottom: 5px;
     text-decoration: none; }
     .kid-icon__text:hover, .kid-icon__age:hover {
-      color: #636363; }
+      color: #626262; }
   .kid-icon__pseudo_link {
     display: none; }
   .kid-icon__age {
     display: block;
     padding-bottom: 15px; }
   .kid-icon.active .kid-icon__text, .kid-icon.active .kid-icon__age {
-    border-bottom: 3px solid #959595; }
+    border-bottom: 3px solid #828285; }
   .kid-icon--girl .kid-icon__img {
     background: #f33070 url("../img/ico-girl.png") center no-repeat; }
   .kid-icon--girl .kid-icon__text, .kid-icon--girl .kid-icon__age {
@@ -891,13 +892,13 @@ body::before {
     .kid-icon--girl.active .kid-icon__text:hover, .kid-icon--girl.active .kid-icon__age:hover {
       color: #f51b49; }
   .kid-icon--boy .kid-icon__img {
-    background: #0299df url("../img/ico-boy.png") center no-repeat; }
+    background: #0099e2 url("../img/ico-boy.png") center no-repeat; }
   .kid-icon--boy .kid-icon__text, .kid-icon--boy .kid-icon__age {
-    color: #009ef4; }
+    color: #0099e2; }
   .kid-icon--boy.active .kid-icon__text, .kid-icon--boy.active .kid-icon__age {
-    border-bottom: 3px solid #0299df; }
+    border-bottom: 3px solid #0099e2; }
     .kid-icon--boy.active .kid-icon__text:hover, .kid-icon--boy.active .kid-icon__age:hover {
-      color: #009ef4; }
+      color: #0099e2; }
 
 .avatar {
   width: 160px;
@@ -939,7 +940,7 @@ body::before {
   display: block;
   clear: both;
   font: 500 14px "Roboto", sans-serif;
-  color: #009ef4;
+  color: #0099e2;
   text-decoration: underline;
   margin: 15px 30px 0; }
 .edit-profile__name {
@@ -951,7 +952,7 @@ body::before {
     font: 700 14px "Roboto", sans-serif; }
   .edit-profile__info-link {
     font-size: 12px;
-    color: #009ef4;
+    color: #0099e2;
     text-decoration: underline;
     cursor: pointer; }
 
