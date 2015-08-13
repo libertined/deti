@@ -86,7 +86,7 @@
   box-sizing: border-box;
 
   &__title{
-    @include font_size(bold, $text-size20);
+    @include font_size(bold, $text-size18);
     color: $blue;
     margin: 0;
   }

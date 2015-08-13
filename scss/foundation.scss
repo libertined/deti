@@ -106,6 +106,7 @@ a:hover{
     list-style: none;
     margin: 0;
     padding: 0;
+    color: $color-light;
   }
 
   &__option {
@@ -117,6 +118,7 @@ a:hover{
 
     &.current, &:hover {
       color: $color-light;
+      text-decoration: underline;
     }
   }
 
@@ -130,13 +132,13 @@ a:hover{
     & .pseudo-select__text{
       padding-right:30px;
       padding-left:10px;
-      padding-top: 5px;
+      padding-top: 7px;
       height: $input-height;
       line-height: $input-height;
-      @include font_size(normal, $text-size18);
+      @include font_size(semibold, $text-size16);
       background: $white;
       border: 1px solid $gray-bg;
-      color: $grey;
+      color: $color-main;
 
       &:after {
         background: url("#{$dir}/ico_select-white.png") no-repeat center;
@@ -147,7 +149,7 @@ a:hover{
 
     & .pseudo-select__list {
       top: $input-height - 1;
-      background: rgba(255,255,255, 0.6);
+      background: $white;
       border: solid 1px $gray-bg;
     }
 
@@ -155,7 +157,8 @@ a:hover{
       padding: 5px 10px;
 
       &.current, &:hover {
-        color: $color-main;
+        color: $blue;
+        text-decoration: none;
       }
     }
 

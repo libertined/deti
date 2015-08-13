@@ -149,7 +149,8 @@ a:hover {
     display: none;
     list-style: none;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    color: #fff; }
   .pseudo-select__option {
     padding: 5px 20px;
     margin: 0;
@@ -157,7 +158,8 @@ a:hover {
     list-style: none;
     font-size: 14px; }
     .pseudo-select__option.current, .pseudo-select__option:hover {
-      color: #fff; }
+      color: #fff;
+      text-decoration: underline; }
   .pseudo-select__real {
     display: none; }
   .pseudo-select--white {
@@ -165,25 +167,26 @@ a:hover {
     .pseudo-select--white .pseudo-select__text {
       padding-right: 30px;
       padding-left: 10px;
-      padding-top: 5px;
+      padding-top: 7px;
       height: 35px;
       line-height: 35px;
-      font: 400 18px "Roboto", sans-serif;
+      font: 500 16px "Roboto", sans-serif;
       background: #fff;
       border: 1px solid #828285;
-      color: #626262; }
+      color: #272727; }
       .pseudo-select--white .pseudo-select__text:after {
         background: url("../img/ico_select-white.png") no-repeat center;
         width: 35px;
         height: 35px; }
     .pseudo-select--white .pseudo-select__list {
       top: 34px;
-      background: rgba(255, 255, 255, 0.6);
+      background: #fff;
       border: solid 1px #828285; }
     .pseudo-select--white .pseudo-select__option {
       padding: 5px 10px; }
       .pseudo-select--white .pseudo-select__option.current, .pseudo-select--white .pseudo-select__option:hover {
-        color: #272727; }
+        color: #0099e2;
+        text-decoration: none; }
 
 .modal-wnd {
   background-color: #fff;
@@ -592,7 +595,7 @@ body::before {
   text-align: left;
   box-sizing: border-box; }
   .simple-form__title {
-    font: 700 20px "Roboto", sans-serif;
+    font: 700 18px "Roboto", sans-serif;
     color: #0099e2;
     margin: 0; }
   .simple-form__text {
