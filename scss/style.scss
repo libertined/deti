@@ -507,7 +507,9 @@
 
   &__text{
     clear: both;
-    @include font_size(bold, $text-size20);
+    display: inline-block;
+    @include font_size(bold, $text-size17);
+    min-width: 80px;
     color: $grey;
     cursor: pointer;
     padding-bottom: 5px;

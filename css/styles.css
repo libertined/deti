@@ -170,7 +170,7 @@ a:hover {
       padding-top: 7px;
       height: 35px;
       line-height: 35px;
-      font: 500 16px "Open Sans", sans-serif;
+      font: 600 16px "Open Sans", sans-serif;
       background: #fff;
       border: 1px solid #828285;
       color: #272727; }
@@ -342,7 +342,7 @@ body::before {
         top: 85px;
         left: 0;
         text-align: left;
-        font: 500 13px "Open Sans", sans-serif;
+        font: 600 13px "Open Sans", sans-serif;
         color: #272727;
         z-index: 2;
         text-transform: none; }
@@ -375,7 +375,7 @@ body::before {
     text-align: left;
     margin: 0;
     line-height: 75px;
-    font: 500 14px "Open Sans", sans-serif; }
+    font: 600 14px "Open Sans", sans-serif; }
     .top-menu__item:first-child {
       margin-left: 0px; }
     .top-menu__item a {
@@ -466,7 +466,7 @@ body::before {
   .payment__desc {
     margin: 0;
     padding: 5px 0 5px;
-    font: 500 14px "Open Sans", sans-serif;
+    font: 600 14px "Open Sans", sans-serif;
     color: #272727;
     text-transform: none; }
   .payment__count, .payment__btn {
@@ -577,7 +577,7 @@ body::before {
     text-align: left;
     color: #0099e2;
     text-decoration: none;
-    font: 500 16px "Open Sans", sans-serif; }
+    font: 600 16px "Open Sans", sans-serif; }
   .project-list__item-desc {
     padding: 0 10px 0;
     margin: 0;
@@ -641,11 +641,11 @@ body::before {
   float: none;
   text-align: center;
   padding: 30px;
-  font: 500 12px "Open Sans", sans-serif;
+  font: 600 12px "Open Sans", sans-serif;
   color: #272727; }
 .reg-form__label {
   display: block;
-  font: 500 14px "Open Sans", sans-serif;
+  font: 600 14px "Open Sans", sans-serif;
   color: #272727;
   margin: 10px 0 3px; }
 .reg-form__input {
@@ -752,7 +752,7 @@ body::before {
     padding-top: 5px; }
   .project-detail__info-item, .project-detail__payment-item {
     margin: 10px 0 10px;
-    font: 500 15px "Open Sans", sans-serif; }
+    font: 600 15px "Open Sans", sans-serif; }
   .project-detail__price {
     font: 700 17px "Open Sans", sans-serif;
     color: #0099e2; }
@@ -776,7 +776,7 @@ body::before {
   margin: 10px 0 15px; }
   .progress__title {
     color: #0099e2;
-    font: 500 15px "Open Sans", sans-serif;
+    font: 600 15px "Open Sans", sans-serif;
     margin: 0 0 3px; }
   .progress__empty {
     position: relative;
@@ -799,10 +799,10 @@ body::before {
     margin-top: -10px;
     width: 40px;
     height: 20px;
-    font: 500 17px "Open Sans", sans-serif; }
+    font: 600 17px "Open Sans", sans-serif; }
 
 .kids-list__title {
-  font: 500 16px "Open Sans", sans-serif;
+  font: 600 16px "Open Sans", sans-serif;
   padding-bottom: 5px;
   margin: 0;
   border-bottom: 1px solid #a8a8a8; }
@@ -815,13 +815,13 @@ body::before {
 .kids-list__more {
   text-align: center;
   cursor: pointer;
-  font: 500 16px "Open Sans", sans-serif;
+  font: 600 16px "Open Sans", sans-serif;
   color: #f51b49;
   margin-top: 10px;
   padding: 10px 20px 20px;
   border-bottom: 1px solid #a8a8a8; }
 .kids-list__filter {
-  font: 500 13px "Open Sans", sans-serif;
+  font: 600 13px "Open Sans", sans-serif;
   padding-top: 5px; }
   .kids-list__filter-item {
     display: inline-block; }
@@ -833,7 +833,7 @@ body::before {
   border-bottom: 1px solid #f51b49;
   border-top: 1px solid #f51b49; }
   .kids-list__item-title {
-    font: 500 16px "Open Sans", sans-serif;
+    font: 600 16px "Open Sans", sans-serif;
     margin: 0; }
   .kids-list__item-text {
     margin: 5px 0 0; }
@@ -872,7 +872,9 @@ body::before {
     background: #828285 url("../img/ico_chide-choose.png") center no-repeat; }
   .kid-icon__text, .kid-icon__age, .kid-icon--girl .kid-icon__age, .kid-icon--boy .kid-icon__age {
     clear: both;
-    font: 700 20px "Open Sans", sans-serif;
+    display: inline-block;
+    font: 700 17px "Open Sans", sans-serif;
+    min-width: 80px;
     color: #626262;
     cursor: pointer;
     padding-bottom: 5px;
@@ -917,11 +919,11 @@ body::before {
   padding-top: 4px; }
   .curator__name, .edit-profile__name {
     color: #f51b49;
-    font: 500 18px "Open Sans", sans-serif;
+    font: 600 18px "Open Sans", sans-serif;
     margin: 15px 0 10px; }
   .curator__link {
     margin: 3px 0 3px;
-    font: 500 14px "Open Sans", sans-serif;
+    font: 600 14px "Open Sans", sans-serif;
     text-decoration: underline;
     cursor: pointer; }
     .curator__link a {
@@ -932,7 +934,7 @@ body::before {
     .curator__link.active {
       color: #f51b49; }
   .curator__status {
-    font: 500 15px "Open Sans", sans-serif;
+    font: 600 15px "Open Sans", sans-serif;
     margin: 10px 0 10px; }
   .curator__filter {
     margin: 20px 0 20px; }
@@ -942,14 +944,14 @@ body::before {
 .edit-profile__img-link {
   display: block;
   clear: both;
-  font: 500 14px "Open Sans", sans-serif;
+  font: 600 14px "Open Sans", sans-serif;
   color: #0099e2;
   text-decoration: underline;
   margin: 15px 30px 0; }
 .edit-profile__name {
   margin-top: 0; }
 .edit-profile__info {
-  font: 500 14px "Open Sans", sans-serif;
+  font: 600 14px "Open Sans", sans-serif;
   margin: 7px 0 7px; }
   .edit-profile__info-title {
     font: 700 14px "Open Sans", sans-serif; }
