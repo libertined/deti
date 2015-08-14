@@ -73,6 +73,7 @@ body::before{
     float: right;
     text-align: right;
     line-height: 75px;
+    margin-right: 10px;
 
     &--auth{
       padding-top: 23px;
@@ -82,7 +83,7 @@ body::before{
     & div{
       display: inline-block;
       margin: 0 10px 0;
-      padding: 5px 0 5px;
+      padding: 5px 0 0;
       color: $color-light;
       @include font_size(bold, $text-size15);
       text-transform: uppercase;
@@ -116,7 +117,7 @@ body::before{
 
     & .auth{
       padding-right: 25px;
-      background: url("#{$dir}/ico_enter.png") 100% 3px no-repeat;
+      background: url("#{$dir}/ico_enter.png") 100% 7px no-repeat;
       text-transform: none;
     }
   }

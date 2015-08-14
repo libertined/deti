@@ -148,6 +148,7 @@ a:hover{
     }
 
     & .pseudo-select__list {
+      color: $color-main;
       top: $input-height - 1;
       background: $white;
       border: solid 1px $gray-bg;

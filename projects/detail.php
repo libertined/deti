@@ -9,5 +9,5 @@
 		"ID" => $_REQUEST["PROJECT"]
 	)
 );?>
-<? include $_SERVER["DOCUMENT_ROOT"]."/local/include/ask_quest.php";?>
+<?include $_SERVER["DOCUMENT_ROOT"]."/local/include/ask_quest.php";?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
