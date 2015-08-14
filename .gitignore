@@ -11,6 +11,7 @@ Thumbs.db
 /.htaccess
 /scss/prepros.cfg
 /psd
+/verstka/psd
 
 # core
 /bitrix/*
