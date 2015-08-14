@@ -3,7 +3,7 @@
 Thumbs.db
 *.sql
 /.idea/
-/urlrewrite.php
+
 /*.log
 /*.txt
 /*.xml

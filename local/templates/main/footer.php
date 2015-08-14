@@ -7,12 +7,12 @@
         <input class="payment__count col-xs-3" type="text"/>
         <button class="payment__btn col-xs-3" type="submit" name="pay">Перечислить</button>
         <div class="payment__tools justify-block">
-            <img src="local/img/payment_visa.png" alt=""/>
-            <img src="local/img/payment_master.png" alt=""/>
-            <img src="local/img/payment_maestro.png" alt=""/>
-            <img src="local/img/payment_paypal.png" alt=""/>
-            <img src="local/img/payment_webmoney.png" alt=""/>
-            <img src="local/img/payment_yandex.png" alt=""/>
+            <img src="/local/img/payment_visa.png" alt=""/>
+            <img src="/local/img/payment_master.png" alt=""/>
+            <img src="/local/img/payment_maestro.png" alt=""/>
+            <img src="/local/img/payment_paypal.png" alt=""/>
+            <img src="/local/img/payment_webmoney.png" alt=""/>
+            <img src="/local/img/payment_yandex.png" alt=""/>
         </div>
     </div>
 </section>
@@ -38,8 +38,8 @@
             </ul>
         </nav>
         <div class="social col-xs-3">
-            <a href="/" class="social__item"><img src="local/img/ico_fb.png" alt=""/></a>
-            <a href="/" class="social__item"><img src="local/img/ico_vk.png" alt=""/></a>
+            <a href="/" class="social__item"><img src="/local/img/ico_fb.png" alt=""/></a>
+            <a href="/" class="social__item"><img src="/local/img/ico_vk.png" alt=""/></a>
         </div>
         <div class="lang-list col-xs-3">
             <div class="pseudo-select">
@@ -57,7 +57,7 @@
         <div class="design-info col-xs-5">
             <p class="design-info__text col-xs-3">дизайн создан<br>в брендинговом агентстве:</p>
             <p class="design-info__links">
-                <a href="http://startbrand.ru" target="_blank"><img src="local/img/starbrand_logo.png" alt=""/></a><br>
+                <a href="http://startbrand.ru" target="_blank"><img src="/local/img/starbrand_logo.png" alt=""/></a><br>
                 <a href="http://startbrand.ru" class="design-info__site" target="_blank">www.startbrand.ru</a>
             </p>
         </div>
