@@ -18,7 +18,7 @@ $(document).ready( function() {
             },
             //async: false,
             success: function (data) {
-                $(this).remove();
+                $("#btn_see_more").remove();
                 $container.append(data);
                 $container.waitForImages(function() {
                     $container.masonry( 'reloadItems' );
