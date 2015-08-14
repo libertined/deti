@@ -13,7 +13,7 @@ if(!isset($arParams["COUNT"]) || strlen($arParams["COUNT"])<=0)
 if(!isset($arParams["PAGE"]) || strlen($arParams["PAGE"])<=0)
     $arParams["PAGE"] = 1;
 
-$arParams["DETAIL_PAGE"] = "/projects/detail.php/?";
+$arParams["DETAIL_PAGE"] = "/projects/";
 
 /* Передаем какие-то параметры в Шаблон */
 $arResult["MSG"] = "";
@@ -40,7 +40,7 @@ $rsElement = CIBlockElement::GetList(array("ID" => "ASC"), $arFilter, false, fal
 $arResult["ALL_COUNT"] = $rsElement->SelectedRowsCount(); //Всего анкет
 while($arItem = $rsElement->GetNext()) {
     $arItem["IMG_PATH"] = CFile::GetPath($arItem["PREVIEW_PICTURE"]);
-    $arItem["URL"] = $arParams["DETAIL_PAGE"]."id=".$arItem["ID"];
+    $arItem["URL"] = $arParams["DETAIL_PAGE"].$arItem["ID"]."/";
     $arTmpItems[] = $arItem;
 }
 

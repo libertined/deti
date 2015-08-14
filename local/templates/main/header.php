@@ -20,7 +20,7 @@ IncludeTemplateLangFile(__FILE__);
 		<div class="header__logo col-xs-2">
 			<a class="header__logo-text justify-block" href="/">Фонд &laquo;Мечтатели&raquo;</a>
 			<div class="header__logo-img col-xs-2">
-				<a href="/"><img src="local/img/logo.png" alt="Мечтатели"/></a>
+				<a href="/"><img src="/local/img/logo.png" alt="Мечтатели"/></a>
 			</div>
 		</div>
 		<div class="header__right-side col-xs-9">
