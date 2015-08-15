@@ -27,7 +27,7 @@
                 <li class="bottom-menu__item"><a href="">Контакты</a></li>
             </ul>
             <ul class="bottom-menu__list">
-                <li class="bottom-menu__item"><a href="">Стать попечителем</a></li>
+                <li class="bottom-menu__item"><a href="/curator/">Стать попечителем</a></li>
                 <li class="bottom-menu__item"><a href="">Помочь</a></li>
                 <li class="bottom-menu__item"><a href="">Отчеты</a></li>
                 <li class="bottom-menu__item"><a href="">Вопросы и ответы?</a></li>
@@ -65,7 +65,6 @@
 </footer>
 <div class="to_begin"></div>
 <?include $_SERVER["DOCUMENT_ROOT"]."/local/include/auth.php";?>
-<?include $_SERVER["DOCUMENT_ROOT"]."/local/include/regist.php";?>
 <script type="text/javascript" src="/local/js/script.js"></script>
 </body>
 </html>

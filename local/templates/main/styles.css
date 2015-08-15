@@ -35,6 +35,8 @@
   .wrapper--fill {
     width: 940px;
     background-color: rgba(255, 255, 255, 0.8); }
+  .wrapper--curator {
+    background: rgba(255, 255, 255, 0.8) url("/local/img/curator_bg.jpg") no-repeat left bottom; }
 
 .clearfix:after {
   content: '';
@@ -1010,6 +1012,20 @@ body::before {
     color: #0099e2;
     text-decoration: underline;
     cursor: pointer; }
+
+.curator-page {
+  padding-bottom: 30px; }
+  .curator-page__img-title {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px; }
+  .curator-page__content {
+    margin-bottom: 40px; }
+    .curator-page__content p {
+      margin: 7px 0 7px; }
+    .curator-page__content h2 {
+      font: 700 15px "Open Sans", sans-serif;
+      margin: 15px 0 0; }
 
 .marg10-10 {
   margin: 10px 0 10px; }

@@ -7,6 +7,10 @@
     width: $main-width - $grid-gutter-width;
     background-color: rgba(255,255,255, 0.8);
   }
+
+  &--curator{
+    background: rgba(255,255,255, 0.8) url("#{$dir}/curator_bg.jpg") no-repeat left bottom;
+  }
 }
 
 .clearfix:after{

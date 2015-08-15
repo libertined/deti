@@ -616,6 +616,7 @@
     }
   }
 }
+
 .avatar{
   width: 160px;
   height: 160px;
@@ -705,6 +706,30 @@
       cursor: pointer;
     }
   }
+}
+
+.curator-page{
+  padding-bottom: 30px;
+
+  &__img-title{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+
+  &__content{
+    margin-bottom: 40px;
+
+    & p{
+      margin: 7px 0 7px;
+    }
+
+    & h2{
+      @include font_size(bold, $text-size15);
+      margin: 15px 0 0;
+    }
+  }
+
 }
 
 @import 'additional.scss';

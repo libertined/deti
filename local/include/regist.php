@@ -1,4 +1,4 @@
-<div id="modal" class="modal-wnd modal-wnd--regist clearfix">
+<div id="regist" class="modal-wnd modal-wnd--regist clearfix">
     <div class="modal-wnd__content col-xs-10">
         <form action="/" method="POST" class="reg-form">
             <p class="reg-form__title">Регистрация нового пользователя</p>
