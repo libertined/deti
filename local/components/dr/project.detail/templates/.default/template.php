@@ -72,7 +72,7 @@
 					</div>
 				<?endif;?>
 				<p class="project-detail__payment-item">Задать вопрос по этому проекту</p>
-				<div class="btn btn--full btn--gray modal-open" data-src="question-form">Задать вопрос</div>
+				<div class="btn btn--full btn--gray modal-open" data-src="question-form" data-load="/ajax/ask_form.php">Задать вопрос</div>
 			</div>
 		</div>
 	</div>
