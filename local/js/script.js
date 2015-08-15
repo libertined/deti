@@ -83,6 +83,21 @@ $(document).ready(function() {
     // *** Открываем модальное окно *** //
     $(document).on("click", ".modal-open", function () {
         var popID = $(this).attr("data-src");
+        var loadPage = "";
+        if(void 0 !== $(this).attr('data-load')){
+            loadPage = $(this).attr('data-load');
+        }
+
+        if(loadPage != ""){
+            $.ajax({
+                type: "POST",
+                url: loadPage,
+                async: false,
+                success: function (data) {
+                    $('#' + popID + ' .modal-wnd__content').html(data);
+                }
+            });
+        }
 
         //Определяем маржу(запас) для выравнивания по центру (по вертикали и горизонтали) - мы добавляем 80 к высоте / ширине с учетом отступов + ширина рамки определённые в css
         var popMargTop = ($('#' + popID).height() + 40) / 2;

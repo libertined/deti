@@ -9,5 +9,6 @@
 		"ID" => $_REQUEST["PROJECT"]
 	)
 );?>
-<? include $_SERVER["DOCUMENT_ROOT"]."/local/include/ask_quest.php";?>
+<?$APPLICATION->AddHeadScript('/local/js/jquery.form.js');?>
+<?include $_SERVER["DOCUMENT_ROOT"]."/local/include/ask_quest.php";?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

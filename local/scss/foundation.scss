@@ -25,6 +25,7 @@ a:hover{
 
 .left-col{
   margin-left: 0;
+  float: left;
 }
 .right-col{
   margin-right: 0;
@@ -37,6 +38,10 @@ a:hover{
   clear: both;
   float: none;
   margin: 0 auto;
+}
+
+.hide-block{
+  display: none;
 }
 
 .separator{
@@ -63,6 +68,15 @@ a:hover{
   }
 }
 
+.error{
+  margin: 5px 0 5px;
+  color: $red;
+}
+
+.sucsess{
+  margin: 5px 0 5px;
+  color: $green-bg;
+}
 // *** Стилизованные список *** //
 .pseudo-select {
   position: relative;
@@ -148,6 +162,7 @@ a:hover{
     }
 
     & .pseudo-select__list {
+      color: $color-main;
       top: $input-height - 1;
       background: $white;
       border: solid 1px $gray-bg;

@@ -89,7 +89,8 @@ a:hover {
   color: #f51b49; }
 
 .left-col {
-  margin-left: 0; }
+  margin-left: 0;
+  float: left; }
 
 .right-col {
   margin-right: 0;
@@ -102,6 +103,9 @@ a:hover {
   clear: both;
   float: none;
   margin: 0 auto; }
+
+.hide-block {
+  display: none; }
 
 .separator {
   clear: both;
@@ -121,6 +125,14 @@ a:hover {
     width: 100%;
     height: 0px;
     overflow: hidden; }
+
+.error {
+  margin: 5px 0 5px;
+  color: #f51b49; }
+
+.sucsess {
+  margin: 5px 0 5px;
+  color: #569856; }
 
 .pseudo-select {
   position: relative;
@@ -188,6 +200,7 @@ a:hover {
         width: 35px;
         height: 35px; }
     .pseudo-select--white .pseudo-select__list {
+      color: #272727;
       top: 34px;
       background: #fff;
       border: solid 1px #828285; }
@@ -327,14 +340,15 @@ body::before {
     position: relative;
     float: right;
     text-align: right;
-    line-height: 75px; }
+    line-height: 75px;
+    margin-right: 10px; }
     .header__info--auth {
       padding-top: 23px;
       line-height: 20px; }
     .header__info div {
       display: inline-block;
       margin: 0 10px 0;
-      padding: 5px 0 5px;
+      padding: 5px 0 0;
       color: #fff;
       font: 700 15px "Open Sans", sans-serif;
       text-transform: uppercase; }
@@ -357,7 +371,7 @@ body::before {
         text-transform: none; }
     .header__info .auth {
       padding-right: 25px;
-      background: url("/local/img/ico_enter.png") 100% 3px no-repeat;
+      background: url("/local/img/ico_enter.png") 100% 7px no-repeat;
       text-transform: none; }
 
 .profile-text {
@@ -660,6 +674,12 @@ body::before {
     clear: both;
     float: none;
     padding-top: 10px; }
+  .simple-form__right-col-small {
+    width: 36%; }
+  .simple-form__sucsess {
+    margin-top: 15px;
+    text-align: center;
+    font: 600 16px "Open Sans", sans-serif; }
 
 .reg-form__title {
   font: 700 20px "Open Sans", sans-serif;
@@ -775,9 +795,8 @@ body::before {
     clear: both;
     margin-top: 55px;
     padding-top: 15px;
-    border-top: 1px solid #a8a8a8; }
-    .project-detail__social img {
-      margin-right: 10px; }
+    border-top: 1px solid #a8a8a8;
+    vertical-align: top; }
   .project-detail__info {
     padding-top: 5px; }
   .project-detail__info-item, .project-detail__payment-item {
@@ -972,6 +991,7 @@ body::before {
 .edit-profile__img-block {
   padding-top: 15px; }
 .edit-profile__img-link {
+  cursor: pointer;
   display: block;
   clear: both;
   font: 600 14px "Open Sans", sans-serif;

@@ -159,6 +159,16 @@
     float: none;
     padding-top: 10px;
   }
+
+  &__right-col-small{
+    width:36%;
+  }
+
+  &__sucsess{
+    margin-top: 15px;
+    text-align: center;
+    @include font_size(semibold, $text-size16);
+  }
 }
 
 // *** Форма регистрации *** //
@@ -333,10 +343,8 @@
     margin-top: 55px;
     padding-top: 15px;
     border-top: 1px solid $grey-light;
+    vertical-align: top;
 
-    & img{
-      margin-right: 10px;
-    }
   }
 
   &__info{
@@ -668,6 +676,7 @@
   }
 
   &__img-link{
+    cursor: pointer;
     display: block;
     clear: both;
     @include font_size(semibold, $text-size14);

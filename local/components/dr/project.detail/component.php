@@ -25,7 +25,7 @@ $arFilter = array (
     "ID" => $arParams["ID"],
 );
 
-$arSelect = array( "ID", "ACTIVE", "NAME", "DETAIL_TEXT", "DATE_ACTIVE_FROM", "DATE_ACTIVE_TO",
+$arSelect = array( "ID", "ACTIVE", "NAME", "PREVIEW_TEXT", "DETAIL_TEXT", "DATE_ACTIVE_FROM", "DATE_ACTIVE_TO",
                    "PROPERTY_ALL", "PROPERTY_PAYED", "PROPERTY_PICT",
                  );
 

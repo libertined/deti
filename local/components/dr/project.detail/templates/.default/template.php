@@ -27,7 +27,25 @@
 		<div class="project-detail__text left-col col-xs-6">
 			<?=$arResult["PROJECT"]["DETAIL_TEXT"]?>
 			<div class="project-detail__social">
-				<img src="img_tpl/share_fb.png" alt=""/><img src="img_tpl/share_vk.png" alt=""/>
+				<?$APPLICATION->IncludeComponent(
+					"bitrix:catalog.socnets.buttons",
+					"dreamers",
+					Array(
+						"COMPONENT_TEMPLATE" => ".default",
+						"URL_TO_LIKE" => $APPLICATION->GetCurPage(),
+						"TITLE" => $arResult["PROJECT"]["NAME"],
+						"DESCRIPTION" => $arResult["PROJECT"]["PREVIEW_TEXT"],
+						"IMAGE" => "",
+						"FB_USE" => "Y",
+						"TW_USE" => "N",
+						"TW_VIA" => "",
+						"TW_HASHTAGS" => "",
+						"TW_RELATED" => "",
+						"GP_USE" => "N",
+						"VK_USE" => "Y"
+					)
+				);?>
+
 			</div>
 		</div>
 		<div class="project-detail__info right-col col-xs-4">
@@ -54,7 +72,7 @@
 					</div>
 				<?endif;?>
 				<p class="project-detail__payment-item">Задать вопрос по этому проекту</p>
-				<div class="btn btn--full btn--gray modal-open" data-src="question-form">Задать вопрос</div>
+				<div class="btn btn--full btn--gray modal-open" data-src="question-form" data-load="/ajax/ask_form.php">Задать вопрос</div>
 			</div>
 		</div>
 	</div>
