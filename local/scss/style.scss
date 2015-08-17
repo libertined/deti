@@ -200,6 +200,7 @@
 
   &__input{
     box-sizing: border-box;
+    margin: 0;
     border: 1px solid $gray-bg;
     background-color: rgba(255,255,255, 0.8);
     padding-left:5px;
@@ -208,12 +209,12 @@
     width: 100%;
     font-size: $text-size18;
 
-    &--correct{
+    &.correct{
       background:rgba(255,255,255, 0.8) url("#{$dir}/input-correct.png") 99% 50% no-repeat;
       padding-right: 30px;
     }
 
-    &--error{
+    &.error{
       background:rgba(255,255,255, 0.8) url("#{$dir}/input-error.png") 99% 50% no-repeat;
       padding-right: 30px;
     }

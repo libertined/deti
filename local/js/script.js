@@ -165,5 +165,22 @@ $(document).ready(function() {
         $('.js-kid-info-link').trigger('click');
     });
 
+    // Проверяем поля формы на тожественность значения к другому полю
+    $(document).on('blur', '.js-check-equal', function() {
+        var fieldID = $(this).attr("data-equal");
+        var fieldEqValue = $('#' + fieldID).val();
+        if(fieldEqValue == $(this).val()){
+            $(this).addClass('correct');
+            $(this).removeClass('error');
+        }
+        else{
+            $(this).addClass('error');
+            $(this).removeClass('correct');
+        }
+    });
+    $(document).on('focus', '.js-check-equal', function() {
+        $(this).removeClass('error');
+        $(this).removeClass('correct');
+    });
 
 });
