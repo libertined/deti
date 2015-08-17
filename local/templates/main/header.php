@@ -42,7 +42,7 @@ IncludeTemplateLangFile(__FILE__);
 			</nav>
 			<div class="header__info">
 				<div class="lang"><a href="<?= $APPLICATION->GetCurPageParam("lang=ru",array("lang"));?>" class="<?=(LANGUAGE_ID == "ru")?"active":"";?>">рус</a>/<a href="<?=$APPLICATION->GetCurPageParam("lang=en",array("lang"));?>" class="<?=(LANGUAGE_ID == "en")?"active":"";?>">eng</a></div>
-				<div class="auth"><a href="/auth.php" class="modal-open" data-src="auth-form">Вход</a></div>
+				<div class="auth"><a href="/auth.php" class="modal-open" data-src="auth-form" data-load="/ajax/auth.php">Вход</a></div>
 			</div>
 		</div>
 	</div>
