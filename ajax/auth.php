@@ -1,8 +1,12 @@
 <?php require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/main/include/prolog_before.php');
 $APPLICATION->IncludeComponent(
-    "dr:curator.auth",
-    "",
+    "bitrix:system.auth.form",
+    "window",
     Array(
-        "CABINET_PATH" => "/cabinet/"
+        "COMPONENT_TEMPLATE" => ".default",
+        "REGISTER_URL" => "/cabinet/auth.php",
+        "FORGOT_PASSWORD_URL" => "/cabinet/auth.php",
+        "PROFILE_URL" => "/cabinet/index.php",
+        "SHOW_ERRORS" => "Y"
     )
 );?>

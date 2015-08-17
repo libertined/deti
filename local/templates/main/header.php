@@ -1,5 +1,6 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 IncludeTemplateLangFile(__FILE__);
+global $USER;
 ?>
 <!DOCTYPE html>
 <html class="<?= LANGUAGE_ID?>">
@@ -40,9 +41,17 @@ IncludeTemplateLangFile(__FILE__);
 					false
 				);?>
 			</nav>
-			<div class="header__info">
+			<div class="header__info  header__info--auth">
 				<div class="lang"><a href="<?= $APPLICATION->GetCurPageParam("lang=ru",array("lang"));?>" class="<?=(LANGUAGE_ID == "ru")?"active":"";?>">рус</a>/<a href="<?=$APPLICATION->GetCurPageParam("lang=en",array("lang"));?>" class="<?=(LANGUAGE_ID == "en")?"active":"";?>">eng</a></div>
-				<div class="auth"><a href="/auth.php" class="modal-open" data-src="auth-form" data-load="/ajax/auth.php">Вход</a></div>
+				<?if($USER->IsAuthorized()):?>
+					<div class="auth"><a href="?logout=yes">Выйти</a></div>
+					<a class="profile-text" href="/curator/">Мой профиль</a>
+					<div class="payment-info js-pay-count">
+						Добавлено к оплате <span class="payment-info__count">0</span>
+					</div>
+				<?else:?>
+					<div class="auth"><a href="/auth.php" class="modal-open" data-src="auth-form" data-load="/ajax/auth.php">Вход</a></div>
+				<?endif;?>
 			</div>
 		</div>
 	</div>

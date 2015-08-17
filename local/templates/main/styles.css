@@ -90,25 +90,6 @@
 a:hover {
   color: #f51b49; }
 
-.left-col {
-  margin-left: 0;
-  float: left; }
-
-.right-col {
-  margin-right: 0;
-  float: right; }
-
-.single-col {
-  clear: both; }
-
-.centered-col {
-  clear: both;
-  float: none;
-  margin: 0 auto; }
-
-.hide-block {
-  display: none; }
-
 .separator {
   clear: both;
   width: 100%;
@@ -759,6 +740,8 @@ body::before {
   .auth-form__link a {
     color: #626262;
     text-decoration: none; }
+.auth-form__text {
+  margin: 5px 0 5px; }
 
 .project-detail {
   padding-bottom: 50px; }
@@ -1027,6 +1010,33 @@ body::before {
     .curator-page__content h2 {
       font: 700 15px "Open Sans", sans-serif;
       margin: 15px 0 0; }
+
+.forgot-pass {
+  margin-top: 25px;
+  padding-top: 10px;
+  display: none;
+  border-top: 1px solid #a8a8a8; }
+  .forgot-pass--show {
+    display: block; }
+
+.left-col {
+  margin-left: 0;
+  float: left; }
+
+.right-col {
+  margin-right: 0;
+  float: right; }
+
+.single-col {
+  clear: both; }
+
+.centered-col {
+  clear: both;
+  float: none;
+  margin: 0 auto; }
+
+.hide-block {
+  display: none; }
 
 .marg10-10 {
   margin: 10px 0 10px; }

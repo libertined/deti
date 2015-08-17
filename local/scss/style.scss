@@ -281,6 +281,10 @@
       text-decoration: none;
     }
   }
+
+  &__text{
+    margin: 5px 0 5px;
+  }
 }
 
 // *** Детальная страница проекта *** //
@@ -730,7 +734,18 @@
       margin: 15px 0 0;
     }
   }
-
 }
+
+.forgot-pass{
+  margin-top: 25px;
+  padding-top: 10px;
+  display: none;
+  border-top: 1px solid $grey-light;
+
+  &--show{
+    display: block;
+  }
+}
+
 
 @import 'additional.scss';
