@@ -36,7 +36,7 @@
     width: 940px;
     background-color: rgba(255, 255, 255, 0.8); }
   .wrapper--curator {
-    background: rgba(255, 255, 255, 0.8) url("/local/img/curator_bg.jpg") no-repeat left bottom; }
+    background: rgba(255, 255, 255, 0.8) url("/local/img/curator_bg.png") no-repeat left bottom; }
 
 .clearfix:after {
   content: '';
