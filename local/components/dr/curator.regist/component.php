@@ -11,7 +11,9 @@ $arResult["CURRENT"] = array(
     "SEX" => $_REQUEST["sex"],
     "CITIZEN" => $_REQUEST["citizen"],
     "EMAIL" => htmlspecialchars(trim($_REQUEST["email"])),
+    "REP_EMAIL" => htmlspecialchars(trim($_REQUEST["email_rep"])),
     "PASS" => htmlspecialchars(trim($_REQUEST["pass"])),
+    "REP_PASS" => htmlspecialchars(trim($_REQUEST["pass_rep"])),
 );
 
 if(isset($_REQUEST["regist"])){
@@ -30,13 +32,22 @@ if(isset($_REQUEST["regist"])){
     }
     if(!isset($_REQUEST["email_rep"]) || trim($_REQUEST["email_rep"]) != $arResult["CURRENT"]["EMAIL"]){
         $arResult["ERRORS"]["email_rep"] = "Значение поля Повторите Email-адрес не совпадает со значением поля Email";
+        $arResult["CURRENT"]["REP_EMAIL"] = "";
     }
-    if($arResult["CURRENT"]["PASS"] == ""){
-        $arResult["ERRORS"]["pass"] = "На задано значение поля Пароль";
+    if(strlen($arResult["CURRENT"]["PASS"]) < 8){
+        $arResult["ERRORS"]["pass"] = "Введенный вами пароль меньше 8 символов";
     }
     if(!isset($_REQUEST["pass_rep"]) || trim($_REQUEST["pass_rep"]) != $arResult["CURRENT"]["PASS"]){
         $arResult["ERRORS"]["pass_rep"] = "Значение поля Повторите пароль не совпадает со значением поля Пароль";
+        $arResult["CURRENT"]["REP_PASS"] = "";
     }
+    if($arResult["CURRENT"]["EMAIL"] != ''){
+        $rsUser = CUser::GetByLogin($arResult["CURRENT"]["EMAIL"]);
+        if($arUser = $rsUser->Fetch()){
+            $arResult["ERRORS"]["user_exist"] = "Пользователь с таким email уже зарегестрирован";
+        }
+    }
+
 
     // *** Регистрируем нового попечителя *** //
     if(empty($arResult["ERRORS"])){
