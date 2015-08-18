@@ -63,13 +63,14 @@ if(isset($_REQUEST["regist"])){
             "PASSWORD"          => $arResult["CURRENT"]["PASS"],
             "CONFIRM_PASSWORD"  => $arResult["CURRENT"]["PASS"],
             "PERSONAL_GENDER"   => ($arResult["CURRENT"]["SEX"] == 1)? "M": "F",
-            "PERSONAL_COUNTRY"   => ($arResult["CURRENT"]["CITIZEN"] == 1)? "Россия": "Украина",
+            "PERSONAL_COUNTRY"   => $arResult["CURRENT"]["CITIZEN"],
             "PERSONAL_BIRTHDAY"  => $arResult["CURRENT"]["DATE"],
         );
 
         $ID = $user->Add($arFields);
         if (intval($ID) > 0){
             $arEventFields  =  $arResult["CURRENT"];
+            $arEventFields["CITIZEN"] = ($arResult["CURRENT"]["CITIZEN"] == 1)? "Россия": "Украина";
             CEvent::Send("NEW_CURATOR", "s1", $arEventFields);
             $arResult["MSG"] = "Вы успешно зарегестрировались на сайте. После подтверждения администратором вы сможете воспользоваться всем доступным функционалом.";
         }

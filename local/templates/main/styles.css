@@ -261,6 +261,8 @@ a:hover {
     background-color: #626262; }
   .btn--small-text {
     font-size: 10px; }
+  .btn--edit-save {
+    margin: 20px 0 20px; }
 
 button.btn, input.btn {
   padding: 0; }
@@ -974,28 +976,48 @@ body::before {
   .curator__filter {
     margin: 20px 0 20px; }
 
-.edit-profile__img-block {
-  padding-top: 15px; }
-.edit-profile__img-link {
-  cursor: pointer;
-  display: block;
-  clear: both;
-  font: 600 14px "Open Sans", sans-serif;
-  color: #0099e2;
-  text-decoration: underline;
-  margin: 15px 30px 0; }
-.edit-profile__name {
-  margin-top: 0; }
-.edit-profile__info {
-  font: 600 14px "Open Sans", sans-serif;
-  margin: 7px 0 7px; }
-  .edit-profile__info-title {
-    font: 700 14px "Open Sans", sans-serif; }
-  .edit-profile__info-link {
-    font-size: 12px;
+.edit-profile {
+  padding-bottom: 20px; }
+  .edit-profile__img-block {
+    padding-top: 15px; }
+  .edit-profile__img-link {
+    cursor: pointer;
+    display: block;
+    clear: both;
+    font: 600 14px "Open Sans", sans-serif;
     color: #0099e2;
     text-decoration: underline;
-    cursor: pointer; }
+    margin: 15px 30px 0; }
+  .edit-profile__img-button {
+    display: none; }
+  .edit-profile__name {
+    margin-top: 0; }
+  .edit-profile__section-title {
+    font: 700 16px "Open Sans", sans-serif;
+    margin: 25px 0 5px; }
+  .edit-profile__info {
+    font: 600 14px "Open Sans", sans-serif;
+    margin: 7px 0 7px; }
+    .edit-profile__info-title {
+      font: 700 14px "Open Sans", sans-serif; }
+    .edit-profile__info-link {
+      font-size: 12px;
+      color: #0099e2;
+      text-decoration: underline;
+      cursor: pointer; }
+  .edit-profile__link {
+    color: #f51b49;
+    font: 600 14px "Open Sans", sans-serif;
+    margin: 7px 0 7px; }
+    .edit-profile__link a {
+      color: #f51b49; }
+  .edit-profile__file-btn {
+    background: none;
+    border: 0;
+    color: #0099e2; }
+  .edit-profile__desc {
+    font: 600 12px "Open Sans", sans-serif;
+    margin: 0 0 5px; }
 
 .curator-page {
   padding-bottom: 30px; }

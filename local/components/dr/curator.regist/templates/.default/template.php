@@ -47,11 +47,11 @@
 			<div class="pseudo-select__text"><?if($arResult["CURRENT"]["CITIZEN"] == 1):?>Россия<?else:?>Украина<?endif;?></div>
 			<ul class="pseudo-select__list">
 				<li class="pseudo-select__option" data-value="1">Россия</li>
-				<li class="pseudo-select__option" data-value="2">Украина</li>
+				<li class="pseudo-select__option" data-value="14">Украина</li>
 			</ul>
 			<select name="citizen" class="pseudo-select__real" id="form-citizen">
 				<option value="1" <?if($arResult["CURRENT"]["CITIZEN"] == 1):?>selected="selected"<?endif;?>>Россия</option>
-				<option value="2" <?if($arResult["CURRENT"]["CITIZEN"] == 2):?>selected="selected"<?endif;?>>Украина</option>
+				<option value="14" <?if($arResult["CURRENT"]["CITIZEN"] == 14):?>selected="selected"<?endif;?>>Украина</option>
 			</select>
 		</div>
 	</div>

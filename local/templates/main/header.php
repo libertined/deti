@@ -45,7 +45,7 @@ global $USER;
 				<div class="lang"><a href="<?= $APPLICATION->GetCurPageParam("lang=ru",array("lang"));?>" class="<?=(LANGUAGE_ID == "ru")?"active":"";?>">рус</a>/<a href="<?=$APPLICATION->GetCurPageParam("lang=en",array("lang"));?>" class="<?=(LANGUAGE_ID == "en")?"active":"";?>">eng</a></div>
 				<?if($USER->IsAuthorized()):?>
 					<div class="auth"><a href="?logout=yes">Выйти</a></div>
-					<a class="profile-text" href="/curator/">Мой профиль</a>
+					<a class="profile-text" href="/cabinet/">Мой профиль</a>
 					<div class="payment-info js-pay-count">
 						Добавлено к оплате <span class="payment-info__count">0</span>
 					</div>
