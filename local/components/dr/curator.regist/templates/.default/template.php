@@ -59,11 +59,11 @@
 		<label class="reg-form__label" for="form-email">Email-адрес</label>
 		<input class="reg-form__input" type="text" name="email" id="form-email" value="<?=$arResult["CURRENT"]["EMAIL"]?>"/>
 		<label class="reg-form__label" for="form-email_rep">Повторите Email-адрес</label>
-		<input class="reg-form__input js-check-equal" type="text" name="email_rep" id="form-email_rep" data-equal="form-email"/>
+		<input class="reg-form__input js-check-equal" type="text" name="email_rep" id="form-email_rep" data-equal="form-email" value="<?=$arResult["CURRENT"]["REP_EMAIL"]?>"/>
 		<label class="reg-form__label" for="form-pass">Пароль (не менее 8 символов)</label>
 		<input class="reg-form__input" type="password" name="pass" id="form-pass" value="<?=$arResult["CURRENT"]["PASS"]?>"/>
 		<label class="reg-form__label" for="form-pass_rep">Повторите пароль</label>
-		<input class="reg-form__input js-check-equal" type="password" name="pass_rep" id="form-pass_rep" data-equal="form-pass"/>
+		<input class="reg-form__input js-check-equal" type="password" name="pass_rep" id="form-pass_rep" data-equal="form-pass" value="<?=$arResult["CURRENT"]["REP_PASS"]?>"/>
 	</div>
 	<div class="col-xs-8 reg-form__text">Нажимая кнопку «Зарегистрироваться», я даю своё согласие на обработку моих персональных данных Благотворительному фонду «Мечтатели»</div>
 	<button class="col-xs-4 reg-form__submit" name="regist" type="submit">Зарегистрироваться</button>
