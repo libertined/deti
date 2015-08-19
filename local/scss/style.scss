@@ -839,7 +839,34 @@
   &__desc{
     margin: 0;
   }
+}
 
+.partner-item{
+  margin-bottom: 20px;
+
+  &__img{
+    width: 100%;
+    border: 0;
+  }
+
+  &__title{
+    @include font_size(bold, $text-size15);
+    margin: 0 0 10px;
+  }
+
+  &__desc{
+    margin: 0;
+  }
+
+  &__link{
+    margin: 7px 0 7px;
+
+    & a{
+      color: $red;
+      @include font_size(semibold, $text-size13);
+    }
+
+  }
 }
 
 .ajax-pager-loading{

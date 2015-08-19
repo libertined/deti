@@ -30,7 +30,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Наши друзья",
-		"/friends/",
+		"/partners/",
 		Array(),
 		Array(),
 		""

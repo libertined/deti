@@ -22,19 +22,17 @@
             <ul class="bottom-menu__list">
                 <li class="bottom-menu__item"><a href="/news/">Новости</a></li>
                 <li class="bottom-menu__item"><a href="/about/">Информация о фонде</a></li>
-                <li class="bottom-menu__item"><a href="">Попечительский совет</a></li>
-                <li class="bottom-menu__item"><a href="">Обратная связь</a></li>
+                <li class="bottom-menu__item"><a href="/trustee/">Попечительский совет</a></li>
                 <li class="bottom-menu__item"><a href="/contact/">Контакты</a></li>
             </ul>
             <ul class="bottom-menu__list">
                 <li class="bottom-menu__item"><a href="/curator/">Стать попечителем</a></li>
-                <li class="bottom-menu__item"><a href="">Помочь</a></li>
                 <li class="bottom-menu__item"><a href="">Отчеты</a></li>
                 <li class="bottom-menu__item"><a href="">Вопросы и ответы?</a></li>
             </ul>
             <ul class="bottom-menu__list">
-                <li class="bottom-menu__item"><a href="">Наш персонал</a></li>
-                <li class="bottom-menu__item"><a href="">Партнеры и попечители</a></li>
+                <li class="bottom-menu__item"><a href="/staff/">Наш персонал</a></li>
+                <li class="bottom-menu__item"><a href="/partners/">Партнеры и попечители</a></li>
             </ul>
         </nav>
         <div class="social col-xs-3">

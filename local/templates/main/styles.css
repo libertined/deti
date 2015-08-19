@@ -1093,6 +1093,22 @@ body::before {
   .news-item__desc {
     margin: 0; }
 
+.partner-item {
+  margin-bottom: 20px; }
+  .partner-item__img {
+    width: 100%;
+    border: 0; }
+  .partner-item__title {
+    font: 700 15px "Open Sans", sans-serif;
+    margin: 0 0 10px; }
+  .partner-item__desc {
+    margin: 0; }
+  .partner-item__link {
+    margin: 7px 0 7px; }
+    .partner-item__link a {
+      color: #f51b49;
+      font: 600 13px "Open Sans", sans-serif; }
+
 .ajax-pager-loading {
   position: relative;
   height: 60px;
