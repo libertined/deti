@@ -275,6 +275,7 @@
 
   &__link{
     margin: 10px 0 0;
+    text-align: center;
 
     & a{
       color: $grey;
@@ -770,13 +771,17 @@
 }
 
 .forgot-pass{
-  margin-top: 25px;
-  padding-top: 10px;
-  display: none;
+  margin-top: 40px;
+  padding-top: 20px;
   border-top: 1px solid $grey-light;
 
-  &--show{
-    display: block;
+  &__text{
+    text-align: center;
+    color: $grey;
+  }
+
+  &__form{
+    margin-top: 20px;
   }
 }
 

@@ -22,8 +22,8 @@
                         <span class="kid-icon__text">Илья</span>
                     </div>
                     <div class="kid-icon" style="width: 33%">
-                        <a class="kid-icon__img centered-col"></a>
-                        <a class="kid-icon__text">Выбрать</a>
+                        <a class="kid-icon__img centered-col" href="/cabinet/childs.php"></a>
+                        <a class="kid-icon__text" href="/cabinet/childs.php">Выбрать</a>
                     </div>
                 </div>
                 <div class="kids-list__item-block active js-kid-tab" id="kid1">

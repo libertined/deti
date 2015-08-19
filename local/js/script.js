@@ -183,11 +183,4 @@ $(document).ready(function() {
         $(this).removeClass('correct');
     });
 
-    $(document).on('click', '.js-show-forgot', function() {
-        //Ajax олучаем информацию по ребенку
-        $('.js-forgot-block').show();
-        return false;
-    });
-
-
 });

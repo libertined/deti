@@ -9,6 +9,7 @@
     </div>
     <div class="wrapper wrapper--fill content-block clearfix">
         <div class="col-xs-10 centered-col clearfix">
+            <?if(cabinetAccess()):?>
             <div class="kids-list col-xs-6 left-col">
                 <h2 class="kids-list__title">Дети без попечителей</h2>
                 <div class="kids-list__filter justify-block">
@@ -66,17 +67,24 @@
                 <div class="kids-list__more">показать еще</div>
             </div>
             <div class="curator right-col col-xs-4">
-                <div class="curator__ava avatar centered-col"></div>
-                <p class="curator__name">Вероника Игоревна Шатальская</p>
-                <p class="curator__link modal-open" data-src="edit-profile">Редактировать профиль</p>
-                <p class="curator__link"><a href="/">Правила и условия попечительства</a></p>
-                <p class="curator__status">Статус: Попечитель. Дети: 2</p>
+                <?$APPLICATION->IncludeComponent(
+                    "dr:curator.info",
+                    "",
+                    Array(
+                        "CABINET_PATH" => "/cabinet/",
+                        "AUTH_PAGE" => AUTH_PAGE
+                    )
+                );?>
                 <div class="separator"></div>
-                <div class="btn btn--full btn--gray modal-open" data-src="question-form">Задать вопрос</div>
-                <p class="curator__link marg10-10"><a href="/">Перейти к Мои дети</a></p>
+                <div class="btn btn--full btn--gray modal-open" data-src="question-form" data-load="/ajax/ask_form.php">Задать вопрос</div>
+                <p class="curator__link marg10-10"><a href="/cabinet/">Перейти к Мои дети</a></p>
             </div>
+            <?else:?>
+
+                <p class="error">У вас недостаточно прав для доступа к данной странице.</p>
+            <?endif;?>
         </div>
     </div>
-<?//$APPLICATION->AddHeadScript('/local/js/jquery.form.js');?>
-<?//include $_SERVER["DOCUMENT_ROOT"]."/local/include/regist.php";?>
+<?$APPLICATION->AddHeadScript('/local/js/jquery.form.js');?>
+<?include $_SERVER["DOCUMENT_ROOT"]."/local/include/ask_quest.php";?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

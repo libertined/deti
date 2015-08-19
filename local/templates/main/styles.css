@@ -738,7 +738,8 @@ body::before {
   min-height: 20px;
   color: #f51b49; }
 .auth-form__link {
-  margin: 10px 0 0; }
+  margin: 10px 0 0;
+  text-align: center; }
   .auth-form__link a {
     color: #626262;
     text-decoration: none; }
@@ -1034,12 +1035,14 @@ body::before {
       margin: 15px 0 0; }
 
 .forgot-pass {
-  margin-top: 25px;
-  padding-top: 10px;
-  display: none;
+  margin-top: 40px;
+  padding-top: 20px;
   border-top: 1px solid #a8a8a8; }
-  .forgot-pass--show {
-    display: block; }
+  .forgot-pass__text {
+    text-align: center;
+    color: #626262; }
+  .forgot-pass__form {
+    margin-top: 20px; }
 
 .left-col {
   margin-left: 0;
@@ -1055,7 +1058,8 @@ body::before {
 .centered-col {
   clear: both;
   float: none;
-  margin: 0 auto; }
+  margin-left: auto;
+  margin-right: auto; }
 
 .hide-block {
   display: none; }

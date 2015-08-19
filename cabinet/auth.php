@@ -8,24 +8,22 @@
         </h1>
     </div>
     <div class="wrapper wrapper--fill content-block clearfix">
-        <div class="col-xs-10 centered-col clearfix">
-            <?$APPLICATION->IncludeComponent(
-                "bitrix:system.auth.form",
-                "curator",
-                Array(
-                    "COMPONENT_TEMPLATE" => ".default",
-                    "REGISTER_URL" => "/cabinet/auth.php",
-                    "FORGOT_PASSWORD_URL" => "/cabinet/auth.php",
-                    "PROFILE_URL" => "/cabinet/index.php",
-                    "SHOW_ERRORS" => "Y"
-                )
-            );?>
-            <?$APPLICATION->IncludeComponent(
-                "bitrix:system.auth.forgotpasswd",
-                "curator",
-                Array()
-            );?>
-        </div>
+        <?$APPLICATION->IncludeComponent(
+            "bitrix:system.auth.form",
+            "curator",
+            Array(
+                "COMPONENT_TEMPLATE" => ".default",
+                "REGISTER_URL" => "/cabinet/auth.php",
+                "FORGOT_PASSWORD_URL" => "/cabinet/auth.php",
+                "PROFILE_URL" => "/cabinet/index.php",
+                "SHOW_ERRORS" => "Y"
+            )
+        );?>
+        <?$APPLICATION->IncludeComponent(
+            "bitrix:system.auth.forgotpasswd",
+            "curator",
+            Array()
+        );?>
     </div>
 <?//$APPLICATION->AddHeadScript('/local/js/jquery.form.js');?>
 <?//include $_SERVER["DOCUMENT_ROOT"]."/local/include/regist.php";?>
