@@ -241,6 +241,33 @@ body::before{
   position: relative;
   clear: both;
   padding: $padding15;
+
+  &__img-title{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+
+    & iframe{
+      border: 0;
+    }
+  }
+
+  &__sect-title{
+    @include font_size(semibold, $text-size14);
+    color: $blue;
+    margin: 10px 0 10px;
+  }
+
+  &__text{
+    & p{
+      margin: 7px 0 7px;
+    }
+
+    & h2{
+      @include font_size(bold, $text-size15);
+      margin: 15px 0 0;
+    }
+  }
 }
 
 

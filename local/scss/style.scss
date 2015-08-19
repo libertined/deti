@@ -785,5 +785,42 @@
   }
 }
 
+.about-page{
+  &__img{
+    border-bottom: 1px solid $grey-light;
+
+    &-item{
+      width: 146px;
+      height: 146px;
+      float: left;
+      margin-bottom: 8px;
+
+      &--right{
+        float: right;
+      }
+
+      &--small{
+        width: 95px;
+        height: 95px;
+      }
+
+      &--marg-left{
+        margin-left: 8px;
+      }
+    }
+  }
+
+  &__sect-titile{
+    @include font_size(semibold, $text-size14);
+    color: $blue;
+    margin: 10px 0 10px;
+  }
+
+  &__link{
+    display: block;
+    margin: 7px 0 7px;
+    color: $color-main;
+  }
+}
 
 @import 'additional.scss';

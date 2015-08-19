@@ -442,6 +442,21 @@ body::before {
   position: relative;
   clear: both;
   padding: 25px 0 25px; }
+  .content-block__img-title {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px; }
+    .content-block__img-title iframe {
+      border: 0; }
+  .content-block__sect-title {
+    font: 600 14px "Open Sans", sans-serif;
+    color: #0099e2;
+    margin: 10px 0 10px; }
+  .content-block__text p {
+    margin: 7px 0 7px; }
+  .content-block__text h2 {
+    font: 700 15px "Open Sans", sans-serif;
+    margin: 15px 0 0; }
 
 .to_begin {
   background: url("/local/img/to_begin.png") center no-repeat;
@@ -1043,6 +1058,29 @@ body::before {
     color: #626262; }
   .forgot-pass__form {
     margin-top: 20px; }
+
+.about-page__img {
+  border-bottom: 1px solid #a8a8a8; }
+  .about-page__img-item {
+    width: 146px;
+    height: 146px;
+    float: left;
+    margin-bottom: 8px; }
+    .about-page__img-item--right {
+      float: right; }
+    .about-page__img-item--small {
+      width: 95px;
+      height: 95px; }
+    .about-page__img-item--marg-left {
+      margin-left: 8px; }
+.about-page__sect-titile {
+  font: 600 14px "Open Sans", sans-serif;
+  color: #0099e2;
+  margin: 10px 0 10px; }
+.about-page__link {
+  display: block;
+  margin: 7px 0 7px;
+  color: #272727; }
 
 .left-col {
   margin-left: 0;

@@ -1,6 +1,6 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();?>
 
-<section class="payment clearfix">
+<section class="payment clearfix" id="payment-anch">
     <div class="payment__wrapper">
         <p class="payment__title justify-block">Пожертвовать фонду любую сумму</p>
         <p class="payment__desc justify-block">Любая перечисленная сумма будет потрачена на нужды детей</p>
@@ -20,11 +20,11 @@
     <div class="wrapper footer-wrapper clearfix">
         <nav class="bottom-menu">
             <ul class="bottom-menu__list">
-                <li class="bottom-menu__item"><a href="">Новости</a></li>
-                <li class="bottom-menu__item"><a href="">Информация о фонде</a></li>
+                <li class="bottom-menu__item"><a href="/news/">Новости</a></li>
+                <li class="bottom-menu__item"><a href="/about/">Информация о фонде</a></li>
                 <li class="bottom-menu__item"><a href="">Попечительский совет</a></li>
                 <li class="bottom-menu__item"><a href="">Обратная связь</a></li>
-                <li class="bottom-menu__item"><a href="">Контакты</a></li>
+                <li class="bottom-menu__item"><a href="/contact/">Контакты</a></li>
             </ul>
             <ul class="bottom-menu__list">
                 <li class="bottom-menu__item"><a href="/curator/">Стать попечителем</a></li>

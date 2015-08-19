@@ -9,14 +9,14 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Help",
-		"/help/",
+		"#payment-anch",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Посмотреть",
-		"/show/",
+		"News",
+		"/news/",
 		Array(), 
 		Array(), 
 		"" 
