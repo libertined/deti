@@ -42,6 +42,9 @@
                 </div>
             </div>
         </div>
+        <div class="col-xs-4 centered-col clearfix content-block">
+            <div class="btn btn--full modal-open" data-src="question-form" data-load="/ajax/ask_open_form.php">Обратная связь</div>
+        </div>
     </div>
 <?$APPLICATION->AddHeadScript('/local/js/jquery.form.js');?>
 <?include $_SERVER["DOCUMENT_ROOT"]."/local/include/ask_quest.php";?>
