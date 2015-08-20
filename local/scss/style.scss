@@ -851,7 +851,7 @@
 
   &__title{
     @include font_size(bold, $text-size15);
-    margin: 0 0 10px;
+    margin: 0 0 5px;
   }
 
   &__desc{
@@ -866,6 +866,20 @@
       @include font_size(semibold, $text-size13);
     }
 
+  }
+}
+
+.faq-item{
+  margin-bottom: 30px;
+
+  &__title{
+    @include font_size(bold, $text-size15);
+    color: $red;
+    margin: 0 0 10px;
+  }
+
+  &__desc{
+    margin: 0;
   }
 }
 

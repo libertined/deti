@@ -1,6 +1,7 @@
 <?php
 define("IBLOCK_GEBNERAL_PROJ", 5);
 define("IBLOCK_CHILDS", 6);
+define("IBLOCK_FAQ", 11);
 
 define("DELITION_GROUP", 7);
 define("DELITION_GROUP", 8);

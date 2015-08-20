@@ -27,8 +27,8 @@
             </ul>
             <ul class="bottom-menu__list">
                 <li class="bottom-menu__item"><a href="/curator/">Стать попечителем</a></li>
-                <li class="bottom-menu__item"><a href="">Отчеты</a></li>
-                <li class="bottom-menu__item"><a href="">Вопросы и ответы?</a></li>
+                <li class="bottom-menu__item"><a href="/reports/">Отчеты</a></li>
+                <li class="bottom-menu__item"><a href="/faq/">Вопросы и ответы?</a></li>
             </ul>
             <ul class="bottom-menu__list">
                 <li class="bottom-menu__item"><a href="/staff/">Наш персонал</a></li>
