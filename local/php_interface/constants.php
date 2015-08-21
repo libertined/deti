@@ -11,4 +11,6 @@ define("MAX_CURATOR_FILE", 7);
 
 define("MONEY_NAME", "грн.");
 define("AUTH_PAGE", "/cabinet/auth.php");
+define("SEX1", "boy");
+define("SEX2", "girl");
 ?>

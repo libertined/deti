@@ -452,6 +452,7 @@
   }
 
   &__more{
+    clear: both;
     text-align: center;
     cursor: pointer;
     @include font_size(semibold, $text-size16);
@@ -459,6 +460,11 @@
     margin-top: 10px;
     padding: 10px 20px 20px;
     border-bottom: 1px solid $grey-light;
+
+    &--hide{
+      display: none;
+    }
+
   }
 
   &__filter{
@@ -467,6 +473,7 @@
 
     &-item{
       display: inline-block;
+      cursor: pointer;
 
       &.active{
         text-decoration: underline;

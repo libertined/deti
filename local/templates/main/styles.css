@@ -878,6 +878,7 @@ body::before {
   .kids-list__item-block.active {
     display: block; }
 .kids-list__more {
+  clear: both;
   text-align: center;
   cursor: pointer;
   font: 600 16px "Open Sans", sans-serif;
@@ -885,11 +886,14 @@ body::before {
   margin-top: 10px;
   padding: 10px 20px 20px;
   border-bottom: 1px solid #a8a8a8; }
+  .kids-list__more--hide {
+    display: none; }
 .kids-list__filter {
   font: 600 13px "Open Sans", sans-serif;
   padding-top: 5px; }
   .kids-list__filter-item {
-    display: inline-block; }
+    display: inline-block;
+    cursor: pointer; }
     .kids-list__filter-item.active {
       text-decoration: underline; }
 .kids-list__item {

@@ -11,60 +11,15 @@
         <div class="col-xs-10 centered-col clearfix">
             <?if(cabinetAccess()):?>
             <div class="kids-list col-xs-6 left-col">
-                <h2 class="kids-list__title">Дети без попечителей</h2>
-                <div class="kids-list__filter justify-block">
-                    <span class="kids-list__filter-item active js-kl-sex">Все</span>
-                    <span class="kids-list__filter-item js-kl-sex">Мальчики</span>
-                    <span class="kids-list__filter-item js-kl-sex">Девочки</span>
-                    <span class="kids-list__filter-item js-kl-age">3-6 лет</span>
-                    <span class="kids-list__filter-item js-kl-age">7-10 лет</span>
-                    <span class="kids-list__filter-item js-kl-age">11-18 лет</span>
-                    <span class="kids-list__filter-item active js-kl-age">Любой возраст</span>
-                </div>
-                <div class="kids-list__list-icon clearfix">
-                    <div class="kid-icon kid-icon--girl js-kid-info" style="width: 25%" data-kid="1">
-                        <div class="kid-icon__img centered-col"></div>
-                        <span class="kid-icon__text">Вероника</span>
-                        <span class="kid-icon__age">9 лет</span>
-                    </div>
-                    <div class="kid-icon kid-icon--girl js-kid-info" style="width: 25%" data-kid="1">
-                        <div class="kid-icon__img centered-col"></div>
-                        <span class="kid-icon__text">Вероника</span>
-                        <span class="kid-icon__age">3 года</span>
-                    </div>
-                    <div class="kid-icon kid-icon--boy js-kid-info" style="width: 25%" data-kid="2">
-                        <div class="kid-icon__img centered-col"></div>
-                        <span class="kid-icon__text">Рустам</span>
-                        <span class="kid-icon__age">3 года</span>
-                    </div>
-                    <div class="kid-icon kid-icon--boy js-kid-info" style="width: 25%" data-kid="2">
-                        <div class="kid-icon__img centered-col"></div>
-                        <span class="kid-icon__text">Коля</span>
-                        <span class="kid-icon__age">11 лет</span>
-                    </div>
-                    <div class="kid-icon kid-icon--girl js-kid-info" style="width: 25%" data-kid="1">
-                        <div class="kid-icon__img centered-col"></div>
-                        <span class="kid-icon__text">Вероника</span>
-                        <span class="kid-icon__age">10 лет</span>
-                    </div>
-                    <div class="kid-icon kid-icon--boy js-kid-info" style="width: 25%" data-kid="2">
-                        <div class="kid-icon__img centered-col"></div>
-                        <span class="kid-icon__text">Миша</span>
-                        <span class="kid-icon__age">15 лет</span>
-                    </div>
-                    <div class="kid-icon kid-icon--girl js-kid-info" style="width: 25%" data-kid="1">
-                        <div class="kid-icon__img centered-col"></div>
-                        <span class="kid-icon__text">Вероника</span>
-                        <span class="kid-icon__age">13 лет</span>
-                    </div>
-                    <div class="kid-icon kid-icon--boy js-kid-info" style="width: 25%" data-kid="2">
-                        <div class="kid-icon__img centered-col"></div>
-                        <span class="kid-icon__text">Сережа</span>
-                        <span class="kid-icon__age">10 лет</span>
-                    </div>
-                    <p class="kid-icon__pseudo_link modal-open js-kid-info-link" data-src="choose-kid"></p>
-                </div>
-                <div class="kids-list__more">показать еще</div>
+                <?$APPLICATION->IncludeComponent(
+                    "dr:child.list",
+                    "",
+                    Array(
+                        "IBLOCK_ID" => IBLOCK_CHILDS,
+                        "COUNT" => 8,
+                        "USER" => ""
+                    )
+                );?>
             </div>
             <div class="curator right-col col-xs-4">
                 <?$APPLICATION->IncludeComponent(
@@ -86,5 +41,7 @@
         </div>
     </div>
 <?$APPLICATION->AddHeadScript('/local/js/jquery.form.js');?>
+<?$APPLICATION->AddHeadScript('/local/js/child_list.js', true);?>
+<?include $_SERVER["DOCUMENT_ROOT"]."/local/include/choose_kid.php";?>
 <?include $_SERVER["DOCUMENT_ROOT"]."/local/include/ask_quest.php";?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
