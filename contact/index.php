@@ -42,10 +42,29 @@
                 </div>
             </div>
         </div>
-        <div class="col-xs-4 centered-col clearfix content-block">
-            <div class="btn btn--full modal-open" data-src="question-form" data-load="/ajax/ask_open_form.php">Обратная связь</div>
+        <div class="col-xs-10 centered-col feedback">
+            <?$APPLICATION->IncludeComponent(
+                "dr:form.result.new",
+                "feedback",
+                Array(
+                    "COMPONENT_TEMPLATE" => ".default",
+                    "WEB_FORM_ID" => "3",
+                    "IGNORE_CUSTOM_TEMPLATE" => "N",
+                    "USE_EXTENDED_ERRORS" => "N",
+                    "SEF_MODE" => "N",
+                    "VARIABLE_ALIASES" => Array(
+                        "WEB_FORM_ID" => "WEB_FORM_ID",
+                        "RESULT_ID" => "RESULT_ID"
+                    ),
+                    "CACHE_TYPE" => "A",
+                    "CACHE_TIME" => "3600",
+                    "LIST_URL" => "",
+                    "EDIT_URL" => "",
+                    "SUCCESS_URL" => "",
+                    "CHAIN_ITEM_TEXT" => "",
+                    "CHAIN_ITEM_LINK" => ""
+                )
+            );?>
         </div>
     </div>
-<?$APPLICATION->AddHeadScript('/local/js/jquery.form.js');?>
-<?include $_SERVER["DOCUMENT_ROOT"]."/local/include/ask_quest.php";?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

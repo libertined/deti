@@ -659,6 +659,9 @@ body::before {
     font: 700 18px "Open Sans", sans-serif;
     color: #0099e2;
     margin: 0; }
+    .simple-form__title--small {
+      font: 600 14px "Open Sans", sans-serif;
+      color: #0099e2; }
   .simple-form__text {
     clear: both;
     text-align: left;
@@ -672,14 +675,14 @@ body::before {
     margin: 10px 0 3px; }
   .simple-form__textarea {
     box-sizing: border-box;
-    border: 1px solid #828285;
+    border: 1px solid #a8a8a8;
     padding: 10px;
     width: 100%;
     height: 200px;
     margin-top: 10px; }
   .simple-form__input {
     box-sizing: border-box;
-    border: 1px solid #828285;
+    border: 1px solid #a8a8a8;
     background-color: rgba(255, 255, 255, 0.8);
     padding-left: 5px;
     height: 35px;
@@ -718,7 +721,7 @@ body::before {
 .reg-form__input {
   box-sizing: border-box;
   margin: 0;
-  border: 1px solid #828285;
+  border: 1px solid #a8a8a8;
   background-color: rgba(255, 255, 255, 0.8);
   padding-left: 5px;
   height: 35px;
@@ -751,7 +754,7 @@ body::before {
   text-align: center; }
 .auth-form__input {
   box-sizing: border-box;
-  border: 1px solid #828285;
+  border: 1px solid #a8a8a8;
   background-color: #fff;
   padding-left: 5px;
   height: 45px;
@@ -1211,6 +1214,11 @@ body::before {
   cursor: pointer; }
   .kid-info__choose-time.active {
     background-color: #f51b49; }
+
+.feedback {
+  margin: 20px 0 0;
+  padding-top: 10px;
+  border-top: 1px solid #a8a8a8; }
 
 .left-col {
   margin-left: 0;
