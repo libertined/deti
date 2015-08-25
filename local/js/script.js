@@ -87,12 +87,17 @@ $(document).ready(function() {
         if(void 0 !== $(this).attr('data-load')){
             loadPage = $(this).attr('data-load');
         }
+        var dataId = "";
+        if(void 0 !== $(this).attr('data-id')){
+            dataId = $(this).attr('data-id');
+        }
 
         if(loadPage != ""){
             $.ajax({
                 type: "POST",
                 url: loadPage,
                 async: false,
+                data: {id: dataId},
                 success: function (data) {
                     $('#' + popID + ' .modal-wnd__content').html(data);
                 }
@@ -175,6 +180,16 @@ $(document).ready(function() {
     $(document).on('focus', '.js-check-equal', function() {
         $(this).removeClass('error');
         $(this).removeClass('correct');
+    });
+
+    $(document).on('click', '.js-choose-time', function() {
+        $('.js-choose-time').removeClass('active');
+        $(this).addClass('active');
+
+        var timePeriod = $(this).attr("data-value");
+        $('.js-choose-time-value').val(timePeriod);
+
+        return false;
     });
 
 });

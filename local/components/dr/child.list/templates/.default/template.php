@@ -12,7 +12,7 @@
 		<span class="kids-list__filter-item active js-kl-age js-kid-filter" data-value="">Любой возраст</span>
 	</div>
 	<div class="kids-list__list-icon clearfix" id="child_area">
-		<p class="kid-icon__pseudo_link modal-open js-kid-info-link" data-src="choose-kid"></p>
+		<p class="kid-icon__pseudo_link modal-open js-kid-info-link" data-src="choose-kid" data-load="/ajax/kid-info.php" data-id="0"></p>
 <?endif;?>
 <?if($arResult["PAGE"] == 1):?>
 	<p class="kid-icon__pseudo_link modal-open js-kid-info-link" data-src="choose-kid"></p>

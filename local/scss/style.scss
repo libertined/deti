@@ -930,4 +930,64 @@
   }
 }
 
+.kid-info{
+  &__img{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  &__img-block{
+    padding-top: 15px;
+  }
+
+  &__text-block{
+    @extend .kid-info__img-block;
+  }
+
+  &__title{
+    margin: 0 0 0;
+    @include font_size(semibold, $text-size15);
+    color: $blue;
+  }
+
+  &__text{
+    margin: 5px 0 10px;
+  }
+
+    &__choose-title{
+    @include font_size(bold, $text-size15);
+    padding: 10px 0 5px;
+    margin: 0;
+    border-bottom: 1px solid $color-main;
+  }
+
+  &__choose-info{
+    margin: 0;
+    @include font_size(semibold, $text-size15);
+    padding-bottom: 10px;
+  }
+
+  &__choose-periods{
+    text-align: center;
+    font-size: 0;
+    padding-bottom: 15px;
+  }
+
+  &__choose-time{
+    display: inline-block;
+    float: none;
+    padding: 10px;
+    text-align: center;
+    @include font_size(bold, $text-size15);
+    color: $color-light;
+    background-color: $gray-bg;
+    cursor: pointer;
+
+    &.active{
+      background-color: $red;
+    }
+  }
+
+}
+
 @import 'additional.scss';

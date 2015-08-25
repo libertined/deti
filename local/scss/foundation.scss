@@ -213,6 +213,14 @@ a:hover{
     background:$white url("#{$dir}/reg_bg.jpg") 100% 100% no-repeat;
   }
 
+  &--choose{
+    @extend .modal-wnd--regist;
+    background-image: url("#{$dir}/choose_bg.png");
+    background-position: 0 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
   &--auth{
     width: $main-width/2 - 20px;
     margin-left: -($main-width/4 - 10px);

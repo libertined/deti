@@ -2,7 +2,8 @@
 $(document).ready( function() {
     // Информация по ребенку
     $(document).on('click', '.js-kid-info', function() {
-        //Ajax олучаем информацию по ребенку
+        var childID = $(this).attr("data-kid");
+        $('.js-kid-info-link').attr("data-id", childID);
         $('.js-kid-info-link').trigger('click');
     });
 
