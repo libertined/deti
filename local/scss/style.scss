@@ -114,6 +114,7 @@
 
   &__title{
     @include font_size(bold, $text-size18);
+    text-align: left;
     color: $blue;
     margin: 0;
 
@@ -518,10 +519,21 @@
 
       &--payed{
         background-color: $green-bg;
+        cursor: default;
       }
 
       &--fin{
         background-color: $gray-bg;
+        cursor: default;
+      }
+
+      &--decline{
+        background-color: $gray-bg;
+        cursor: default;
+      }
+
+      &.active{
+        background-color: $blue;
       }
     }
 
@@ -1000,6 +1012,63 @@
   margin: 20px 0 0;
   padding-top: 10px;
   border-top: $border-def;
+}
+
+.project-pay{
+  position: relative;
+  padding: 20px 0 10px;
+  @include font_size(semibold, $text-size15);
+
+  &__item{
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  &__name{
+    color: $blue;
+  }
+
+  &__title{
+    text-align: left;
+  }
+
+  &__count{
+    box-sizing: border-box;
+    text-align: right;
+    color: $red;
+    padding-right: 30px;
+  }
+
+  &__cancel{
+    position: absolute;
+    right: 0;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    background:url("#{$dir}/ico_cancel.png") center no-repeat;
+  }
+
+  &__all{
+    border-top: $border-def;
+    padding: 10px 0 20px;
+  }
+
+  &__all-title{
+    margin: 0;
+    text-align: right;
+    font-size: $text-size16;
+  }
+
+  &__all-count{
+    @extend .project-pay__all-title;
+    @include font_size(bold, $text-size18);
+    color: $red;
+    box-sizing: border-box;
+    padding-right: 30px;
+
+  }
+
 }
 
 @import 'additional.scss';

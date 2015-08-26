@@ -19,7 +19,7 @@
 			"",
 			Array(
 				"IBLOCK_ID" => IBLOCK_CHILD_PROLECT,
-				"COUNT" => 2,
+				"COUNT" => 10,
 				"PAGE" => 1,
 				"FILTER" => '',
 				"KID" => $kid["ID"]

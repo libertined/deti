@@ -657,6 +657,7 @@ body::before {
   box-sizing: border-box; }
   .simple-form__title {
     font: 700 18px "Open Sans", sans-serif;
+    text-align: left;
     color: #0099e2;
     margin: 0; }
     .simple-form__title--small {
@@ -923,9 +924,16 @@ body::before {
   .kids-list__item-pay {
     margin: 5px 0 5px; }
     .kids-list__item-pay--payed {
-      background-color: #569856; }
+      background-color: #569856;
+      cursor: default; }
     .kids-list__item-pay--fin {
-      background-color: #828285; }
+      background-color: #828285;
+      cursor: default; }
+    .kids-list__item-pay--decline {
+      background-color: #828285;
+      cursor: default; }
+    .kids-list__item-pay.active {
+      background-color: #0099e2; }
   .kids-list__item-date {
     margin: 5px 0 0; }
   .kids-list__item-decline {
@@ -1219,6 +1227,43 @@ body::before {
   margin: 20px 0 0;
   padding-top: 10px;
   border-top: 1px solid #a8a8a8; }
+
+.project-pay {
+  position: relative;
+  padding: 20px 0 10px;
+  font: 600 15px "Open Sans", sans-serif; }
+  .project-pay__item {
+    position: relative;
+    margin-bottom: 10px; }
+  .project-pay__name {
+    color: #0099e2; }
+  .project-pay__title {
+    text-align: left; }
+  .project-pay__count {
+    box-sizing: border-box;
+    text-align: right;
+    color: #f51b49;
+    padding-right: 30px; }
+  .project-pay__cancel {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    background: url("/local/img/ico_cancel.png") center no-repeat; }
+  .project-pay__all {
+    border-top: 1px solid #a8a8a8;
+    padding: 10px 0 20px; }
+  .project-pay__all-title, .project-pay__all-count {
+    margin: 0;
+    text-align: right;
+    font-size: 16px; }
+  .project-pay__all-count {
+    font: 700 18px "Open Sans", sans-serif;
+    color: #f51b49;
+    box-sizing: border-box;
+    padding-right: 30px; }
 
 .left-col {
   margin-left: 0;

@@ -31,13 +31,14 @@
                 <div class="separator"></div>
                 <div class="btn btn--full btn--gray modal-open" data-src="question-form" data-load="/ajax/ask_form.php">Задать вопрос</div>
                 <div class="curator__filter">
-                    <p class="curator__link curator__link--filter active">Показать все проекты</p>
-                    <p class="curator__link curator__link--filter">Показать только активные проекты</p>
-                    <p class="curator__link curator__link--filter">Показать реализованные проекты</p>
-                    <p class="curator__link curator__link--filter">Показать просроченные проекты</p>
+                    <p class="curator__link curator__link--filter active js-kid-proj-filter" data-value="all">Показать все проекты</p>
+                    <p class="curator__link curator__link--filter js-kid-proj-filter" data-value="active">Показать только активные проекты</p>
+                    <p class="curator__link curator__link--filter js-kid-proj-filter" data-value="ready">Показать реализованные проекты</p>
+                    <p class="curator__link curator__link--filter js-kid-proj-filter" data-value="fin">Показать просроченные проекты</p>
                 </div>
-                <div class="btn btn--full btn--small-text">Оплатить все текущие проекты этого ребенка</div>
-                <div class="btn btn--full marg10-10">Оплатить выбранные проекты</div>
+                <div class="btn btn--full btn--small-text js-kid-pay-proj" data-value="all">Оплатить все текущие проекты этого ребенка</div>
+                <div class="btn btn--full marg10-10 js-kid-pay-proj" data-value="choose">Оплатить выбранные проекты</div>
+                <p class="hide-block modal-open js-kid-pay-proj-link" data-src="simple-wnd"></p>
             </div>
         <?else:?>
 
