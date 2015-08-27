@@ -1204,14 +1204,19 @@ body::before {
   margin-bottom: 5px; }
 .kid-info__img-block, .kid-info__text-block {
   padding-top: 15px; }
+.kid-info__text-block {
+  font: 600 14px "Open Sans", sans-serif; }
+.kid-info__name, .kid-info__age {
+  font: 700 20px "Open Sans", sans-serif;
+  color: #f51b49;
+  margin: 0; }
 .kid-info__title {
-  margin: 0 0 0;
-  font: 600 15px "Open Sans", sans-serif;
+  margin: 3px 0 0;
   color: #0099e2; }
 .kid-info__text {
-  margin: 5px 0 10px; }
+  margin: 5px 0 15px; }
 .kid-info__choose-title {
-  font: 700 15px "Open Sans", sans-serif;
+  font: 700 14px "Open Sans", sans-serif;
   padding: 10px 0 5px;
   margin: 0;
   border-bottom: 1px solid #272727; }
@@ -1223,6 +1228,8 @@ body::before {
   text-align: center;
   font-size: 0;
   padding-bottom: 15px; }
+  .kid-info__choose-periods--left {
+    text-align: left; }
 .kid-info__choose-time {
   display: inline-block;
   float: none;
@@ -1234,6 +1241,24 @@ body::before {
   cursor: pointer; }
   .kid-info__choose-time.active {
     background-color: #f51b49; }
+  .kid-info__choose-time--size {
+    margin-left: 0;
+    margin-right: 10px;
+    width: 140px;
+    box-sizing: border-box; }
+  .kid-info__choose-time-btn {
+    background-color: #f51b49;
+    float: right;
+    width: 180px;
+    border: 0;
+    text-transform: uppercase; }
+.kid-info__section {
+  border-top: 1px solid #a8a8a8;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  .kid-info__section-title {
+    margin: 5px 0 15px;
+    font: 700 15px "Open Sans", sans-serif; }
 
 .feedback {
   margin: 20px 0 0;
@@ -1276,6 +1301,25 @@ body::before {
     color: #f51b49;
     box-sizing: border-box;
     padding-right: 30px; }
+
+.curator-info__img {
+  font-size: 0; }
+  .curator-info__img img {
+    width: 100%; }
+  .curator-info__img--def {
+    background: #a8a8a8 url("/local/img/ava-def.png") center no-repeat;
+    background-size: 100% auto;
+    height: 140px; }
+.curator-info__text-block {
+  font: 600 14px "Open Sans", sans-serif; }
+.curator-info__name {
+  color: #f51b49;
+  font-size: 18px;
+  margin: 0 0 5px; }
+.curator-info__text {
+  margin: 0; }
+  .curator-info__text span {
+    color: #0099e2; }
 
 .left-col {
   margin-left: 0;

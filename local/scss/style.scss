@@ -982,20 +982,30 @@
 
   &__text-block{
     @extend .kid-info__img-block;
+    @include font_size(semibold, $text-size14);
+  }
+
+  &__name{
+    @include font_size(bold, $text-size20);
+    color: $red;
+    margin: 0;
+  }
+
+  &__age{
+    @extend .kid-info__name;
   }
 
   &__title{
-    margin: 0 0 0;
-    @include font_size(semibold, $text-size15);
+    margin: 3px 0 0;
     color: $blue;
   }
 
   &__text{
-    margin: 5px 0 10px;
+    margin: 5px 0 15px;
   }
 
     &__choose-title{
-    @include font_size(bold, $text-size15);
+    @include font_size(bold, $text-size14);
     padding: 10px 0 5px;
     margin: 0;
     border-bottom: 1px solid $color-main;
@@ -1011,6 +1021,10 @@
     text-align: center;
     font-size: 0;
     padding-bottom: 15px;
+
+    &--left{
+      text-align: left;
+    }
   }
 
   &__choose-time{
@@ -1026,6 +1040,34 @@
     &.active{
       background-color: $red;
     }
+
+    &--size{
+      margin-left: 0;
+      margin-right: 10px;
+      width: 140px;
+      box-sizing: border-box;
+    }
+
+    &-btn{
+      background-color: $red;
+      float: right;
+      width: 180px;
+      border: 0;
+      text-transform: uppercase;
+    }
+
+  }
+
+  &__section{
+    border-top: $border-def;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    &-title{
+      margin: 5px 0 15px;
+      @include font_size(bold, $text-size15);
+    }
+
   }
 
 }
@@ -1088,6 +1130,43 @@
     color: $red;
     box-sizing: border-box;
     padding-right: 30px;
+
+  }
+
+}
+
+.curator-info{
+  &__img{
+    font-size: 0;
+
+    & img{
+      width: 100%;
+    }
+
+    &--def{
+      background: $grey-light url("#{$dir}/ava-def.png") center no-repeat;
+      background-size: 100% auto;
+      height: 140px;
+    }
+
+  }
+
+  &__text-block{
+    @include font_size(semibold, $text-size14);
+  }
+
+  &__name{
+    color: $red;
+    font-size: $text-size18;
+    margin: 0 0 5px;
+  }
+
+  &__text{
+    margin: 0;
+
+    & span{
+      color: $blue;
+    }
 
   }
 
