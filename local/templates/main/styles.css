@@ -886,6 +886,8 @@ body::before {
   display: none; }
   .kids-list__item-block.active {
     display: block; }
+  .kids-list__item-block .kids-list__item:first-child {
+    margin-top: 0; }
 .kids-list__more {
   clear: both;
   text-align: center;
@@ -939,7 +941,8 @@ body::before {
   .kids-list__item-decline {
     color: #f51b49; }
   .kids-list__item--fin {
-    border-color: #a8a8a8; }
+    border-color: #a8a8a8;
+    color: #626262; }
     .kids-list__item--fin .kids-list__item-payment {
       color: #626262; }
 
@@ -947,6 +950,8 @@ body::before {
   float: left;
   text-align: center;
   padding: 5px 0 5px; }
+  .kid-icon--left {
+    margin-right: 20px; }
   .kid-icon__img {
     display: block;
     width: 80px;
@@ -963,7 +968,8 @@ body::before {
     color: #626262;
     cursor: pointer;
     padding-bottom: 5px;
-    text-decoration: none; }
+    text-decoration: none;
+    margin-bottom: 3px; }
     .kid-icon__text:hover, .kid-icon__age:hover {
       color: #626262; }
   .kid-icon__pseudo_link {
@@ -972,7 +978,13 @@ body::before {
     display: block;
     padding-bottom: 15px; }
   .kid-icon.active .kid-icon__text, .kid-icon.active .kid-icon__age {
-    border-bottom: 3px solid #828285; }
+    border-bottom: 3px solid #828285;
+    margin-bottom: 0; }
+  .kid-icon__date-block {
+    margin: 0;
+    font-size: 12px; }
+    .kid-icon__date-block span {
+      color: #f51b49; }
   .kid-icon--girl .kid-icon__img {
     background: #f33070 url("/local/img/ico-girl.png") center no-repeat; }
   .kid-icon--girl .kid-icon__text, .kid-icon--girl .kid-icon__age {

@@ -456,6 +456,11 @@
     &.active{
       display: block;
     }
+
+    & .kids-list__item:first-child{
+      margin-top: 0;
+    }
+
   }
 
   &__more{
@@ -547,6 +552,7 @@
 
     &--fin{
       border-color: $grey-light;
+      color: $grey;
 
       .kids-list__item-payment{
         color: $grey;
@@ -559,6 +565,10 @@
   float: left;
   text-align: center;
   padding: 5px 0 5px;
+
+  &--left{
+    margin-right: 20px;
+  }
 
   &__img{
     display: block;
@@ -580,6 +590,7 @@
     cursor: pointer;
     padding-bottom: 5px;
     text-decoration: none;
+    margin-bottom: 3px;
 
     &:hover{
       color: $grey;
@@ -599,7 +610,18 @@
   &.active{
     .kid-icon__text{
       border-bottom: 3px solid $gray-bg;
+      margin-bottom: 0;
     }
+  }
+
+  &__date-block{
+    margin: 0;
+    font-size: $text-size12;
+
+    & span{
+      color: $red;
+    }
+
   }
 
   &--girl{
