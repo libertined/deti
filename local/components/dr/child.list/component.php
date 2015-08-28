@@ -53,6 +53,12 @@ if($arParams["AGE"] != ""){
 if($arParams["SEX"] != ""){
     $arFilter["PROPERTY_SEX"] =  $arParams["SEX"];
 }
+
+if(isset($arParams["EMPTY"]) && $arParams["EMPTY"] == "Y"){
+    $arFilter["PROPERTY_CURATOR"] =  false;
+}
+
+
 $arSelect = array( "ID", "ACTIVE", "NAME", "PREVIEW_PICTURE",
                    "PROPERTY_SEX", "PROPERTY_AGE", "PROPERTY_CURATOR");
 

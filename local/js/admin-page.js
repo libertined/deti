@@ -16,7 +16,7 @@ $(document).ready( function() {
 
         $.ajax({
             type: "POST",
-            url: "/ajax/admin_proj_list.php",
+            url: "/ajax/admin/proj_list.php",
             data: {
                 time: timeFilter,
                 type: typeFilter
@@ -28,4 +28,37 @@ $(document).ready( function() {
             }
         });
     });
+
+    // Фильтр по детям
+    $(document).on('click', '.js-admin-kid-filter', function() {
+        //Ajax олучаем информацию по ребенку
+        if($(this).hasClass('js-kl-sex')){
+            $('.js-kl-sex').removeClass('active');
+        }
+        else{
+            $('.js-kl-age').removeClass('active');
+        }
+        $(this).addClass('active');
+
+        var ageFilter = $('.js-kl-age.active').attr("data-value");
+        var sexFilter = $('.js-kl-sex.active').attr("data-value");
+        $.ajax({
+            type: "POST",
+            url: "/ajax/admin/kid_list.php",
+            data: {
+                page: 1,
+                age: ageFilter,
+                sex: sexFilter,
+                filter: 'y'
+            },
+            //async: false,
+            success: function (data) {
+                $("#child_area").html(data);
+                //$("#loading").hide();
+            }
+        });
+
+    });
+
+
 });
