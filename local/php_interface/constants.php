@@ -4,7 +4,7 @@ define("IBLOCK_CHILDS", 6);
 define("IBLOCK_FAQ", 11);
 define("IBLOCK_CHILD_PROLECT", 12);
 
-define("DELITION_GROUP", 7);
+define("CURATOR_GROUP", 7);
 define("DELITION_GROUP", 8);
 
 define("MAX_FILE_SIZE_MB", 10);

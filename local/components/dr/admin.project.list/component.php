@@ -22,7 +22,6 @@ $arTmpItems = array();
 $arFilter = array (
     "IBLOCK_ID" => $arParams["IBLOCK_ID"],
     "ACTIVE" => "Y",
-    "<DATE_ACTIVE_TO" => ConvertTimeStamp(mktime(0, 0, 0, date("m")+1, 1, date("Y")), "FULL")
 );
 
 $arResult["FILTER"] = false;
@@ -36,7 +35,12 @@ if(isset($arParams["FILTER"]) && $arParams["FILTER"]=="Y"){
             $arFilter["<DATE_ACTIVE_TO"] = ConvertTimeStamp(strtotime("next Monday"), "FULL");
         elseif($arParams["TIME"] == "3")
             $arFilter["<=DATE_ACTIVE_TO"] = ConvertTimeStamp(mktime(0, 0, 0, date("m"), date("d")+3, date("Y")), "FULL");
+        else
+            $arFilter["<DATE_ACTIVE_TO"] = ConvertTimeStamp(mktime(0, 0, 0, date("m")+1, 1, date("Y")), "FULL");
     }
+}
+if(!$arResult["FILTER"]){
+    $arFilter["<DATE_ACTIVE_TO"] = ConvertTimeStamp(mktime(0, 0, 0, date("m")+1, 1, date("Y")), "FULL");
 }
 
 $arSelect = array( "IBLOCK_ID", "ID", "ACTIVE", "NAME", "PREVIEW_TEXT", "DATE_ACTIVE_TO");

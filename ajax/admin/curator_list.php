@@ -7,13 +7,12 @@ define('DisableEventsCheck', true);
 require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/main/include/prolog_before.php');
 
 $APPLICATION->IncludeComponent(
-    "dr:admin.project.list",
+    "dr:admin.curator.list",
     "",
     Array(
-        "IBLOCK_ID" => array(IBLOCK_GEBNERAL_PROJ, IBLOCK_CHILD_PROLECT),
+        "IBLOCK_ID" => IBLOCK_CHILDS,
         "COUNT" => 100,
         "FILTER" => "Y",
-        "TYPE" => $_REQUEST['type'],
         "TIME" => $_REQUEST['time'],
     )
 );?>

@@ -60,5 +60,26 @@ $(document).ready( function() {
 
     });
 
+    // Фильтр по попечителям
+    $(document).on('click', '.js-adm-curator-filter', function() {
+        $('.js-adm-curator-filter').removeClass('active');
+        $(this).addClass('active');
+
+        var timeFilter = $(this).attr("data-value");
+
+        $.ajax({
+            type: "POST",
+            url: "/ajax/admin/curator_list.php",
+            data: {
+                time: timeFilter
+            },
+            //async: false,
+            success: function (data) {
+                $("#curator-block").html(data);
+                //$("#loading").hide();
+            }
+        });
+    });
+
 
 });
