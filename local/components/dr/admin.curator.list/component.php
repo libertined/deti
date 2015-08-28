@@ -83,7 +83,7 @@ $rsUser = CUser::GetList(($by="ID"), ($order="desc"),
     $arFilterUser,
     array(
         "SELECT"=>array("UF_*"),
-        "FIELDS"=>array("ID", "NAME", "LAST_NAME", "SECOND_NAME", "PERSONAL_PHOTO", "PERSONAL_BIRTHDAY", "PERSONAL_COUNTRY"))
+        "FIELDS"=>array("ID", "NAME", "LAST_NAME", "SECOND_NAME", "PERSONAL_BIRTHDAY", "PERSONAL_COUNTRY"))
     );
 while($arItem = $rsUser->Fetch()) {
     $arItem["CHILDREN"] = array();
