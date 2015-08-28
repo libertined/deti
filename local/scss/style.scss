@@ -482,16 +482,6 @@
   &__filter{
     @include font_size(semibold, $text-size13);
     padding-top: 5px;
-
-    &-item{
-      display: inline-block;
-      cursor: pointer;
-
-      &.active{
-        text-decoration: underline;
-      }
-    }
-
   }
 
   &__item{
@@ -1168,6 +1158,21 @@
       color: $blue;
     }
 
+  }
+
+}
+
+.filter{
+  position: relative;
+  padding-top: 5px;
+
+  &__item{
+    display: inline-block;
+    cursor: pointer;
+
+    &.active{
+      text-decoration: underline;
+    }
   }
 
 }

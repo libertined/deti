@@ -902,11 +902,6 @@ body::before {
 .kids-list__filter {
   font: 600 13px "Open Sans", sans-serif;
   padding-top: 5px; }
-  .kids-list__filter-item {
-    display: inline-block;
-    cursor: pointer; }
-    .kids-list__filter-item.active {
-      text-decoration: underline; }
 .kids-list__item {
   margin: 5px 0 0;
   padding: 5px 0 5px;
@@ -1320,6 +1315,15 @@ body::before {
   margin: 0; }
   .curator-info__text span {
     color: #0099e2; }
+
+.filter {
+  position: relative;
+  padding-top: 5px; }
+  .filter__item {
+    display: inline-block;
+    cursor: pointer; }
+    .filter__item.active {
+      text-decoration: underline; }
 
 .left-col {
   margin-left: 0;

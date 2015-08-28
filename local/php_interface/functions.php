@@ -25,4 +25,17 @@ function cabinetAccess($authPage = AUTH_PAGE){
     return true;
 }
 
+function cabinetAdminAccess($authPage = AUTH_PAGE){
+    global $USER;
+
+    if(!$USER->IsAuthorized()){
+        LocalRedirect($authPage);
+    }
+    $arParams["USER_ID"] = $USER->GetID();
+
+    if(!$USER->IsAdmin()){
+        return false;
+    }
+    return true;
+}
 ?>

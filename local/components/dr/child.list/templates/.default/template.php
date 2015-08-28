@@ -2,14 +2,14 @@
 <?if($arResult["PAGE"] == 1 && !$arResult["IS_FILTER"]):?>
 <div class="kids-list col-xs-6 left-col">
 	<h2 class="kids-list__title">Дети без попечителей</h2>
-	<div class="kids-list__filter justify-block">
-		<span class="kids-list__filter-item active js-kl-sex js-kid-filter" data-value="">Все</span>
-		<span class="kids-list__filter-item js-kl-sex js-kid-filter" data-value="1">Мальчики</span>
-		<span class="kids-list__filter-item js-kl-sex js-kid-filter" data-value="2">Девочки</span>
-		<span class="kids-list__filter-item js-kl-age js-kid-filter" data-value="junior">3-6 лет</span>
-		<span class="kids-list__filter-item js-kl-age js-kid-filter" data-value="child">7-10 лет</span>
-		<span class="kids-list__filter-item js-kl-age js-kid-filter" data-value="teen">11-18 лет</span>
-		<span class="kids-list__filter-item active js-kl-age js-kid-filter" data-value="">Любой возраст</span>
+	<div class="kids-list__filter filter justify-block">
+		<span class="filter__item active js-kl-sex js-kid-filter" data-value="">Все</span>
+		<span class="filter__item js-kl-sex js-kid-filter" data-value="1">Мальчики</span>
+		<span class="filter__item js-kl-sex js-kid-filter" data-value="2">Девочки</span>
+		<span class="filter__item js-kl-age js-kid-filter" data-value="junior">3-6 лет</span>
+		<span class="filter__item js-kl-age js-kid-filter" data-value="child">7-10 лет</span>
+		<span class="filter__item js-kl-age js-kid-filter" data-value="teen">11-18 лет</span>
+		<span class="filter__item active js-kl-age js-kid-filter" data-value="">Любой возраст</span>
 	</div>
 	<div class="kids-list__list-icon clearfix" id="child_area">
 		<p class="kid-icon__pseudo_link modal-open js-kid-info-link" data-src="choose-kid" data-load="/ajax/kid-info.php" data-id="0"></p>
