@@ -37,7 +37,7 @@ while($arItem = $rsElement->GetNext()) {
 
 if(!empty($arResult["MSG"])){
 	$arEventFields["LIST"] = implode("<br>", $arResult["MSG"]);
-	//CEvent::SendImmediate("DEACT_PUBL_PROJECTS", "s1", $arEventFields);
+	CEvent::SendImmediate("DEACT_PUBL_PROJECTS", "s1", $arEventFields);
 }
 echo "<pre>";
 print_r($arResult["MSG"]);
