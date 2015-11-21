@@ -1,39 +1,39 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"About",
-		"/about/",
+		"About", 
+		"/about/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Help",
-		"#payment-anch",
+		"Help", 
+		"#payment-anch", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"News",
-		"/news/",
+		"News", 
+		"/news/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Связаться",
-		"/contact/",
+		"Contact us", 
+		"/contact/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Наши друзья",
-		"/partners/",
-		Array(),
-		Array(),
-		""
+		"Our friends", 
+		"/partners/", 
+		Array(), 
+		Array(), 
+		"" 
 	)
 );
 ?>
