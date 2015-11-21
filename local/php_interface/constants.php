@@ -4,6 +4,9 @@ define("IBLOCK_CHILDS", 6);
 define("IBLOCK_FAQ", 11);
 define("IBLOCK_CHILD_PROLECT", 12);
 
+/* Группы пользователей */
+define("ADMIN_GROUP", 1);
+define("PANEL_GROUP", 4);
 define("CURATOR_GROUP", 7);
 define("DELITION_GROUP", 8);
 
