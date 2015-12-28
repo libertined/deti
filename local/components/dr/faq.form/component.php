@@ -19,16 +19,16 @@ $arResult["CURRENT"] = array(
 if(isset($_REQUEST["form_submit"])){
     //Валидация
     if($arResult["CURRENT"]["NAME"] == ""){
-        $arResult["ERRORS"]["name"] = "На задано значение поля Имя";
+        $arResult["ERRORS"]["name"] = "Не задано значение поля Имя";
     }
     if($arResult["CURRENT"]["EMAIL"] == ""){
-        $arResult["ERRORS"]["email"] = "На задано значение поля Email";
+        $arResult["ERRORS"]["email"] = "Не задано значение поля Email";
     }
     if($arResult["CURRENT"]["SUBJECT"] == ""){
-        $arResult["ERRORS"]["subject"] = "На задано значение поля Тема сообщения";
+        $arResult["ERRORS"]["subject"] = "Не задано значение поля Тема сообщения";
     }
     if($arResult["CURRENT"]["MESSAGE"] == ""){
-        $arResult["ERRORS"]["message"] = "На задано значение поля Текст сообщения";
+        $arResult["ERRORS"]["message"] = "Не задано значение поля Текст сообщения";
     }
 
     // *** Регистрируем новый вопрос *** //
@@ -50,7 +50,7 @@ if(isset($_REQUEST["form_submit"])){
         );
 
         if($PRODUCT_ID = $el->Add($arLoadProductArray)){
-            $arResult["MSG"] = "Ваш вопрос отправлен нашим администраторам. Спасибо за внимание.";
+            $arResult["MSG"] = "Ваш вопрос отправлен администраторам. Спасибо за внимание.";
             $arEventFields  =  $arResult["CURRENT"];
             CEvent::Send("NEW_FAQ_MESSAGE", "s1", $arEventFields);
         }
