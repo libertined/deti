@@ -35,7 +35,7 @@ if(isset($_REQUEST["regist"])){
         $arResult["CURRENT"]["REP_EMAIL"] = "";
     }
     if(strlen($arResult["CURRENT"]["PASS"]) < 8){
-        $arResult["ERRORS"]["pass"] = "Введенный вами пароль меньше 8 символов";
+        $arResult["ERRORS"]["pass"] = "Введенный Вами пароль меньше 8 символов";
     }
     if(!isset($_REQUEST["pass_rep"]) || trim($_REQUEST["pass_rep"]) != $arResult["CURRENT"]["PASS"]){
         $arResult["ERRORS"]["pass_rep"] = "Значение поля Повторите пароль не совпадает со значением поля Пароль";
@@ -44,7 +44,7 @@ if(isset($_REQUEST["regist"])){
     if($arResult["CURRENT"]["EMAIL"] != ''){
         $rsUser = CUser::GetByLogin($arResult["CURRENT"]["EMAIL"]);
         if($arUser = $rsUser->Fetch()){
-            $arResult["ERRORS"]["user_exist"] = "Пользователь с таким email уже зарегестрирован";
+            $arResult["ERRORS"]["user_exist"] = "Пользователь с таким email уже зарегистрирован";
         }
     }
 
@@ -72,7 +72,7 @@ if(isset($_REQUEST["regist"])){
             $arEventFields  =  $arResult["CURRENT"];
             $arEventFields["CITIZEN"] = ($arResult["CURRENT"]["CITIZEN"] == 1)? "Россия": "Украина";
             CEvent::Send("NEW_CURATOR", "s1", $arEventFields);
-            $arResult["MSG"] = "Вы успешно зарегестрировались на сайте. После подтверждения администратором вы сможете воспользоваться всем доступным функционалом.";
+            $arResult["MSG"] = "Вы успешно зарегистрировались на сайте. После подтверждения администратором Вы сможете воспользоваться всем доступным функционалом.";
         }
         else{
             $arResult["ERRORS"]["add"] = $user->LAST_ERROR;
