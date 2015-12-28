@@ -58,6 +58,10 @@
                 <a href="http://startbrand.ru" target="_blank"><img src="/local/img/starbrand_logo.png" alt=""/></a><br>
                 <a href="http://startbrand.ru" class="design-info__site" target="_blank">www.startbrand.ru</a>
             </p>
+            <p class="design-info__text col-xs-3">веб-сайт разработан<br>в студии АЕ!:</p>
+            <p class="design-info__links">
+                <a href="http://ae-studio.ru" class="design-info__site" target="_blank">www.ae-studio.ru</a>
+            </p>
         </div>
     </div>
 </footer>
