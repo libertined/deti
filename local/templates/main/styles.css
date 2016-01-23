@@ -1331,6 +1331,8 @@ body::before {
 .left-col {
   margin-left: 0;
   float: left; }
+  .left-col--shift160 {
+    margin-left: 160px; }
 
 .right-col {
   margin-right: 0;

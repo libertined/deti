@@ -8,7 +8,7 @@
         </h1>
     </div>
     <div class="wrapper wrapper--fill content-block clearfix">
-        <div class="col-xs-10 centered-col clearfix news-list">
+        <div class="col-xs-9 left-col left-col--shift160 clearfix news-list">
             <?$APPLICATION->IncludeComponent(
                 "bitrix:news.list",
                 "faq",
