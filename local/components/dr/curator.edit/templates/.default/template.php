@@ -16,7 +16,15 @@
 	<div class="col-xs-4">
 		<input type="hidden" name="birth" value="28 января 1980"/>
 		<input type="hidden" name="citizen" value="Гражданство"/>
-		<p class="edit-profile__name">Вероника<br>Игоревна<br>Шатальская</p>
+		<p class="edit-profile__name">
+			<?if(!empty($arResult["USER"]["NAME"])):?>
+				<?=$arResult["USER"]["NAME"]?><br>
+			<?endif;?>
+			<?if(!empty($arResult["USER"]["SECOND_NAME"])):?>
+				<?=$arResult["USER"]["SECOND_NAME"]?><br>
+			<?endif;?>
+			<?=$arResult["USER"]["LAST_NAME"]?>
+		</p>
 		<?if(!empty($arResult["ERRORS"])):?>
 			<p class="error"><?=implode("<br>", $arResult["ERRORS"])?></p>
 		<?endif;?>
@@ -33,7 +41,7 @@
 		?>
 		<label class="reg-form__label" for="form-citizen">Гражданство</label>
 		<div class="pseudo-select pseudo-select--white">
-			<div class="pseudo-select__text"><?if($arResult["CURRENT"]["CITIZEN"] == 1):?>Россия<?else:?>Украина<?endif;?></div>
+			<div class="pseudo-select__text"><?if($arResult["USER"]["PERSONAL_COUNTRY"] == 1):?>Россия<?else:?>Украина<?endif;?></div>
 			<ul class="pseudo-select__list">
 				<li class="pseudo-select__option" data-value="1">Россия</li>
 				<li class="pseudo-select__option" data-value="14">Украина</li>

@@ -124,7 +124,5 @@ if(!empty($arResult["USER"]["UF_FILES_CURATOR"])){
     }
 }
 
-
-
 $this->IncludeComponentTemplate();
 ?>
