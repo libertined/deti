@@ -21,11 +21,11 @@
             </div>
             <div class="right-col col-xs-4">
                 <div class="about-page__img clearfix">
-                    <img src="/images/about1.jpg" alt="" class="about-page__img-item"/>
-                    <img src="/images/about1.jpg" alt="" class="about-page__img-item about-page__img-item--right"/>
-                    <img src="/images/about2.jpg" alt="" class="about-page__img-item about-page__img-item--small"/>
-                    <img src="/images/about2.jpg" alt="" class="about-page__img-item about-page__img-item--small about-page__img-item--marg-left"/>
-                    <img src="/images/about2.jpg" alt="" class="about-page__img-item about-page__img-item--small about-page__img-item--right"/>
+                    <a href="/images/big_about1.jpg" class="fancybox" rel="group"><img src="/images/about1.jpg" alt="" class="about-page__img-item"/></a>
+                    <a href="/images/big_about1.jpg" class="fancybox" rel="group"><img src="/images/about1.jpg" alt="" class="about-page__img-item about-page__img-item--right"/></a>
+                    <a href="/images/big_about2.jpg" class="fancybox" rel="group"><img src="/images/about2.jpg" alt="" class="about-page__img-item about-page__img-item--small"/></a>
+                    <a href="/images/big_about2.jpg" class="fancybox" rel="group"><img src="/images/about2.jpg" alt="" class="about-page__img-item about-page__img-item--small about-page__img-item--marg-left"/></a>
+                    <a href="/images/big_about2.jpg" class="fancybox" rel="group"><img src="/images/about2.jpg" alt="" class="about-page__img-item about-page__img-item--small about-page__img-item--right"/></a>
                 </div>
                 <p class="about-page__sect-titile">Местонахождение:</p>
                 <div class="about-page__section">
@@ -46,6 +46,14 @@
             </div>
         </div>
     </div>
+<script>
+    $(document).ready(function() {
+        $(".fancybox").fancybox();
+    });
+</script>
 <?$APPLICATION->AddHeadScript('/local/js/jquery.form.js');?>
+<?$APPLICATION->AddHeadScript('/local/js/jquery.mousewheel-3.0.6.pack.js');?>
+<?$APPLICATION->AddHeadScript('/local/js/fancybox/jquery.fancybox.pack.js?v=2.1.5');?>
+<?$APPLICATION->AddHeadString('<link rel="stylesheet" href="/local/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />',true)?>
 <?include $_SERVER["DOCUMENT_ROOT"]."/local/include/ask_quest.php";?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
