@@ -29,8 +29,8 @@ $this->setFrameMode(true);
 			<div class="partner-item__desc">
 				<?=$arItem["PREVIEW_TEXT"];?>
 			</div>
-			<?if(isset($arItem["PROPERTIES"]["LINK"]["VALUE"])):?>
-				<p class="partner-item__link"><a href="<?$arItem["PROPERTIES"]["LINK"]["VALUE"]?>"><?$arItem["PROPERTIES"]["LINK"]["VALUE"]?></a></p>
+			<?if(isset($arItem["DISPLAY_PROPERTIES"]["LINK"]["VALUE"])):?>
+				<p class="partner-item__link"><a href="http://<?=$arItem["PROPERTIES"]["LINK"]["VALUE"]?>"><?=$arItem["PROPERTIES"]["LINK"]["VALUE"]?></a></p>
 			<?endif;?>
 		</div>
 	</div>
