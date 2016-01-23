@@ -41,14 +41,14 @@
         </div>
         <div class="lang-list col-xs-3">
             <div class="pseudo-select">
-                <div class="pseudo-select__text">Русский</div>
+                <div class="pseudo-select__text"><?if(LANGUAGE_ID == "en"):?>Английский<?else:?>Русский<?endif;?></div>
                 <ul class="pseudo-select__list">
-                    <li class="pseudo-select__option" data-value="1">Русский</li>
-                    <li class="pseudo-select__option" data-value="2">Английский</li>
+                    <li class="pseudo-select__option" data-value="<?= $APPLICATION->GetCurPageParam("lang=ru",array("lang"));?>">Русский</li>
+                    <li class="pseudo-select__option" data-value="<?= $APPLICATION->GetCurPageParam("lang=en",array("lang"));?>">Английский</li>
                 </ul>
                 <select name="lang" class="pseudo-select__real">
-                    <option value="1" selected="selected">Русский</option>
-                    <option value="2">Английский</option>
+                    <option value="<?= $APPLICATION->GetCurPageParam("lang=ru",array("lang"));?>" <?if(LANGUAGE_ID == "ru"):?>selected="selected"<?endif;?> selected="selected">Русский</option>
+                    <option value="<?= $APPLICATION->GetCurPageParam("lang=en",array("lang"));?>" <?if(LANGUAGE_ID == "en"):?>selected="selected"<?endif;?>>Английский</option>
                 </select>
             </div>
         </div>

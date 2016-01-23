@@ -78,6 +78,7 @@ $(document).ready(function() {
 
         select_wrap.find('.pseudo-select__real option').removeAttr("selected");
         select_wrap.find('.pseudo-select__real option[value="'+data_value+'"]').attr("selected","selected");
+        select_wrap.find('.pseudo-select__real').trigger("change");
     });
 
     // *** Открываем модальное окно *** //
@@ -156,6 +157,12 @@ $(document).ready(function() {
         return false;
     });
 
+
+    $(document).on('change', '.lang-list select', function() {
+        var langCh = $(this).val();
+        $(location).attr('href',langCh);
+    });
+
     Number.prototype.triads = function(sep, dot, frac){
         sep = sep || String.fromCharCode(160);
         dot = dot || ',';
@@ -180,5 +187,4 @@ $(document).ready(function() {
 
         return num + dot + a;
     }
-
 });

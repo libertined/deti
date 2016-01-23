@@ -1,6 +1,10 @@
 .left-col{
   margin-left: 0;
   float: left;
+
+  &--shift160{
+    margin-left: 160px;
+  }
 }
 .right-col{
   margin-right: 0;
