@@ -143,6 +143,8 @@ body::before{
     padding: 0;
     list-style: none;
     text-align: justify;
+    text-justify: newspaper;
+    text-align: justify;
     font-size: 0px;
   }
 
@@ -184,6 +186,7 @@ body::before{
     padding: 40px 0 0;
     @include font_size(bold, $text-size20);
     color: $blue;
+    text-transform: uppercase;
   }
 
   &__list{
