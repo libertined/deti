@@ -25,7 +25,7 @@
 			<?else:?>
 				<a class="project-list__img project-list__img--finish" href="<?=$project["URL"]?>">
 					<img src="<?=$project["IMG_PATH"]?>" alt=""/>
-					<p class="project-list__item-finish-text">проект<br>завершен,<br>спасибо всем кто<br>прирнял участие</p>
+					<p class="project-list__item-finish-text">проект<br>завершен,<br>спасибо всем, кто<br>принял участие</p>
 				</a>
 			<?endif;?>
 			<a class="project-list__item-title" href="<?=$project["URL"]?>"><?=$project["NAME"]?></a>

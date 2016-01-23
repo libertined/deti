@@ -31,7 +31,7 @@
                 <div class="about-page__section">
                     Украина, Одесская область,<br>
                     г. Белгород-Днестровский,<br>
-                    ул. Саночная, 14А и<br>
+                    ул. Солнечная, 14А и<br>
                     ул. Победы, 9<br>
                     телефон: +38 (04849) 2 70 50<br>
                     факс: +38 (04849) 3 62 96
@@ -40,7 +40,7 @@
                 <div class="btn btn--full btn--gray modal-open" data-src="question-form" data-load="/ajax/ask_open_form.php">Задать вопрос</div>
                 <p class="separator"></p>
                 <p class="about-page__sect-titile">Официальные документы:</p>
-                <a class="about-page__link" href="/images/about1.jpg" target="_blank">Свидетельство о регистрации некоммерчесской благотворительной организации.</a>
+                <a class="about-page__link" href="/images/about1.jpg" target="_blank">Свидетельство о регистрации некоммерческой благотворительной организации.</a>
                 <a class="about-page__link" href="/images/about1.jpg" target="_blank">Попечительский совет (протокол)</a>
 
             </div>

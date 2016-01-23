@@ -1,7 +1,7 @@
 <? if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die(); ?>
 <form action="" method="POST" class="simple-form">
 	<p class="simple-form__title">Задать вопрос</p>
-	<p class="simple-form__text">Вы можете задать любой интересующий вас вопрос и мы в ближайшее время свяжемся с вами.</p>
+	<p class="simple-form__text">Вы можете задать любой интересующий Вас вопрос и мы в ближайшее время свяжемся с Вами.</p>
 	<?if(!empty($arResult["ERRORS"])):?>
 		<p class="error"><?=implode("<br>", $arResult["ERRORS"])?></p>
 	<?endif;?>
@@ -10,7 +10,7 @@
 	<?else:?>
 		<div class="single_col clearfix marg10-10">
 			<div class="left-col simple-form__right-col-small">
-				<p class="simple-form__label">Представьтесь пожалуйста</p>
+				<p class="simple-form__label">Представьтесь, пожалуйста</p>
 				<input class="simple-form__input" name="name" value=""type="text">
 			</div>
 			<div class="col-xs-6 right-col">

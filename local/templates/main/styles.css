@@ -533,7 +533,7 @@ body::before {
   background-color: rgba(0, 0, 0, 0.5);
   clear: both; }
   .footer-wrapper {
-    background: url("/local/img/logo_white.png") 95% 15px no-repeat;
+    background: url("/local/img/logo_white.svg") 95% 15px no-repeat;
     padding-bottom: 50px; }
 
 .bottom-menu {
