@@ -44,8 +44,7 @@ else:
 		$("#auth-form form").ajaxForm(
 			{
 				type: 'POST',
-				url: "/ajax/reg_form.php",
-				//dataType: 'json',
+				url: "/ajax/auth.php",
 				success: function(data){
 					$("#auth-form .modal-wnd__content").html(data);
 

@@ -50,7 +50,7 @@ global $USER;
 						Добавлено к оплате <span class="payment-info__count">0</span>
 					</div>
 				<?else:?>
-					<div class="auth"><a href="/auth.php" class="modal-open" data-src="auth-form" data-load="/ajax/auth.php">Вход</a></div>
+					<div class="auth"><a href="/auth.php" class="modal-open" data-src="auth-form">Вход</a></div>
 				<?endif;?>
 			</div>
 		</div>
