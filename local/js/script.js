@@ -163,6 +163,21 @@ $(document).ready(function() {
         $(location).attr('href',langCh);
     });
 
+    $(document).on('click', '.js-pay_submit', function(){
+        var sum = $(".js-pay-sum").val();
+        var curForm = $(this).closest('form');
+        $.ajax({
+            type: "POST",
+            url: "/ajax/free_pay.php",
+            async: false,
+            data: {sum: sum, new_pay:'Y'},
+            success: function (data) {
+                curForm.append(data);
+                curForm.trigger('submit');
+            }
+        });
+    });
+
     Number.prototype.triads = function(sep, dot, frac){
         sep = sep || String.fromCharCode(160);
         dot = dot || ',';

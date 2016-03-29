@@ -24,6 +24,24 @@ $arUrlRewrite = array(
 		"ID" => "bitrix:news",
 		"PATH" => "/content/news/index.php",
 	),
+	array(
+		"CONDITION" => "#^/cabinet/pay_success/#",
+		"RULE" => "res=success",
+		"ID" => "",
+		"PATH" => "/cabinet/pay.php",
+	),
+	array(
+		"CONDITION" => "#^/cabinet/pay_error/#",
+		"RULE" => "res=error",
+		"ID" => "",
+		"PATH" => "/cabinet/pay.php",
+	),
+	array(
+		"CONDITION" => "#^/cabinet/pay_check/#",
+		"RULE" => "res=check",
+		"ID" => "",
+		"PATH" => "/cabinet/pay.php",
+	),
 );
 
 ?>

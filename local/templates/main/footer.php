@@ -1,11 +1,11 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();?>
 
 <section class="payment clearfix" id="payment-anch">
-    <div class="payment__wrapper">
+    <form class="payment__wrapper" action="https://lmi.paymaster.ua/ru/" method="post">
         <p class="payment__title justify-block">Пожертвовать фонду любую сумму</p>
         <p class="payment__desc justify-block">Любая перечисленная сумма будет потрачена на нужды детей</p>
-        <input class="payment__count col-xs-3" type="text"/>
-        <button class="payment__btn col-xs-3" type="submit" name="pay">Перечислить</button>
+        <input class="payment__count col-xs-3 js-pay-sum" type="text" name="pay_sum" />
+        <button class="payment__btn col-xs-3 js-pay_submit" type="button" name="pay">Перечислить</button>
         <div class="payment__tools justify-block">
             <img src="/local/img/payment_visa.png" alt=""/>
             <img src="/local/img/payment_master.png" alt=""/>
@@ -14,7 +14,7 @@
             <img src="/local/img/payment_webmoney.png" alt=""/>
             <img src="/local/img/payment_yandex.png" alt=""/>
         </div>
-    </div>
+    </form>
 </section>
 <footer class="footer clearfix">
     <div class="wrapper footer-wrapper clearfix">
@@ -62,7 +62,9 @@
     </div>
 </footer>
 <div class="to_begin"></div>
-<?include $_SERVER["DOCUMENT_ROOT"]."/local/include/auth.php";?>
+<?if(!$USER->IsAuthorized()):?>
+    <?include $_SERVER["DOCUMENT_ROOT"]."/local/include/auth.php";?>
+<?endif;?>
 <script type="text/javascript" src="/local/js/script.js"></script>
 </body>
 </html>
