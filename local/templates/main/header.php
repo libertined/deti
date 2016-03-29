@@ -11,6 +11,7 @@ global $USER;
 	<script src="/local/js/jquery-2.1.4.min.js"></script>
 	<script src="/local/js/masonry.pkgd.min.js"></script>
 	<script src="/local/js/jquery.waitforimages.js"></script>
+	<script src="/local/js/jquery.form.js"></script>
 	<?$APPLICATION->ShowHead();?>
 </head>
 <body>
