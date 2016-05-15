@@ -35,8 +35,8 @@ if($arItem = $rsElement->Fetch()) {
     $arItem["PAYED"] = number_format($arItem["PROPERTY_PAYED_VALUE"], 0, '.', ' ')." ".MONEY_NAME;
     $arItem["DIFF"] = number_format($arItem["PROPERTY_ALL_VALUE"] - $arItem["PROPERTY_PAYED_VALUE"], 0, '.', ' ')." ".MONEY_NAME;
     $arItem["PROGRESS"] = ceil($arItem["PROPERTY_PAYED_VALUE"]/$arItem["PROPERTY_ALL_VALUE"]*100);
-    $arItem["DATE_ACTIVE_FROM"] = strtolower(FormatDate("d F Y", MakeTimeStamp($arItem["DATE_ACTIVE_FROM"])));
-    $arItem["DATE_ACTIVE_TO"] = strtolower(FormatDate("d F Y", MakeTimeStamp($arItem["DATE_ACTIVE_TO"])));
+    $arItem["DATE_ACTIVE_FROM"] = strtolower(FormatDate("d.m.Y", MakeTimeStamp($arItem["DATE_ACTIVE_FROM"])));
+    $arItem["DATE_ACTIVE_TO"] = strtolower(FormatDate("d.m.Y", MakeTimeStamp($arItem["DATE_ACTIVE_TO"])));
     //Работа с изображениями
     if(isset($arItem["PROPERTY_PICT_VALUE"][0])){
         $arItem["PIC1"] = CFile::ResizeImageGet(
@@ -45,6 +45,7 @@ if($arItem = $rsElement->Fetch()) {
             BX_RESIZE_IMAGE_EXACT,
             true
         );
+        $arItem["PIC1"]["ORIGINAL"] = CFile::GetPath($arItem["PROPERTY_PICT_VALUE"][0]);
     }
     if(isset($arItem["PROPERTY_PICT_VALUE"][1])){
         $arItem["PIC2"] = CFile::ResizeImageGet(
@@ -53,22 +54,25 @@ if($arItem = $rsElement->Fetch()) {
             BX_RESIZE_IMAGE_EXACT,
             true
         );
+        $arItem["PIC2"]["ORIGINAL"] = CFile::GetPath($arItem["PROPERTY_PICT_VALUE"][1]);
     }
-    if(isset($arItem["PROPERTY_PICT_VALUE"][3])){
+    if(isset($arItem["PROPERTY_PICT_VALUE"][2])){
         $arItem["PIC3"] = CFile::ResizeImageGet(
             $arItem["PROPERTY_PICT_VALUE"][2],
             array("width" => 150, "height" => 130),
             BX_RESIZE_IMAGE_EXACT,
             true
         );
+        $arItem["PIC3"]["ORIGINAL"] = CFile::GetPath($arItem["PROPERTY_PICT_VALUE"][2]);
     }
-    if(isset($arItem["PROPERTY_PICT_VALUE"][4])){
+    if(isset($arItem["PROPERTY_PICT_VALUE"][3])){
         $arItem["PIC4"] = CFile::ResizeImageGet(
             $arItem["PROPERTY_PICT_VALUE"][3],
             array("width" => 310, "height" => 100),
             BX_RESIZE_IMAGE_EXACT,
             true
         );
+        $arItem["PIC4"]["ORIGINAL"] = CFile::GetPath($arItem["PROPERTY_PICT_VALUE"][3]);
     }
 
     $arResult["PROJECT"] = $arItem;

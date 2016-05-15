@@ -9,18 +9,34 @@
 	<div class="project-detail col-xs-10 centered-col clearfix">
 		<?if(isset($arResult["PROJECT"]["PIC1"])):?>
 		<div class="project-detail__images">
-			<div><img src="<?=$arResult["PROJECT"]["PIC1"]["src"]?>" alt=""/></div>
+			<div>
+				<a href="<?=$arResult["PROJECT"]["PIC1"]["ORIGINAL"]?>" class="fancybox" rel="group">
+					<img src="<?=$arResult["PROJECT"]["PIC1"]["src"]?>" alt=""/>
+				</a>
+			</div>
 			<?if(!isset($arResult["PROJECT"]["PIC3"])):?>
 				<div></div>
 			<?endif;?>
 			<?if(isset($arResult["PROJECT"]["PIC2"])):?>
-				<div><img src="<?=$arResult["PROJECT"]["PIC2"]["src"]?>" alt=""/></div>
+				<div>
+					<a href="<?=$arResult["PROJECT"]["PIC2"]["ORIGINAL"]?>" class="fancybox" rel="group">
+						<img src="<?=$arResult["PROJECT"]["PIC2"]["src"]?>" alt=""/>
+					</a>
+				</div>
 			<?endif;?>
 			<?if(isset($arResult["PROJECT"]["PIC3"])):?>
-				<div><img src="<?=$arResult["PROJECT"]["PIC3"]["src"]?>" alt=""/></div>
+				<div>
+					<a href="<?=$arResult["PROJECT"]["PIC3"]["ORIGINAL"]?>" class="fancybox" rel="group">
+						<img src="<?=$arResult["PROJECT"]["PIC3"]["src"]?>" alt=""/>
+					</a>
+				</div>
 			<?endif;?>
 			<?if(isset($arResult["PROJECT"]["PIC4"])):?>
-				<div><img src="<?=$arResult["PROJECT"]["PIC4"]["src"]?>" alt=""/></div>
+				<div>
+					<a href="<?=$arResult["PROJECT"]["PIC4"]["ORIGINAL"]?>" class="fancybox" rel="group">
+						<img src="<?=$arResult["PROJECT"]["PIC4"]["src"]?>" alt=""/>
+					</a>
+				</div>
 			<?endif;?>
 		</div>
 		<?endif;?>
@@ -77,3 +93,10 @@
 		</div>
 	</div>
 </div>
+	<script>
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
+<?$APPLICATION->AddHeadScript('/local/js/fancybox/jquery.fancybox.pack.js?v=2.1.5');?>
+<?$APPLICATION->AddHeadString('<link rel="stylesheet" href="/local/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />',true)?>
