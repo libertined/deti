@@ -28,13 +28,13 @@ $arUrlRewrite = array(
 		"CONDITION" => "#^/cabinet/pay_success/#",
 		"RULE" => "res=success",
 		"ID" => "",
-		"PATH" => "/cabinet/pay.php",
+		"PATH" => "/cabinet/pay_success.php",
 	),
 	array(
 		"CONDITION" => "#^/cabinet/pay_error/#",
 		"RULE" => "res=error",
 		"ID" => "",
-		"PATH" => "/cabinet/pay.php",
+		"PATH" => "/cabinet/pay_error.php",
 	),
 	array(
 		"CONDITION" => "#^/cabinet/pay_check/#",
