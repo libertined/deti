@@ -42,11 +42,11 @@ if(!empty($arParams["ELEMENT_ID"])){
         $PROP["PAYMENT_ID"] = $arParams["SYS_PAYMENT_ID"];
         $PROP["STATUS"] = $arParams["RESULT"];
 
-        $arLoadProductArray = Array(
+        $arLoadProductArray = [
           "IBLOCK_ID"      => $arParams["IBLOCK_ID"],
           "PROPERTY_VALUES"=> $PROP,
           "ACTIVE"         => "Y"
-        );
+        ];
 
         if($arParams["RESULT"] != 'success'){
             $arLoadProductArray["ACTIVE"] = 'N';
@@ -61,6 +61,12 @@ if(!empty($arParams["ELEMENT_ID"])){
 }
 $log_file=$_SERVER["DOCUMENT_ROOT"]."/upload/pay.log";
 $log = "";
+foreach($arResult["ITEM"] as $key=>$val){
+    $log .= $key.": ".$val."\n\n";
+}
+foreach($arLoadProductArray as $key=>$val){
+    $log .= $key.": ".$val."\n\n";
+}
 if( !empty($arResult["ERRORS"]) ) {
     $log .= "Errors: ".implode(" * ", $arResult["ERRORS"])."\n";
 }
