@@ -9,10 +9,9 @@
         <div class="payment__tools justify-block">
             <img src="/local/img/payment_visa.png" alt=""/>
             <img src="/local/img/payment_master.png" alt=""/>
-            <img src="/local/img/payment_maestro.png" alt=""/>
-            <img src="/local/img/payment_paypal.png" alt=""/>
+            <img src="/local/img/payment_privat24.png" alt=""/>
             <img src="/local/img/payment_webmoney.png" alt=""/>
-            <img src="/local/img/payment_yandex.png" alt=""/>
+            <img src="/local/img/payment_monexy.png" alt=""/>
         </div>
     </form>
 </section>
