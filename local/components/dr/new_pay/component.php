@@ -19,10 +19,11 @@ $arResult["PAYMENT_SUM"] = $arParams["PAYMENT_SUM"];
 $arResult["PAYMENT_DESC"] = $arParams["PAYMENT_DESC"];
 $arResult["PAYMENT_SIM_MODE"] = $arParams["PAYMENT_SIM_MODE"];
 $arResult["PURPOSE_ID"] = $arParams["PURPOSE_ID"];
-$arResult["PURPOSE_CODE"] = $arParams["PURPOSE_CODE"];
+$arResult["PURPOSE_CODE"] = $arParams["PURPOSE"];
+$arResult["PURPOSE_LIST"] = $arParams["PURPOSE_LIST"];
 
 
-switch ($arParams["PURPOSE"]){
+switch ($arResult["PURPOSE_CODE"]){
     case 'project':
         $arResult["PURPOSE"] = "Платеж на проект";
     break;

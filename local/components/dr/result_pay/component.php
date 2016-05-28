@@ -13,7 +13,7 @@ $arParams["IBLOCK_ID"] = trim($arParams["IBLOCK_ID"]);
 $arResult["MSG"] = "";
 $arResult["ERROR"] = [];
 
-/* Получаем информацию по ребенку
+/* Зачисление платежа
 */
 if(!empty($arParams["ELEMENT_ID"])){
     $arFilter = array (
@@ -22,7 +22,7 @@ if(!empty($arParams["ELEMENT_ID"])){
     );
 
     $arSelect = array( "ID", "ACTIVE", "NAME", "PROPERTY_USER", "PROPERTY_COUNT", "PROPERTY_STATUS", "PROPERTY_PAYMENT_ID",
-                    "PROPERTY_PURPOSE", "PROPERTY_PURPOSE_ID", "PURPOSE_CODE", "PURPOSE_LIST");
+                    "PROPERTY_PURPOSE", "PROPERTY_PURPOSE_ID", "PROPERTY_PURPOSE_CODE", "PROPERTY_PURPOSE_LIST");
 
     $rsElement = CIBlockElement::GetList(array("ID" => "ASC"), $arFilter, false, false, $arSelect);
     $arResult["ITEM"] = [];
@@ -79,6 +79,52 @@ if(!empty($arParams["ELEMENT_ID"])){
 
             if(!empty($arEventFields["EMAIL"]))
                 CEvent::Send("PAY_SUCCESS", 's1', $arEventFields);
+
+            //Зачисление денег на счет
+            if($arResult["ITEM"]["PROPERTY_PURPOSE_CODE_VALUE"] == 'kid' && !empty($arResult["ITEM"]["PROPERTY_PURPOSE_LIST_VALUE"])){
+                $projectAr = explode(',', $arResult["ITEM"]["PROPERTY_PURPOSE_LIST_VALUE"]);
+                foreach($projectAr as $projectKid){
+                    if(!empty($projectKid)){
+                        $arFilter = array (
+                          "IBLOCK_ID" => IBLOCK_CHILD_PROLECT,
+                          "ID" => $projectKid,
+                        );
+                        $arSelect = array( "ID", "ACTIVE", "NAME", "PROPERTY_ALL", "PROPERTY_PAYED", "PROPERTY_IS_READY");
+
+                        $rsElementProj = CIBlockElement::GetList(array("ID" => "ASC"), $arFilter, false, false, $arSelect);
+                        $payed = 0;
+                        while($arProject = $rsElementProj->Fetch()) {
+                            $payed = $arProject["PROPERTY_ALL_VALUE"];
+                            $all = $arProject["PROPERTY_ALL_VALUE"];
+                        }
+                        if($payed > 0){
+                            CIBlockElement::SetPropertyValues($projectKid, IBLOCK_GEBNERAL_PROJ, $payed, 'PAYED');
+                            CIBlockElement::SetPropertyValueCode($projectKid, 'IS_READY', 3);
+                        }
+                    }
+                }
+            }
+            elseif($arResult["ITEM"]["PROPERTY_PURPOSE_CODE_VALUE"] == 'project' && !empty($arResult["ITEM"]["PROPERTY_PURPOSE_ID_VALUE"])){
+                $arFilter = array (
+                  "IBLOCK_ID" => IBLOCK_GEBNERAL_PROJ,
+                  "ID" => $arResult["ITEM"]["PROPERTY_PURPOSE_ID_VALUE"],
+                );
+                $arSelect = array( "ID", "ACTIVE", "NAME", "PROPERTY_ALL", "PROPERTY_PAYED", "PROPERTY_IS_READY");
+
+                $rsElementProj = CIBlockElement::GetList(array("ID" => "ASC"), $arFilter, false, false, $arSelect);
+                $payed = 0;
+                $all = 0;
+                while($arProject = $rsElementProj->Fetch()) {
+                    $payed = $arProject["PROPERTY_PAYED_VALUE"] + $PROP["COUNT"];
+                    $all = $arProject["PROPERTY_ALL_VALUE"];
+                }
+                if($payed > 0){
+                    CIBlockElement::SetPropertyValues($arResult["ITEM"]["PROPERTY_PURPOSE_ID_VALUE"], IBLOCK_GEBNERAL_PROJ, $payed, 'PAYED');
+                    if($payed >= $all){
+                        CIBlockElement::SetPropertyValueCode($arResult["ITEM"]["PROPERTY_PURPOSE_ID_VALUE"], 'IS_READY', 4);
+                    }
+                }
+            }
         }
         else
             $arResult["ERRORS"][] = $el->LAST_ERROR;
