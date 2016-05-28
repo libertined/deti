@@ -21,7 +21,8 @@ if(!empty($arParams["ELEMENT_ID"])){
       "ID" => $arParams["ELEMENT_ID"],
     );
 
-    $arSelect = array( "ID", "ACTIVE", "NAME", "PROPERTY_USER", "PROPERTY_COUNT", "PROPERTY_STATUS", "PROPERTY_PAYMENT_ID");
+    $arSelect = array( "ID", "ACTIVE", "NAME", "PROPERTY_USER", "PROPERTY_COUNT", "PROPERTY_STATUS", "PROPERTY_PAYMENT_ID",
+                    "PROPERTY_PURPOSE", "PROPERTY_PURPOSE_ID", "PURPOSE_CODE", "PURPOSE_LIST");
 
     $rsElement = CIBlockElement::GetList(array("ID" => "ASC"), $arFilter, false, false, $arSelect);
     $arResult["ITEM"] = [];
@@ -36,9 +37,13 @@ if(!empty($arParams["ELEMENT_ID"])){
         $el = new CIBlockElement;
 
         $PROP = array();
-        $PROP["USER"] = $arResult["PROPERTY_USER_VALUE"];
+        $PROP["USER"] = $arResult["ITEM"]["PROPERTY_USER_VALUE"];
         $PROP["COUNT"] = $arParams["PAYMENT_SUM"];
         $PROP["PAYMENT_ID"] = $arParams["SYS_PAYMENT_ID"];
+        $PROP["PURPOSE"] = $arResult["ITEM"]["PROPERTY_PURPOSE_VALUE"];
+        $PROP["PURPOSE_ID"] = $arResult["ITEM"]["PROPERTY_PURPOSE_ID_VALUE"];
+        $PROP["PURPOSE_CODE"] = $arResult["ITEM"]["PROPERTY_PURPOSE_CODE_VALUE"];
+        $PROP["PURPOSE_LIST"] = $arResult["ITEM"]["PROPERTY_PURPOSE_LIST_VALUE"];
         $PROP["STATUS"] = 'sucsess';
 
         $arLoadProductArray = [
@@ -49,6 +54,31 @@ if(!empty($arParams["ELEMENT_ID"])){
 
         if($el->Update($arResult["ITEM"]["ID"], $arLoadProductArray)){
             $arResult["MSG"] = 'Платеж обработан '.$arResult["ITEM"]["ID"];
+            $arEventFields = [
+                "HELLO" => "Здравствуйте",
+                "PAY_ID" => $arResult["ITEM"]["ID"],
+                "PAYMASTER_ID" => $PROP["PAYMENT_ID"],
+                "PAY_PURPOSE" => $arResult["ITEM"]["PROPERTY_PURPOSE_VALUE"]." - ".$arResult["ITEM"]["PROPERTY_PURPOSE_ID_VALUE"],
+                "EMAIL" => $arParams["SYS_PAYER_EMAIL"],
+                "COUNT" => $PROP["COUNT"],
+            ];
+            CEvent::Send("PAY_ADMIN_SUCCESS", 's1', $arEventFields);
+            if(!empty($PROP["USER"])){
+                $rsUser = CUser::GetByID($PROP["USER"]);
+                $arUser = $rsUser->Fetch();
+                if($arUser["PERSONAL_GENDER"] == 'F'){
+                    $arEventFields["HELLO"] = 'Уважаемая ';
+                }
+                else{
+                    $arEventFields["HELLO"] = 'Уважаемый ';
+                }
+                $arEventFields["HELLO"] .= $arUser["NAME"]." ".$arUser["LAST_NAME"];
+                if(empty($arParams["SYS_PAYER_EMAIL"]))
+                    $arEventFields["EMAIL"] = $arUser["EMAIL"];
+            }
+
+            if(!empty($arEventFields["EMAIL"]))
+                CEvent::Send("PAY_SUCCESS", 's1', $arEventFields);
         }
         else
             $arResult["ERRORS"][] = $el->LAST_ERROR;

@@ -79,13 +79,17 @@
 			</div>
 			<div class="project-detail__payment">
 				<?if($arResult["PROJECT"]["ACTIVE"] == "Y"):?>
-					<p class="project-detail__payment-item">Оплатить недостающую часть проекта</p>
-					<div class="btn btn--full">Оплатить проект</div>
-					<p class="project-detail__payment-item">Оплатить часть проекта</p>
-					<div class="single-col clearfix">
-						<div class="col-xs-2 left-col"><input type="number" class="project-detail__payment-numb"></div>
-						<div class="col-xs-2 right-col btn">Оплатить</div>
-					</div>
+					<form class="project-detail__payment-form" action="https://lmi.paymaster.ua/ru/" method="post">
+						<input type="hidden" name="purpose" value="project" class="js-purpose">
+						<input type="hidden" name="purpose_id" value="<?=$arResult["PROJECT"]["ID"]?>" class="js-purpose-id">
+						<p class="project-detail__payment-item">Оплатить недостающую часть проекта</p>
+						<div class="btn btn--full js-pay-project-full" data-count="<?=$arResult["PROJECT"]["PAY_SUM"]?>">Оплатить проект</div>
+						<p class="project-detail__payment-item">Оплатить часть проекта</p>
+						<div class="single-col clearfix">
+							<div class="col-xs-2 left-col"><input type="number" class="project-detail__payment-numb js-pay-project-sum"></div>
+							<div class="col-xs-2 right-col btn js-pay-project-partly">Оплатить</div>
+						</div>
+					</form>
 				<?endif;?>
 				<p class="project-detail__payment-item">Задать вопрос по этому проекту</p>
 				<div class="btn btn--full btn--gray modal-open" data-src="question-form" data-load="/ajax/ask_form.php">Задать вопрос</div>

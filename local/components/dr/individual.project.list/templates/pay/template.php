@@ -3,22 +3,27 @@
 	<p class="simple-form__title">Ваша оплата по проекту (проектам):</p>
 	<div class="col-xs-7 centered-col project-pay">
 	<?if($arResult["ALL_COUNT"] > 0):?>
-		<?foreach($arResult["ITEMS"] as $project):?>
-			<div class="project-pay__item clearfix single-col" id="pay<?=$project["ID"]?>">
-				<div class="col-xs-1 left-col project-pay__name"><?=$arResult["CHILD"]?></div>
-				<div class="col-xs-4 project-pay__title"><?=$project["NAME"]?></div>
-				<div class="col-xs-2 right-col project-pay__count"><?=$project["ALL"]?></div>
-				<div class="project-pay__cancel js-proj-pay-cansel" data-id="<?=$project["ID"]?>" data-type="<?=$arResult["PAY_TYPE"]?>"></div>
-				<input type="hidden" name="count" value="<?=$project["PROPERTY_ALL_VALUE"]?>" class="js-proj-to-pay-count"/>
+		<form class="project-detail__payment-form" action="https://lmi.paymaster.ua/ru/" method="post">
+			<input type="hidden" name="purpose" value="kid" class="js-purpose">
+			<input type="hidden" name="purpose_id" value="<?=$arResult["CHILD_ID"]?>" class="js-purpose-id">
+			<?foreach($arResult["ITEMS"] as $project):?>
+				<div class="project-pay__item clearfix single-col" id="pay<?=$project["ID"]?>">
+					<div class="col-xs-1 left-col project-pay__name"><?=$arResult["CHILD"]?></div>
+					<div class="col-xs-4 project-pay__title"><?=$project["NAME"]?></div>
+					<div class="col-xs-2 right-col project-pay__count"><?=$project["ALL"]?></div>
+					<div class="project-pay__cancel js-proj-pay-cansel" data-id="<?=$project["ID"]?>" data-type="<?=$arResult["PAY_TYPE"]?>"></div>
+					<input type="hidden" name="count" value="<?=$project["PROPERTY_ALL_VALUE"]?>" data-id="<?=$project["ID"]?>" class="js-proj-to-pay-count"/>
+				</div>
+			<?endforeach;?>
+			<div class="project-pay__all clearfix">
+				<p class="project-pay__all-title col-xs-4 left-col">Всего к оплате</p>
+				<p class="project-pay__all-count col-xs-3 right-col js-all-proj-to-pay-count"><span><?=$arResult["ALL_PAY"]?></span>
+					<?=MONEY_NAME?></p>
 			</div>
-		<?endforeach;?>
-		<div class="project-pay__all clearfix">
-			<p class="project-pay__all-title col-xs-4 left-col">Всего к оплате</p>
-			<p class="project-pay__all-count col-xs-3 right-col js-all-proj-to-pay-count"><span><?=$arResult["ALL_PAY"]?></span> <?=MONEY_NAME?></p>
-		</div>
-		<div class="project-pay__pay-block col-xs-4 centered-col">
-			<div class="btn btn--full">Оплатить</div>
-		</div>
+			<div class="project-pay__pay-block col-xs-4 centered-col">
+				<div class="btn btn--full js-project-child-pay">Оплатить</div>
+			</div>
+		</form>
 	<?else:?>
 		<p>Нет активных проектов для оплаты</p>
 	<?endif;?>

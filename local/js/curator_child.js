@@ -116,6 +116,36 @@ $(document).ready( function() {
         });
     });
 
+    //Перевод денег за проекты
+    $(document).on('click', '.js-project-child-pay', function(){
+        var purpose =  $(".js-purpose").val();
+        var purposeId =  $(".js-purpose-id").val();
+
+        var sum = 0;
+        var purposeStr = '';
+        $(".js-proj-to-pay-count").each(function(indx, element){
+            sum += parseInt($(element).val());
+            purposeStr += $(element).attr("data-id")+',';
+        });
+        var curForm = $(this).closest('form');
+        if(sum > 0){
+            $.ajax({
+                type: "POST",
+                url: "/ajax/free_pay.php",
+                async: false,
+                data: {sum: sum, new_pay:'Y', purpose: purpose, purpose_id: purposeId, purpose_list: purposeStr},
+                success: function (data) {
+                    curForm.append(data);
+                    curForm.trigger('submit');
+                }
+            });
+        }
+        else{
+            $(".project-pay").append("<div class='error'>Нет проектов для оплаты</div>");
+        }
+
+    });
+
     //Удаление проекта из оплаты
     $(document).on("click", ".js-proj-pay-cansel", function () {
         var projId = $(this).attr("data-id");
@@ -128,7 +158,6 @@ $(document).ready( function() {
         var kidProjects = 0;
         $(".js-proj-to-pay-count").each(function(indx, element){ // indx - номер элемента в наборе, element - сам элемент
             kidProjects += parseInt($(element).val());
-            console.log($(element));
         });
         $(".js-all-proj-to-pay-count span").text(kidProjects.triads(" ",", ", false));
     });

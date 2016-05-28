@@ -18,15 +18,32 @@ $arResult["PAYMENT_SYSTEM"] = $arParams["PAYMENT_SYSTEM"];
 $arResult["PAYMENT_SUM"] = $arParams["PAYMENT_SUM"];
 $arResult["PAYMENT_DESC"] = $arParams["PAYMENT_DESC"];
 $arResult["PAYMENT_SIM_MODE"] = $arParams["PAYMENT_SIM_MODE"];
+$arResult["PURPOSE_ID"] = $arParams["PURPOSE_ID"];
+$arResult["PURPOSE_CODE"] = $arParams["PURPOSE_CODE"];
 
-/* Получаем информацию по ребенку
-*/
+
+switch ($arParams["PURPOSE"]){
+    case 'project':
+        $arResult["PURPOSE"] = "Платеж на проект";
+    break;
+    case 'kid':
+        $arResult["PURPOSE"] = "Платеж на ребенка";
+        break;
+    default:
+        $arResult["PURPOSE"] = "Общий платеж";
+    break;
+}
+
 if(isset($_REQUEST["new_pay"]) && $_REQUEST["new_pay"] == 'Y'){
     $el = new CIBlockElement;
 
     $PROP = array();
-    $PROP["USER"] = $USER->GetID();  // свойству с кодом 12 присваиваем значение "Белый"
-    $PROP["COUNT"] = $arResult["PAYMENT_SUM"];// свойству с кодом 3 присваиваем значение 38
+    $PROP["USER"] = $USER->GetID();
+    $PROP["COUNT"] = $arResult["PAYMENT_SUM"];
+    $PROP["PURPOSE"] = $arResult["PURPOSE"];
+    $PROP["PURPOSE_ID"] = $arResult["PURPOSE_ID"];
+    $PROP["PURPOSE_CODE"] = $arResult["PURPOSE_CODE"];
+    $PROP["PURPOSE_LIST"] = $arResult["PURPOSE_LIST"];
 
     $arLoadProductArray = Array(
         "MODIFIED_BY"    => $USER->GetID(), // элемент изменен текущим пользователем

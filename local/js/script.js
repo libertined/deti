@@ -170,7 +170,41 @@ $(document).ready(function() {
             type: "POST",
             url: "/ajax/free_pay.php",
             async: false,
-            data: {sum: sum, new_pay:'Y'},
+            data: {sum: sum, new_pay:'Y', purpose:'general'},
+            success: function (data) {
+                curForm.append(data);
+                curForm.trigger('submit');
+            }
+        });
+    });
+
+    $(document).on('click', '.js-pay-project-full', function(){
+        var sum = $(this).attr('data-count');
+        var purpose =  $(".js-purpose").val();
+        var purposeId =  $(".js-purpose-id").val();
+        var curForm = $(this).closest('form');
+        $.ajax({
+            type: "POST",
+            url: "/ajax/free_pay.php",
+            async: false,
+            data: {sum: sum, new_pay:'Y', purpose: purpose, purpose_id: purposeId},
+            success: function (data) {
+                curForm.append(data);
+                curForm.trigger('submit');
+            }
+        });
+    });
+
+    $(document).on('click', '.js-pay-project-partly', function(){
+        var sum = $(".js-pay-project-sum").val();
+        var purpose =  $(".js-purpose").val();
+        var purposeId =  $(".js-purpose-id").val();
+        var curForm = $(this).closest('form');
+        $.ajax({
+            type: "POST",
+            url: "/ajax/free_pay.php",
+            async: false,
+            data: {sum: sum, new_pay:'Y', purpose: purpose, purpose_id: purposeId},
             success: function (data) {
                 curForm.append(data);
                 curForm.trigger('submit');

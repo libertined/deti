@@ -34,6 +34,7 @@ if($arItem = $rsElement->Fetch()) {
     $arItem["ALL"] = number_format($arItem["PROPERTY_ALL_VALUE"], 0, '.', ' ')." ".MONEY_NAME;
     $arItem["PAYED"] = number_format($arItem["PROPERTY_PAYED_VALUE"], 0, '.', ' ')." ".MONEY_NAME;
     $arItem["DIFF"] = number_format($arItem["PROPERTY_ALL_VALUE"] - $arItem["PROPERTY_PAYED_VALUE"], 0, '.', ' ')." ".MONEY_NAME;
+    $arItem["PAY_SUM"] = $arItem["PROPERTY_ALL_VALUE"] - $arItem["PROPERTY_PAYED_VALUE"];
     $arItem["PROGRESS"] = ceil($arItem["PROPERTY_PAYED_VALUE"]/$arItem["PROPERTY_ALL_VALUE"]*100);
     $arItem["DATE_ACTIVE_FROM"] = strtolower(FormatDate("d.m.Y", MakeTimeStamp($arItem["DATE_ACTIVE_FROM"])));
     $arItem["DATE_ACTIVE_TO"] = strtolower(FormatDate("d.m.Y", MakeTimeStamp($arItem["DATE_ACTIVE_TO"])));

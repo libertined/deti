@@ -67,6 +67,7 @@ if(isset($arParams["PAY_TYPE"]) && $arParams["PAY_TYPE"] != ""){
     $rsElementChild = CIBlockElement::GetList(array("ID" => "ASC"), $arFilterChild, false, false, $arSelectChild);
     while($arItem = $rsElementChild->GetNext()) {
         $arResult["CHILD"] = $arItem["NAME"];
+        $arResult["CHILD_ID"] = $arItem["ID"];
     }
 }
 $arSelect = array( "ID", "ACTIVE", "NAME", "PREVIEW_TEXT", "DATE_ACTIVE_TO",
