@@ -35,8 +35,11 @@ if ($arResult['SHOW_ERRORS'] == 'Y' && $arResult['ERROR'])
 </form>
 <?
 else:
-	LocalRedirect($arResult["PROFILE_URL"]);
 ?>
+	<p>Вы успешно авторизованы.</p>
+	<script>
+		window.location.href = "<?=$arResult["PROFILE_URL"]?>";
+	</script>
 <?endif?>
 </div>
 <script>
