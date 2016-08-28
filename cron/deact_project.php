@@ -13,7 +13,7 @@ if(!CModule::IncludeModule("iblock"))
 	ShowError(GetMessage("IBLOCK_MODULE_NOT_INSTALLED"));
 	return;
 }
-$arParams["DETAIL_PAGE"] = "http://all-luxury.ru/projects/";
+$arParams["DETAIL_PAGE"] = "http://dreamers-odessa.com/projects/";
 
 // Получаем список детей у которых есть попечители с истекшим сроком
 $arFilter = array (

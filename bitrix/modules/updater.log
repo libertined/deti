@@ -1,0 +1,1049 @@
+2015-08-14 11:15:56 -  - exec CUpdateClient::GetUpdatesList
+2015-08-14 11:15:56 -  - exec CUpdateClient::CollectRequestData
+2015-08-14 11:15:56 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_sender=15.5.2&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-14 11:15:56 -  - exec CUpdateClient::GetHTTPPage
+2015-08-14 11:15:56 -  - TIME GetUpdatesList(request) 0.567 sec
+2015-08-14 11:15:56 -  - exec CUpdateClient::ParseServerData
+2015-08-14 11:16:26 -  - exec CUpdateClient::GetUpdatesList
+2015-08-14 11:16:26 -  - exec CUpdateClient::CollectRequestData
+2015-08-14 11:16:26 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_sender=15.5.2&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-14 11:16:26 -  - exec CUpdateClient::GetHTTPPage
+2015-08-14 11:16:26 -  - TIME GetUpdatesList(request) 0.253 sec
+2015-08-14 11:16:26 -  - exec CUpdateClient::ParseServerData
+2015-08-14 13:04:51 -  - exec CUpdateClient::GetUpdatesList
+2015-08-14 13:04:51 -  - exec CUpdateClient::CollectRequestData
+2015-08-14 13:04:51 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_sender=15.5.2&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-14 13:04:51 -  - exec CUpdateClient::GetHTTPPage
+2015-08-14 13:04:51 -  - TIME GetUpdatesList(request) 0.245 sec
+2015-08-14 13:04:51 -  - exec CUpdateClient::ParseServerData
+2015-08-21 16:04:05 -  - exec CUpdateClient::GetUpdatesList
+2015-08-21 16:04:05 -  - exec CUpdateClient::CollectRequestData
+2015-08-21 16:04:05 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_sender=15.5.2&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-21 16:04:05 -  - exec CUpdateClient::GetHTTPPage
+2015-08-21 16:04:06 -  - TIME GetUpdatesList(request) 0.232 sec
+2015-08-21 16:04:06 -  - exec CUpdateClient::ParseServerData
+2015-08-26 17:12:35 -  - exec CUpdateClient::GetUpdatesList
+2015-08-26 17:12:35 -  - exec CUpdateClient::CollectRequestData
+2015-08-26 17:12:35 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_sender=15.5.2&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-26 17:12:35 -  - exec CUpdateClient::GetHTTPPage
+2015-08-26 17:12:35 -  - TIME GetUpdatesList(request) 0.232 sec
+2015-08-26 17:12:35 -  - exec CUpdateClient::ParseServerData
+2015-10-01 18:59:29 -  - exec CUpdateClient::GetUpdatesList
+2015-10-01 18:59:29 -  - exec CUpdateClient::CollectRequestData
+2015-10-01 18:59:29 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_sender=15.5.2&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-01 18:59:29 -  - exec CUpdateClient::GetHTTPPage
+2015-10-01 18:59:29 -  - TIME GetUpdatesList(request) 0.217 sec
+2015-10-01 18:59:29 -  - exec CUpdateClient::ParseServerData
+2015-10-01 18:59:55 -  - exec CUpdateClient::GetUpdatesList
+2015-10-01 18:59:55 -  - exec CUpdateClient::CollectRequestData
+2015-10-01 18:59:55 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_sender=15.5.2&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-01 18:59:55 -  - exec CUpdateClient::GetHTTPPage
+2015-10-01 18:59:55 -  - TIME GetUpdatesList(request) 0.178 sec
+2015-10-01 18:59:55 -  - exec CUpdateClient::ParseServerData
+2015-10-01 19:00:06 -  - exec CUpdateClient::GetUpdatesList
+2015-10-01 19:00:06 -  - exec CUpdateClient::CollectRequestData
+2015-10-01 19:00:06 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_sender=15.5.2&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-01 19:00:06 -  - exec CUpdateClient::GetHTTPPage
+2015-10-01 19:00:06 -  - TIME GetUpdatesList(request) 0.254 sec
+2015-10-01 19:00:06 -  - exec CUpdateClient::ParseServerData
+2015-10-01 19:01:10 -  - exec CUpdateClient::GetUpdatesList
+2015-10-01 19:01:10 -  - exec CUpdateClient::CollectRequestData
+2015-10-01 19:01:10 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_sender=15.5.2&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-01 19:01:10 -  - exec CUpdateClient::GetHTTPPage
+2015-10-01 19:01:10 -  - TIME GetUpdatesList(request) 0.214 sec
+2015-10-01 19:01:10 -  - exec CUpdateClient::ParseServerData
+2015-10-01 19:01:11 -  - exec CUpdateClient::GetUpdatesList
+2015-10-01 19:01:11 -  - exec CUpdateClient::CollectRequestData
+2015-10-01 19:01:11 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_sender=15.5.2&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-01 19:01:11 -  - exec CUpdateClient::GetHTTPPage
+2015-10-01 19:01:12 -  - TIME GetUpdatesList(request) 0.182 sec
+2015-10-01 19:01:12 -  - exec CUpdateClient::ParseServerData
+2015-10-01 19:04:45 -  - exec CUpdateClient::GetUpdatesList
+2015-10-01 19:04:45 -  - exec CUpdateClient::CollectRequestData
+2015-10-01 19:04:45 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-01 19:04:45 -  - exec CUpdateClient::GetHTTPPage
+2015-10-01 19:04:45 -  - TIME GetUpdatesList(request) 0.237 sec
+2015-10-01 19:04:45 -  - exec CUpdateClient::ParseServerData
+2015-10-01 19:05:07 -  - exec CUpdateClient::RegisterVersion
+2015-10-01 19:05:07 -  - exec CUpdateClient::CollectRequestData
+2015-10-01 19:05:07 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&query_type=register
+2015-10-01 19:05:07 -  - exec CUpdateClient::GetHTTPPage
+2015-10-01 19:05:07 -  - TIME RegisterVersion(request) 0.211 sec
+2015-10-01 19:05:07 -  - exec CUpdateClient::UnGzipArchive
+2015-10-01 19:05:07 -  - TIME UnGzipArchive 0.001 sec
+2015-10-01 19:05:07 -  - exec CUpdateClient::ParseServerData
+2015-10-01 19:05:07 - CURV - Product registered successfully!
+2015-10-01 19:05:07 - UPD_SUCCESS - Registered
+2015-10-01 19:05:12 -  - exec CUpdateClient::GetUpdatesList
+2015-10-01 19:05:12 -  - exec CUpdateClient::CollectRequestData
+2015-10-01 19:05:12 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-01 19:05:12 -  - exec CUpdateClient::GetHTTPPage
+2015-10-01 19:05:12 -  - TIME GetUpdatesList(request) 0.199 sec
+2015-10-01 19:05:12 -  - exec CUpdateClient::ParseServerData
+2015-10-13 20:21:56 -  - exec CUpdateClient::GetUpdatesList
+2015-10-13 20:21:56 -  - exec CUpdateClient::CollectRequestData
+2015-10-13 20:21:57 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-13 20:21:57 -  - exec CUpdateClient::GetHTTPPage
+2015-10-13 20:21:57 -  - TIME GetUpdatesList(request) 0.278 sec
+2015-10-13 20:21:57 -  - exec CUpdateClient::ParseServerData
+2015-10-22 14:20:12 -  - exec CUpdateClient::GetUpdatesList
+2015-10-22 14:20:12 -  - exec CUpdateClient::CollectRequestData
+2015-10-22 14:20:12 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-22 14:20:12 -  - exec CUpdateClient::GetHTTPPage
+2015-10-22 14:20:13 -  - TIME GetUpdatesList(request) 0.501 sec
+2015-10-22 14:20:13 -  - exec CUpdateClient::ParseServerData
+2015-10-22 14:21:09 -  - exec CUpdateClient::GetUpdatesList
+2015-10-22 14:21:09 -  - exec CUpdateClient::CollectRequestData
+2015-10-22 14:21:09 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=all-luxury.ru&CHHB=all-luxury.ru&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.29&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-22 14:21:09 -  - exec CUpdateClient::GetHTTPPage
+2015-10-22 14:21:10 -  - TIME GetUpdatesList(request) 0.447 sec
+2015-10-22 14:21:10 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:25 -  - exec CUpdateClient::GetUpdatesList
+2015-10-28 15:05:25 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:25 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:25 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:25 -  - TIME GetUpdatesList(request) 0.285 sec
+2015-10-28 15:05:25 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:31 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:31 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:31 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.1&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:31 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:31 -  - TIME LoadModulesUpdates(request) 0.237 sec
+2015-10-28 15:05:31 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:31 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:31 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:31 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:31 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:32 - DOWNLOAD - Time - 0.89015507698059 sec
+2015-10-28 15:05:32 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:32 -  - TIME UnGzipArchive 0.102 sec
+2015-10-28 15:05:32 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033932/fileman/updater15.5.2.php'
+2015-10-28 15:05:32 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033932/fileman/updater15.5.2.php': CopyFiles(install/components, components)
+2015-10-28 15:05:33 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033932/fileman/updater15.5.2.php': CopyFiles(install/js, js)
+2015-10-28 15:05:33 -  - TIME UpdateStepModules 0.186 sec
+2015-10-28 15:05:33 - UPD_SUCCESS - Updated: fileman (15.5.2)<br><li>Исправлен ряд ошибок в интерфейсах модуля и визуальном редакторе.
+2015-10-28 15:05:33 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:33 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:33 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.0&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:33 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:33 -  - TIME LoadModulesUpdates(request) 0.221 sec
+2015-10-28 15:05:33 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:33 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:33 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:33 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:33 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:33 - DOWNLOAD - Time - 0.22610998153687 sec
+2015-10-28 15:05:33 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:33 -  - TIME UnGzipArchive 0.008 sec
+2015-10-28 15:05:33 -  - TIME UpdateStepModules 0.002 sec
+2015-10-28 15:05:33 - UPD_SUCCESS - Updated: forum (15.5.1)<br><li>Исправления и улучшения.
+2015-10-28 15:05:33 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:33 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:33 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.3&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:33 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:34 -  - TIME LoadModulesUpdates(request) 0.261 sec
+2015-10-28 15:05:34 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:34 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:34 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:34 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:34 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:34 - DOWNLOAD - Time - 0.60479092597961 sec
+2015-10-28 15:05:34 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:34 -  - TIME UnGzipArchive 0.021 sec
+2015-10-28 15:05:34 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033934/iblock/updater15.5.4/index.php'
+2015-10-28 15:05:34 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033934/iblock/updater15.5.4/index.php': CopyFiles(install/components, components)
+2015-10-28 15:05:35 -  - TIME UpdateStepModules 0.16 sec
+2015-10-28 15:05:35 - UPD_SUCCESS - Updated: iblock (15.5.4)<br><li>Исправлена ошибка работы комплексных компонент bitrix:catalog, bitrix:news, bitrix:photo при использовании кастомных решений показа 404-й страницы <li>Исправлена ошибка шаблона компонента catalog.top
+2015-10-28 15:05:35 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:35 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:35 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.0&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:35 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:35 -  - TIME LoadModulesUpdates(request) 0.242 sec
+2015-10-28 15:05:35 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:35 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:35 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:35 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:35 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:35 - DOWNLOAD - Time - 0.33501887321472 sec
+2015-10-28 15:05:35 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:35 -  - TIME UnGzipArchive 0.005 sec
+2015-10-28 15:05:35 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033935/search/updater15.5.1.php'
+2015-10-28 15:05:35 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033935/search/updater15.5.1.php': CopyFiles(install/components, components)
+2015-10-28 15:05:35 -  - TIME UpdateStepModules 0.024 sec
+2015-10-28 15:05:35 - UPD_SUCCESS - Updated: search (15.5.1)<br><li>Исправлен разбор некоторых видов запросов. <li>Исправлена ошибка отображения облака тегов при использовании Sphinx. <li>Оптимизирован поисковый запрос при учёте рейтинга в ранжировании результатов. 
+2015-10-28 15:05:35 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:35 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:35 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:35 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:36 -  - TIME LoadModulesUpdates(request) 0.228 sec
+2015-10-28 15:05:36 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:36 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:36 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:36 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:36 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:36 - DOWNLOAD - Time - 0.29692697525024 sec
+2015-10-28 15:05:36 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:36 -  - TIME UnGzipArchive 0.015 sec
+2015-10-28 15:05:36 -  - TIME UpdateStepModules 0.056 sec
+2015-10-28 15:05:36 - UPD_SUCCESS - Updated: translate ()
+2015-10-28 15:05:36 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:36 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:36 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=8.0.2&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:36 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:36 -  - TIME LoadModulesUpdates(request) 0.228 sec
+2015-10-28 15:05:36 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:36 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:36 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:36 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:36 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:37 - DOWNLOAD - Time - 0.26157116889954 sec
+2015-10-28 15:05:37 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:37 -  - TIME UnGzipArchive 0.001 sec
+2015-10-28 15:05:37 -  - TIME UpdateStepModules 0.001 sec
+2015-10-28 15:05:37 - UPD_SUCCESS - Updated: translate (8.5.0)<br><li>Переход на версию 8.5.
+2015-10-28 15:05:37 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:37 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:37 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=8.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:37 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:37 -  - TIME LoadModulesUpdates(request) 0.227 sec
+2015-10-28 15:05:37 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:37 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:37 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:37 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:37 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:37 - DOWNLOAD - Time - 0.30183005332947 sec
+2015-10-28 15:05:37 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:37 -  - TIME UnGzipArchive 0.004 sec
+2015-10-28 15:05:37 -  - TIME UpdateStepModules 0.004 sec
+2015-10-28 15:05:37 - UPD_SUCCESS - Updated: translate (9.0.0)<br><li>Исправлены незначительные ошибки.
+2015-10-28 15:05:38 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:38 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:38 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=9.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:38 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:38 -  - TIME LoadModulesUpdates(request) 0.205 sec
+2015-10-28 15:05:38 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:38 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:38 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:38 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:38 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:38 - DOWNLOAD - Time - 0.33451700210571 sec
+2015-10-28 15:05:38 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:38 -  - TIME UnGzipArchive 0.042 sec
+2015-10-28 15:05:38 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033938/translate/updater9.1.0.php'
+2015-10-28 15:05:38 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033938/translate/updater9.1.0.php': CopyFiles(install/admin, admin)
+2015-10-28 15:05:38 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033938/translate/updater9.1.0.php': CopyFiles(install/images, images/translate)
+2015-10-28 15:05:38 -  - TIME UpdateStepModules 0.038 sec
+2015-10-28 15:05:38 - UPD_SUCCESS - Updated: translate (9.1.0)<br><li>Добавлен функционал просмотра и редактирование файла перевода. <li>В панели инструментов в режиме разработки добавлена кнопка показа файлов локализации, используемых на текущей странице. Включается в настройках модуля. <li>Добавлено создание резервной копии редактируемого файла перевода (в папке /bitrix/tmp/translate/_backup). Включается в настройках модуля. <li>Добавлены опции выгрузки в CSV: все, непереведенные. <li>Добавлен диалог \"Поиск/Замена\" по файлам переводов. <li>Добавлен функционал проверки на лишние переводы строк в файлах переводов. <li>Добавлен интерфейс выгрузки локализации из продукта. <li>Добавлен интерфейс загрузки локализации из архива в продукт. 
+2015-10-28 15:05:38 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:38 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:38 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=9.1.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:38 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:38 -  - TIME LoadModulesUpdates(request) 0.214 sec
+2015-10-28 15:05:38 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:38 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:39 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:39 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:39 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:39 - DOWNLOAD - Time - 0.31698203086853 sec
+2015-10-28 15:05:39 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:39 -  - TIME UnGzipArchive 0.003 sec
+2015-10-28 15:05:39 -  - TIME UpdateStepModules 0.003 sec
+2015-10-28 15:05:39 - UPD_SUCCESS - Updated: translate (9.5.0)<br><li>Добавлена поддержка интерфейса \"Эрмитаж\". 
+2015-10-28 15:05:39 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:39 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:39 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=9.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:39 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:39 -  - TIME LoadModulesUpdates(request) 0.198 sec
+2015-10-28 15:05:39 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:39 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:39 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:39 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:39 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:39 - DOWNLOAD - Time - 0.20335292816162 sec
+2015-10-28 15:05:39 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:39 -  - TIME UnGzipArchive 0.001 sec
+2015-10-28 15:05:39 -  - TIME UpdateStepModules 0.001 sec
+2015-10-28 15:05:39 - UPD_SUCCESS - Updated: translate (10.0.0)<br><li>Переход на новую версию. 
+2015-10-28 15:05:39 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:39 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:39 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=10.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:39 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:40 -  - TIME LoadModulesUpdates(request) 0.212 sec
+2015-10-28 15:05:40 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:40 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:40 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:40 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:40 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:40 - DOWNLOAD - Time - 0.22362399101257 sec
+2015-10-28 15:05:40 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:40 -  - TIME UnGzipArchive 0.003 sec
+2015-10-28 15:05:40 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033940/translate/updater11.0.0.php'
+2015-10-28 15:05:40 -  - TIME UpdateStepModules 0.007 sec
+2015-10-28 15:05:40 - UPD_SUCCESS - Updated: translate (11.0.0)<br><li>Незначительные исправления. 
+2015-10-28 15:05:40 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:40 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:40 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=11.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:40 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:40 -  - TIME LoadModulesUpdates(request) 0.235 sec
+2015-10-28 15:05:40 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:40 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:40 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:40 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:40 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:41 - DOWNLOAD - Time - 0.28297901153564 sec
+2015-10-28 15:05:41 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:41 -  - TIME UnGzipArchive 0.013 sec
+2015-10-28 15:05:41 -  - TIME UpdateStepModules 0.018 sec
+2015-10-28 15:05:41 - UPD_SUCCESS - Updated: translate (12.0.0)<br><li>Улучшена работа в php 5.4. 
+2015-10-28 15:05:41 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:41 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:41 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=12.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:41 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:41 -  - TIME LoadModulesUpdates(request) 0.273 sec
+2015-10-28 15:05:41 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:41 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:41 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:41 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:41 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:41 - DOWNLOAD - Time - 0.23042106628418 sec
+2015-10-28 15:05:41 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:41 -  - TIME UnGzipArchive 0.001 sec
+2015-10-28 15:05:41 -  - TIME UpdateStepModules 0.002 sec
+2015-10-28 15:05:41 - UPD_SUCCESS - Updated: translate (12.0.1)<br><li>Исправлены ошибки 
+2015-10-28 15:05:41 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:41 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:41 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=12.0.1&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:41 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:41 -  - TIME LoadModulesUpdates(request) 0.2 sec
+2015-10-28 15:05:41 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:42 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:42 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:42 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:42 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:42 - DOWNLOAD - Time - 0.27167296409607 sec
+2015-10-28 15:05:42 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:42 -  - TIME UnGzipArchive 0.003 sec
+2015-10-28 15:05:42 -  - TIME UpdateStepModules 0.005 sec
+2015-10-28 15:05:42 - UPD_SUCCESS - Updated: translate (12.5.0)<br><li>Добавлена возможность выгрузки непереведенных фраз для 1 файла <li>Исправление интерфейсных ошибок
+2015-10-28 15:05:42 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:42 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:42 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=12.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:42 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:42 -  - TIME LoadModulesUpdates(request) 0.205 sec
+2015-10-28 15:05:42 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:42 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:42 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:42 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:42 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:42 - DOWNLOAD - Time - 0.27251791954041 sec
+2015-10-28 15:05:42 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:42 -  - TIME UnGzipArchive 0.009 sec
+2015-10-28 15:05:42 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033942/translate/updater14.0.0/index.php'
+2015-10-28 15:05:42 -  - TIME UpdateStepModules 0.011 sec
+2015-10-28 15:05:42 - UPD_SUCCESS - Updated: translate (14.0.0)<br><li>Исправлены ошибки административных страниц. <li>Исправлены ошибки импорта и экспорта переводов. <li>Разработчикам: добавлен метод CTranslateUtils::CopyMessage для копирования идентичных фраз между файлами.
+2015-10-28 15:05:42 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:42 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:42 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.0.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:42 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:43 -  - TIME LoadModulesUpdates(request) 0.222 sec
+2015-10-28 15:05:43 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:43 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:43 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:43 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:43 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:43 - DOWNLOAD - Time - 0.40440392494202 sec
+2015-10-28 15:05:43 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:43 -  - TIME UnGzipArchive 0.024 sec
+2015-10-28 15:05:43 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033943/vote/updater15.5.0.php'
+2015-10-28 15:05:43 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033943/vote/updater15.5.0.php': CopyFiles(install/components, components)
+2015-10-28 15:05:43 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033943/vote/updater15.5.0.php': CopyFiles(install/public/tools, tools)
+2015-10-28 15:05:43 -  - TIME UpdateStepModules 0.158 sec
+2015-10-28 15:05:43 - UPD_SUCCESS - Updated: vote (15.5.0)<br><li>Совместимость с IE8. <li>Исправление ошибок.
+2015-10-28 15:05:43 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:43 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:43 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.1&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:43 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:44 -  - TIME LoadModulesUpdates(request) 0.321 sec
+2015-10-28 15:05:44 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:44 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:44 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:44 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:44 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:44 - DOWNLOAD - Time - 0.51753115653992 sec
+2015-10-28 15:05:44 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:44 -  - TIME UnGzipArchive 0.011 sec
+2015-10-28 15:05:44 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033944/form/updater15.0.2.php'
+2015-10-28 15:05:44 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033944/form/updater15.0.2.php': CopyFiles(install/components, components)
+2015-10-28 15:05:44 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033944/form/updater15.0.2.php': CopyFiles(install/js, js)
+2015-10-28 15:05:44 -  - TIME UpdateStepModules 0.026 sec
+2015-10-28 15:05:44 - UPD_SUCCESS - Updated: form (15.0.2)<br><li>Исправления ошибок. 
+2015-10-28 15:05:45 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:45 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:45 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.0&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:45 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:45 -  - TIME LoadModulesUpdates(request) 0.654 sec
+2015-10-28 15:05:45 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:45 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:45 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:45 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:45 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:46 - DOWNLOAD - Time - 0.49963283538818 sec
+2015-10-28 15:05:46 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:46 -  - TIME UnGzipArchive 0.037 sec
+2015-10-28 15:05:46 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033946/blog/updater15.5.1.php'
+2015-10-28 15:05:46 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033946/blog/updater15.5.1.php': CopyFiles(install/components, components)
+2015-10-28 15:05:46 -  - TIME UpdateStepModules 0.194 sec
+2015-10-28 15:05:46 - UPD_SUCCESS - Updated: blog (15.5.1)<br><li>Незначительные исправления и улучшения.
+2015-10-28 15:05:46 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:46 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:46 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.1&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:46 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:47 -  - TIME LoadModulesUpdates(request) 0.259 sec
+2015-10-28 15:05:47 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:47 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:47 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:47 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:47 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:47 - DOWNLOAD - Time - 0.24247193336487 sec
+2015-10-28 15:05:47 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:47 -  - TIME UnGzipArchive 0.002 sec
+2015-10-28 15:05:47 -  - TIME UpdateStepModules 0.003 sec
+2015-10-28 15:05:47 - UPD_SUCCESS - Updated: blog (15.5.2)<br><li>Незначительные исправления.
+2015-10-28 15:05:47 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:47 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:47 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.0&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:47 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:47 -  - TIME LoadModulesUpdates(request) 0.215 sec
+2015-10-28 15:05:47 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:47 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:47 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:47 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:47 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:47 - DOWNLOAD - Time - 0.27516198158264 sec
+2015-10-28 15:05:47 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:47 -  - TIME UnGzipArchive 0.01 sec
+2015-10-28 15:05:48 -  - TIME UpdateStepModules 0.016 sec
+2015-10-28 15:05:48 - UPD_SUCCESS - Updated: perfmon (15.5.1)<br><li>Исправлено удаление записей с null в первичном ключе. <li>Добавлена кнопка удаления в форме редактирования записи. <li>Неверно строился запрос создания индекса для некоторых типов полей. 
+2015-10-28 15:05:48 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:48 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:48 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.2&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:48 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:48 -  - TIME LoadModulesUpdates(request) 0.23 sec
+2015-10-28 15:05:48 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:48 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:48 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:48 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:48 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:48 - DOWNLOAD - Time - 0.40803599357605 sec
+2015-10-28 15:05:48 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:48 -  - TIME UnGzipArchive 0.009 sec
+2015-10-28 15:05:48 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033948/security/updater15.5.3.php'
+2015-10-28 15:05:48 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033948/security/updater15.5.3.php': CopyFiles(install/themes, themes)
+2015-10-28 15:05:48 -  - TIME UpdateStepModules 0.012 sec
+2015-10-28 15:05:48 - UPD_SUCCESS - Updated: security (15.5.3)<br><li>Незначительные изменения.
+2015-10-28 15:05:48 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:48 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:48 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.3&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:48 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:49 -  - TIME LoadModulesUpdates(request) 0.398 sec
+2015-10-28 15:05:49 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:49 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:49 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:49 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:49 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:49 - DOWNLOAD - Time - 0.3245210647583 sec
+2015-10-28 15:05:49 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:49 -  - TIME UnGzipArchive 0.012 sec
+2015-10-28 15:05:49 -  - TIME UpdateStepModules 0.011 sec
+2015-10-28 15:05:49 - UPD_SUCCESS - Updated: security (15.5.4)<br><li>Незначительные изменения. <li>Улучшение сканера безопасности. 
+2015-10-28 15:05:49 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:49 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:49 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.0.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:49 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:50 -  - TIME LoadModulesUpdates(request) 0.241 sec
+2015-10-28 15:05:50 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:50 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:50 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:50 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:50 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:50 - DOWNLOAD - Time - 0.38026309013367 sec
+2015-10-28 15:05:50 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:50 -  - TIME UnGzipArchive 0.006 sec
+2015-10-28 15:05:50 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033950/seo/updater15.5.0.php'
+2015-10-28 15:05:50 -  - TIME UpdateStepModules 0.014 sec
+2015-10-28 15:05:50 - UPD_SUCCESS - Updated: seo (15.5.0)<br><li>Исправлена ошибка автогенерации карты сайта. <li>Поддержка нового функционала модуля \"Конверсия\". 
+2015-10-28 15:05:50 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:50 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:50 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:50 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:50 -  - TIME LoadModulesUpdates(request) 0.272 sec
+2015-10-28 15:05:50 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:50 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:50 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:50 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:50 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:51 - DOWNLOAD - Time - 0.43991899490356 sec
+2015-10-28 15:05:51 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:51 -  - TIME UnGzipArchive 0.032 sec
+2015-10-28 15:05:51 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033951/seo/updater15.5.1.php'
+2015-10-28 15:05:51 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033951/seo/updater15.5.1.php': CopyFiles(install/tools, tools)
+2015-10-28 15:05:51 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033951/seo/updater15.5.1.php': Query(UPDATE b_seo_search_engine SET CLIENT_ID='',CLIENT_SECRET='',SETTINGS='' WHERE CODE='yandex_direct', )
+2015-10-28 15:05:51 -  - TIME UpdateStepModules 0.06 sec
+2015-10-28 15:05:51 - UPD_SUCCESS - Updated: seo (15.5.1)<br><li>Изменения в механизме работы Яндекс.Директ. 
+2015-10-28 15:05:51 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:51 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:51 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.5.1&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:51 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:51 -  - TIME LoadModulesUpdates(request) 0.222 sec
+2015-10-28 15:05:51 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:51 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:51 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:51 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:51 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:51 - DOWNLOAD - Time - 0.21536588668823 sec
+2015-10-28 15:05:51 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:51 -  - TIME UnGzipArchive 0.003 sec
+2015-10-28 15:05:51 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033951/seo/updater15.5.2.php'
+2015-10-28 15:05:52 -  - TIME UpdateStepModules 0.027 sec
+2015-10-28 15:05:52 - UPD_SUCCESS - Updated: seo (15.5.2)<br><li>Изменения для работы функционала \"Конверсия\".
+2015-10-28 15:05:52 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:52 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:52 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.5.2&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:52 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:52 -  - TIME LoadModulesUpdates(request) 0.218 sec
+2015-10-28 15:05:52 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:52 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:52 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:52 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:52 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:52 - DOWNLOAD - Time - 0.34977793693542 sec
+2015-10-28 15:05:52 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:52 -  - TIME UnGzipArchive 0.012 sec
+2015-10-28 15:05:52 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033952/seo/updater15.5.3.php'
+2015-10-28 15:05:52 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033952/seo/updater15.5.3.php': CopyFiles(install/admin, admin)
+2015-10-28 15:05:52 -  - TIME UpdateStepModules 0.111 sec
+2015-10-28 15:05:52 - UPD_SUCCESS - Updated: seo (15.5.3)<br><li>Автоконтекст: возможность автоматизированного включения и отключения рекламных объявлений Яндекс.Директ.
+2015-10-28 15:05:52 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:52 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:52 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.5.3&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:52 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:53 -  - TIME LoadModulesUpdates(request) 0.288 sec
+2015-10-28 15:05:53 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:53 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:53 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:53 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:53 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:53 - DOWNLOAD - Time - 0.20970988273621 sec
+2015-10-28 15:05:53 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:53 -  - TIME UnGzipArchive 0.001 sec
+2015-10-28 15:05:53 -  - TIME UpdateStepModules 0.002 sec
+2015-10-28 15:05:53 - UPD_SUCCESS - Updated: seo (15.5.4)<br><li>Исправлена ошибка при отключенном модуле cоциальных cервисов.
+2015-10-28 15:05:53 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:53 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:53 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.5.4&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:53 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:53 -  - TIME LoadModulesUpdates(request) 0.207 sec
+2015-10-28 15:05:53 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:53 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:53 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:53 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:53 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:54 - DOWNLOAD - Time - 0.29207491874695 sec
+2015-10-28 15:05:54 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:54 -  - TIME UnGzipArchive 0.004 sec
+2015-10-28 15:05:54 -  - TIME UpdateStepModules 0.005 sec
+2015-10-28 15:05:54 - UPD_SUCCESS - Updated: seo (15.5.5)<br><li>Исправлено подтверждение прав на сайт в Яндекс.Вебмастер. <li>Исправлены интерфейсные ошибки. 
+2015-10-28 15:05:54 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:54 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:54 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.0&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:54 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:54 -  - TIME LoadModulesUpdates(request) 0.216 sec
+2015-10-28 15:05:54 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:54 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:54 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:54 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:54 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:54 - DOWNLOAD - Time - 0.3252329826355 sec
+2015-10-28 15:05:54 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:54 -  - TIME UnGzipArchive 0.006 sec
+2015-10-28 15:05:54 -  - TIME UpdateStepModules 0.007 sec
+2015-10-28 15:05:54 - UPD_SUCCESS - Updated: clouds (15.5.1)<br><li>Исправлена ошибка обработки файлов с символом \"=\" в названии. <li>Исправлена обработка файлов с национальными символами в именах. 
+2015-10-28 15:05:54 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:54 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:54 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.5&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:54 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:55 -  - TIME LoadModulesUpdates(request) 0.239 sec
+2015-10-28 15:05:55 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:55 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:55 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:55 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:55 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:55 - DOWNLOAD - Time - 0.52200412750244 sec
+2015-10-28 15:05:55 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:55 -  - TIME UnGzipArchive 0.013 sec
+2015-10-28 15:05:55 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033955/mobileapp/updater15.0.6.php'
+2015-10-28 15:05:55 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033955/mobileapp/updater15.0.6.php': CopyFiles(install/components, components)
+2015-10-28 15:05:55 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033955/mobileapp/updater15.0.6.php': CopyFiles(install/js, js)
+2015-10-28 15:05:55 -  - TIME UpdateStepModules 0.034 sec
+2015-10-28 15:05:55 - UPD_SUCCESS - Updated: mobileapp (15.0.6)<br><li>Добавлен API для показа уведомлений в приложениях на BitrixMobile. <li>Исправлены незначительные ошибки в верстке конструктора приложений.
+2015-10-28 15:05:55 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:55 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:55 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.0.6&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:55 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:56 -  - TIME LoadModulesUpdates(request) 0.226 sec
+2015-10-28 15:05:56 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:56 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:56 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:56 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:56 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:56 - DOWNLOAD - Time - 0.40603089332581 sec
+2015-10-28 15:05:56 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:56 -  - TIME UnGzipArchive 0.015 sec
+2015-10-28 15:05:56 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033956/mobileapp/updater15.5.7.php'
+2015-10-28 15:05:56 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033956/mobileapp/updater15.5.7.php': CopyFiles(install/components, components)
+2015-10-28 15:05:56 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033956/mobileapp/updater15.5.7.php': CopyFiles(install/js, js)
+2015-10-28 15:05:56 -  - TIME UpdateStepModules 0.03 sec
+2015-10-28 15:05:56 - UPD_SUCCESS - Updated: mobileapp (15.5.7)<br><li>Незначительные изменения.
+2015-10-28 15:05:56 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:56 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:56 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.0.3&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:56 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:56 -  - TIME LoadModulesUpdates(request) 0.331 sec
+2015-10-28 15:05:56 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:56 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:57 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:57 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:57 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:57 - DOWNLOAD - Time - 0.23997616767883 sec
+2015-10-28 15:05:57 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:57 -  - TIME UnGzipArchive 0.005 sec
+2015-10-28 15:05:57 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033957/highloadblock/updater15.0.4/index.php'
+2015-10-28 15:05:57 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033957/highloadblock/updater15.0.4/index.php': CopyFiles(install/components, components)
+2015-10-28 15:05:57 -  - TIME UpdateStepModules 0.01 sec
+2015-10-28 15:05:57 - UPD_SUCCESS - Updated: highloadblock (15.0.4)<br><li>Исправлены ошибки пользовательского свойства инфоблока \"Справочник\".
+2015-10-28 15:05:57 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:57 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:57 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.0.4&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:57 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:57 -  - TIME LoadModulesUpdates(request) 0.219 sec
+2015-10-28 15:05:57 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:57 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:57 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:57 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:57 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:57 - DOWNLOAD - Time - 0.2931809425354 sec
+2015-10-28 15:05:57 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:57 -  - TIME UnGzipArchive 0.003 sec
+2015-10-28 15:05:57 -  - TIME UpdateStepModules 0.006 sec
+2015-10-28 15:05:57 - UPD_SUCCESS - Updated: highloadblock (15.5.0)<br><li>Исправлен ряд ошибок.
+2015-10-28 15:05:57 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:57 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:57 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.4&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:05:57 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:05:58 -  - TIME LoadModulesUpdates(request) 0.235 sec
+2015-10-28 15:05:58 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:58 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:05:58 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:05:58 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:05:58 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:05:59 - DOWNLOAD - Time - 0.98747396469116 sec
+2015-10-28 15:05:59 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:05:59 -  - TIME UnGzipArchive 0.147 sec
+2015-10-28 15:05:59 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033959/iblock/updater15.5.5.php'
+2015-10-28 15:05:59 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033959/iblock/updater15.5.5.php': CopyFiles(install/components, components)
+2015-10-28 15:05:59 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033959/main/updater15.5.2/index.php'
+2015-10-28 15:05:59 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033959/main/updater15.5.2/index.php': CopyFiles(install/components, components)
+2015-10-28 15:06:00 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033959/main/updater15.5.2/index.php': CopyFiles(install/js, js)
+2015-10-28 15:06:00 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033959/main/updater15.5.2/index.php': CopyFiles(install/panel, panel)
+2015-10-28 15:06:00 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033959/main/updater15.5.2/index.php': CopyFiles(install/admin, admin)
+2015-10-28 15:06:00 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033959/main/updater15.5.2/index.php': Query(ALTER TABLE b_group_subordinate CHANGE AR_SUBGROUP_ID AR_SUBGROUP_ID text not null, )
+2015-10-28 15:06:00 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033959/main/updater15.5.2/index.php': Query(alter table b_smile add column HIDDEN char(1) not null default 'N', )
+2015-10-28 15:06:00 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033959/main/updater15.5.2/index.php': Query(alter table b_smile add column IMAGE_DEFINITION varchar(10) not null default 'SD', )
+2015-10-28 15:06:00 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033959/main/updater15.5.2/index.php': Query(, )
+2015-10-28 15:06:00 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033959/main/updater15.5.2/index.php': Query(alter table b_smile drop COLUMN IMAGE_HR, )
+2015-10-28 15:06:00 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033959/main/updater15.5.2/index.php': Query(alter table b_smile_set add column TYPE char(1) not null default 'G', )
+2015-10-28 15:06:00 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033959/main/updater15.5.2/index.php': Query(alter table b_smile_set add column PARENT_ID int(18) not null default 0, )
+2015-10-28 15:06:00 -  - TIME UpdateStepModules 0.548 sec
+2015-10-28 15:06:00 - UPD_SUCCESS - Updated: main (15.5.2)<br><li>Добавлена возможность создания галерей смайлов. <li>Добавлена возможность создания скрытых смайлов. <li>Добавлена поддержка смайлов в сверхвысоком разрешении (Ultra HD). <li>В журнал событий добавлены операции в Marketplace (кто установил/удалил/обновил модуль). <li>Монитор качества не учитывал, что компоненты могут быть без пространства имен. <li>Исправлен ряд интерфейсных ошибок. 
+2015-10-28 15:06:00 - UPD_SUCCESS - Updated: iblock (15.5.5)<br><li>Исправления ошибок в административном интерфейсе. <li>Исправлена индексация множественных значений свойств торговых предложений в умном фильтре. <li>CIBlockSection::GetList: в параметр $arNavStartParams добавлена обработка ключа nTopCount. 
+2015-10-28 15:06:00 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:00 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:00 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.2&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.2&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.5&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:00 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:00 -  - TIME LoadModulesUpdates(request) 0.22 sec
+2015-10-28 15:06:00 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:00 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:06:00 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:00 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:00 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:01 - DOWNLOAD - Time - 0.2132580280304 sec
+2015-10-28 15:06:01 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:06:01 -  - TIME UnGzipArchive 0.003 sec
+2015-10-28 15:06:01 -  - TIME UpdateStepModules 0.005 sec
+2015-10-28 15:06:01 - UPD_SUCCESS - Updated: main (15.5.3)<br><li>Исправлена ошибка загрузки файлов. 
+2015-10-28 15:06:01 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:01 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:01 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.3&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.3&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.5&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:01 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:01 -  - TIME LoadModulesUpdates(request) 0.263 sec
+2015-10-28 15:06:01 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:01 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:06:01 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:01 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:01 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:02 - DOWNLOAD - Time - 0.52163004875183 sec
+2015-10-28 15:06:02 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:06:02 -  - TIME UnGzipArchive 0.011 sec
+2015-10-28 15:06:02 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033962/main/updater15.5.4.php'
+2015-10-28 15:06:02 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033962/main/updater15.5.4.php': CopyFiles(install/panel, panel)
+2015-10-28 15:06:02 -  - TIME UpdateStepModules 0.015 sec
+2015-10-28 15:06:02 - UPD_SUCCESS - Updated: main (15.5.4)<br><li>Незначительные изменения.
+2015-10-28 15:06:02 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:02 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:02 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.4&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.5&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:02 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:02 -  - TIME LoadModulesUpdates(request) 0.346 sec
+2015-10-28 15:06:02 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:02 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:06:02 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:02 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:02 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:03 - DOWNLOAD - Time - 1.0944240093231 sec
+2015-10-28 15:06:03 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:06:04 -  - TIME UnGzipArchive 0.116 sec
+2015-10-28 15:06:04 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033963/main/updater15.5.5.php'
+2015-10-28 15:06:04 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033963/main/updater15.5.5.php': CopyFiles(install/components, components)
+2015-10-28 15:06:04 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033963/main/updater15.5.5.php': CopyFiles(install/js, js)
+2015-10-28 15:06:04 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033963/main/updater15.5.5.php': CopyFiles(install/panel, panel)
+2015-10-28 15:06:04 -  - TIME UpdateStepModules 0.405 sec
+2015-10-28 15:06:04 - UPD_SUCCESS - Updated: main (15.5.5)<br><li>Добавлена настройка модуля \"Записывать установку и удаление решений из Marketplace\". <li>При инсталляции продукта теперь по умолчанию используется mysqli. <li>Добавлена поддержка резервной копии БД более 2 Гб. <li>Исправлен ряд ошибок композитного кеша. <li>Исправлен ряд интерфейсных ошибок. <li>Разработчикам: добавлено событие OnAfterSetOption в Bitrix\\Main\\Config::set(). 
+2015-10-28 15:06:04 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:04 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:04 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.5&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.5&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.5&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:04 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:05 -  - TIME LoadModulesUpdates(request) 0.335 sec
+2015-10-28 15:06:05 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:05 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:06:05 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:05 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:05 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:06 - DOWNLOAD - Time - 0.83190894126892 sec
+2015-10-28 15:06:06 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:06:06 -  - TIME UnGzipArchive 0.047 sec
+2015-10-28 15:06:06 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033966/main/updater15.5.6/index.php'
+2015-10-28 15:06:06 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033966/main/updater15.5.6/index.php': CopyFiles(install/components, components)
+2015-10-28 15:06:06 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033966/main/updater15.5.6/index.php': CopyFiles(install/gadgets, gadgets)
+2015-10-28 15:06:06 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033966/main/updater15.5.6/index.php': CopyFiles(install/js, js)
+2015-10-28 15:06:06 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033966/main/updater15.5.6/index.php': Query(CREATE INDEX IX_FINDER_DEST ON b_finder_dest (CODE_TYPE), )
+2015-10-28 15:06:06 -  - TIME UpdateStepModules 0.132 sec
+2015-10-28 15:06:06 - UPD_SUCCESS - Updated: main (15.5.6)<br><li>Улучшения, связанные с работой стандартного диалога выбора сотрудников, рабочих групп и других сущностей. <li>Агент для проверки настроек продукта работает теперь и в БУС. <li>Исправлен ряд незначительных и интерфейсных ошибок. 
+2015-10-28 15:06:06 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:06 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:06 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.6&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.6&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.5&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:06 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:06 -  - TIME LoadModulesUpdates(request) 0.419 sec
+2015-10-28 15:06:06 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:06 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:06:06 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:06 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:07 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:07 - DOWNLOAD - Time - 0.58575201034546 sec
+2015-10-28 15:06:07 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:06:07 -  - TIME UnGzipArchive 0.023 sec
+2015-10-28 15:06:07 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033967/main/updater15.5.7.php'
+2015-10-28 15:06:07 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033967/main/updater15.5.7.php': CopyFiles(install/components, components)
+2015-10-28 15:06:07 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033967/main/updater15.5.7.php': CopyFiles(install/js, js)
+2015-10-28 15:06:07 -  - TIME UpdateStepModules 0.05 sec
+2015-10-28 15:06:07 - UPD_SUCCESS - Updated: main (15.5.7)<br><li>В компоненты system.field.edit и system.field.view добавлен шаблон для свойства типа \"Привязка к элементам highload-блоков\". <li>Исправлен ряд ошибок. 
+2015-10-28 15:06:07 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:07 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:07 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.7&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.7&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.5&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:07 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:08 -  - TIME LoadModulesUpdates(request) 0.362 sec
+2015-10-28 15:06:08 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:08 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:06:08 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:08 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:08 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:08 - DOWNLOAD - Time - 0.28152799606323 sec
+2015-10-28 15:06:08 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:06:08 -  - TIME UnGzipArchive 0.002 sec
+2015-10-28 15:06:08 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033968/main/updater15.5.8.php'
+2015-10-28 15:06:08 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033968/main/updater15.5.8.php': CopyFiles(install/components, components)
+2015-10-28 15:06:08 -  - TIME UpdateStepModules 0.004 sec
+2015-10-28 15:06:08 - UPD_SUCCESS - Updated: main (15.5.8)<br><li>Незначительные изменения и исправления. 
+2015-10-28 15:06:08 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:08 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:08 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.8&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.8&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.5&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:08 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:08 -  - TIME LoadModulesUpdates(request) 0.39 sec
+2015-10-28 15:06:08 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:08 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:06:09 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:09 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:09 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:09 - DOWNLOAD - Time - 0.90566802024841 sec
+2015-10-28 15:06:09 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:06:10 -  - TIME UnGzipArchive 0.087 sec
+2015-10-28 15:06:10 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033969/main/updater15.5.9.php'
+2015-10-28 15:06:10 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033969/main/updater15.5.9.php': CopyFiles(install/components, components)
+2015-10-28 15:06:10 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033969/main/updater15.5.9.php': CopyFiles(install/js, js)
+2015-10-28 15:06:10 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033969/main/updater15.5.9.php': Query(DROP INDEX ix_module_to_module ON b_module_to_module, )
+2015-10-28 15:06:10 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033969/main/updater15.5.9.php': Query(
+			alter table b_module_to_module
+			MODIFY COLUMN MESSAGE_ID VARCHAR(255) not null,
+			MODIFY COLUMN TO_CLASS VARCHAR(255),
+			MODIFY COLUMN TO_METHOD VARCHAR(255)
+		, )
+2015-10-28 15:06:10 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033969/main/updater15.5.9.php': Query(
+			CREATE INDEX ix_module_to_module ON b_module_to_module
+			(FROM_MODULE_ID(20), MESSAGE_ID(20), TO_MODULE_ID(20), TO_CLASS(20), TO_METHOD(20))
+		, )
+2015-10-28 15:06:10 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033969/main/updater15.5.9.php': Query(CREATE INDEX ix_buc_code ON b_user_counter(CODE), )
+2015-10-28 15:06:10 -  - TIME UpdateStepModules 0.31 sec
+2015-10-28 15:06:10 - UPD_SUCCESS - Updated: main (15.5.9)<br><li>Исправлен ряд интерфейсных ошибок. 
+2015-10-28 15:06:10 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:10 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:10 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.1&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.5&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:10 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:10 -  - TIME LoadModulesUpdates(request) 0.284 sec
+2015-10-28 15:06:10 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:10 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:06:10 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:10 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:10 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:11 - DOWNLOAD - Time - 0.65952205657959 sec
+2015-10-28 15:06:11 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:06:11 -  - TIME UnGzipArchive 0.148 sec
+2015-10-28 15:06:11 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php'
+2015-10-28 15:06:11 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': CopyFiles(install/components, components)
+2015-10-28 15:06:12 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': CopyFiles(install/public/templates, templates)
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_BIGGRIN' WHERE ID='68', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_SMILE' WHERE ID='69', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_SAD' WHERE ID='70', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_EEK' WHERE ID='71', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_COOL' WHERE ID='72', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_KISS' WHERE ID='73', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_REDFACE' WHERE ID='74', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_CRY' WHERE ID='75', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_EVIL' WHERE ID='76', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_WINK' WHERE ID='77', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_EXCLAIM' WHERE ID='78', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_QUESTION' WHERE ID='79', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_IDEA' WHERE ID='80', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_NEUTRAL' WHERE ID='81', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_CONFUSE' WHERE ID='82', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_NOTE' WHERE ID='83', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_DIRRECTION' WHERE ID='84', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_IDEA' WHERE ID='85', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_ATTANSION' WHERE ID='86', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_QUESTION' WHERE ID='87', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_BAD' WHERE ID='88', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_smile set DESCRIPTION='ICON_GOOD' WHERE ID='89', )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(ALTER TABLE b_forum_topic ADD ICON varchar(255), )
+2015-10-28 15:06:12 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1446033971/forum/updater15.5.2.php': Query(UPDATE b_forum_topic FT, b_forum_smile FS SET FT.ICON = FS.DESCRIPTION WHERE FT.ICON_ID = FS.ID, )
+2015-10-28 15:06:12 -  - TIME UpdateStepModules 0.921 sec
+2015-10-28 15:06:12 - UPD_SUCCESS - Updated: forum (15.5.2)<br><li>Исправлены ошибки работы в браузерах IE8, IE9. <li>Незначительное улучшение административного интерфейса. <li>Переход на смайлы ядра.
+2015-10-28 15:06:12 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:12 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:12 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.5&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:12 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:13 -  - TIME LoadModulesUpdates(request) 0.208 sec
+2015-10-28 15:06:13 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:13 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:06:13 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:13 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:13 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:13 - DOWNLOAD - Time - 0.55365705490112 sec
+2015-10-28 15:06:13 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:06:13 -  - TIME UnGzipArchive 0.029 sec
+2015-10-28 15:06:13 -  - TIME UpdateStepModules 0.026 sec
+2015-10-28 15:06:13 - UPD_SUCCESS - Updated: iblock (15.5.6)<br><li>Исправлена ошибка загрузки файлов в форме редактирования элемента инфоблока <li>Исправлена ошибка удаления значений свойств типа \"привязка к элементам\" <li>В списке элементов инфоблока добавлена возможность вывода зарезервированного количества товара <li>В списке элементов инфоблока добавлена возможность быстрого редактирования единиц измерения и закупочной цены <li>Исправлены ошибки формы поиска элементов инфоблока
+2015-10-28 15:06:13 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:13 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:13 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.6&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:13 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:14 -  - TIME LoadModulesUpdates(request) 0.215 sec
+2015-10-28 15:06:14 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:14 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:06:14 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:14 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:14 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:14 - DOWNLOAD - Time - 0.61255502700806 sec
+2015-10-28 15:06:14 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:06:14 -  - TIME UnGzipArchive 0.044 sec
+2015-10-28 15:06:14 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033974/iblock/updater15.5.7/index.php'
+2015-10-28 15:06:14 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033974/iblock/updater15.5.7/index.php': CopyFiles(install/components, components)
+2015-10-28 15:06:14 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033974/iblock/updater15.5.7/index.php': CopyFiles(install/js, js)
+2015-10-28 15:06:15 -  - TIME UpdateStepModules 0.163 sec
+2015-10-28 15:06:15 - UPD_SUCCESS - Updated: iblock (15.5.7)<br><li>Исправлены ошибки компонентов catalog.smart.filter, catalog.element, catalog.section, catalog.top. <li>Исправлены ошибки шаблонов компонентов catalog.element, catalog.comments. <li>Исправлены ошибки сохранения значений свойств типа \"файл\". <li>Исправлены ошибки формы редактирования элемента инфоблока и списка элементов инфоблока. <li>Исправлены ошибки фасетного индекса. <li>В компоненты catalog, catalog.section, catalog.element добавлена возможность задания фонового изображения страницы. Внимание! В шаблоне сайта должна быть реализована поддержка этого функционалаю.
+2015-10-28 15:06:15 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:15 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:15 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.7&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:15 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:15 -  - TIME LoadModulesUpdates(request) 0.25 sec
+2015-10-28 15:06:15 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:15 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:06:15 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:15 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:15 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:16 - DOWNLOAD - Time - 0.68369793891907 sec
+2015-10-28 15:06:16 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:06:16 -  - TIME UnGzipArchive 0.056 sec
+2015-10-28 15:06:16 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033976/iblock/updater15.5.8/index.php'
+2015-10-28 15:06:16 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033976/iblock/updater15.5.8/index.php': CopyFiles(install/components, components)
+2015-10-28 15:06:16 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033976/iblock/updater15.5.8/index.php': CopyFiles(install/js, js)
+2015-10-28 15:06:16 -  - TIME UpdateStepModules 0.185 sec
+2015-10-28 15:06:16 - UPD_SUCCESS - Updated: iblock (15.5.8)<br><li>В класс CIBlockDocument добавлена возможность работать с прикрепленными к элементам файлам диска. <li>Исправлена работа умного фильтра во включаемой области через ShowViewContent. <li>Исправлено ошибочное поведение нового загрузчика при копировании предложений и элементов инфоблока. <li>В публичном диалоге редактирования элемента добавлена кнопка перехода административную часть. <li>Исправлено кеширование значений SEO-свойств при изменении цены. <li>Исправлены недочеты в работе фильтра в списке элементов инфоблока в административной части. 
+2015-10-28 15:06:16 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:16 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:16 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.2&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.8&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:16 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:16 -  - TIME LoadModulesUpdates(request) 0.215 sec
+2015-10-28 15:06:16 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:16 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:06:16 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:16 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:16 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:17 - DOWNLOAD - Time - 0.34372901916504 sec
+2015-10-28 15:06:17 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:06:17 -  - TIME UnGzipArchive 0.007 sec
+2015-10-28 15:06:17 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033977/blog/updater15.5.3.php'
+2015-10-28 15:06:17 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033977/blog/updater15.5.3.php': CopyFiles(install/components, components)
+2015-10-28 15:06:17 -  - TIME UpdateStepModules 0.008 sec
+2015-10-28 15:06:17 - UPD_SUCCESS - Updated: blog (15.5.3)<br><li>Незначительные изменения и исправления.
+2015-10-28 15:06:17 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:17 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:17 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.3&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.1&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.8&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:17 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:17 -  - TIME LoadModulesUpdates(request) 0.258 sec
+2015-10-28 15:06:17 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:17 - LMU01 - LoadModulesUpdates-Step
+2015-10-28 15:06:17 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:17 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:17 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:18 - DOWNLOAD - Time - 0.40810418128967 sec
+2015-10-28 15:06:18 -  - exec CUpdateClient::UnGzipArchive
+2015-10-28 15:06:18 -  - TIME UnGzipArchive 0.008 sec
+2015-10-28 15:06:18 - CSURUS1 - Run updater '/bitrix/updates/update_m1446033978/socialservices/updater15.5.2.php'
+2015-10-28 15:06:18 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033978/socialservices/updater15.5.2.php': CopyFiles(install/components, components)
+2015-10-28 15:06:18 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1446033978/socialservices/updater15.5.2.php': CopyFiles(install/gadgets, gadgets)
+2015-10-28 15:06:18 -  - TIME UpdateStepModules 0.017 sec
+2015-10-28 15:06:18 - UPD_SUCCESS - Updated: socialservices (15.5.2)<br><li>Усилена безопасность модуля. <li>Обновлен класс работы с авторизацией Битрикс24.
+2015-10-28 15:06:18 -  - exec CUpdateClient::LoadModulesUpdates
+2015-10-28 15:06:18 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:18 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.3&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.2&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.8&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:18 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:18 -  - TIME LoadModulesUpdates(request) 0.297 sec
+2015-10-28 15:06:18 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:18 - STEP - Finish - NOUPDATES
+2015-10-28 15:06:18 - STEP - Finish - NOUPDATES
+2015-10-28 15:06:32 -  - exec CUpdateClient::GetUpdatesList
+2015-10-28 15:06:32 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:32 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.3&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.2&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.8&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:32 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:32 -  - TIME GetUpdatesList(request) 0.255 sec
+2015-10-28 15:06:32 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:34 -  - exec CUpdateClient::GetUpdatesList
+2015-10-28 15:06:34 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:34 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.3&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.2&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.8&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:34 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:35 -  - TIME GetUpdatesList(request) 0.245 sec
+2015-10-28 15:06:35 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:06:35 -  - exec CUpdateClient::GetUpdatesList
+2015-10-28 15:06:35 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:06:35 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.3&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.2&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.8&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:06:35 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:06:35 -  - TIME GetUpdatesList(request) 0.231 sec
+2015-10-28 15:06:35 -  - exec CUpdateClient::ParseServerData
+2015-10-28 15:08:12 -  - exec CUpdateClient::GetUpdatesList
+2015-10-28 15:08:12 -  - exec CUpdateClient::CollectRequestData
+2015-10-28 15:08:12 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.3&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.2&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.8&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-10-28 15:08:12 -  - exec CUpdateClient::GetHTTPPage
+2015-10-28 15:08:13 -  - TIME GetUpdatesList(request) 0.213 sec
+2015-10-28 15:08:13 -  - exec CUpdateClient::ParseServerData
+2015-11-21 13:23:54 -  - exec CUpdateClient::GetUpdatesList
+2015-11-21 13:23:54 -  - exec CUpdateClient::CollectRequestData
+2015-11-21 13:23:54 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.3&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.2&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.8&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-11-21 13:23:54 -  - exec CUpdateClient::GetHTTPPage
+2015-11-21 13:23:55 -  - TIME GetUpdatesList(request) 0.346 sec
+2015-11-21 13:23:55 -  - exec CUpdateClient::ParseServerData
+2015-11-21 14:00:58 -  - exec CUpdateClient::GetUpdatesList
+2015-11-21 14:00:58 -  - exec CUpdateClient::CollectRequestData
+2015-11-21 14:00:58 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.3&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.2&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.8&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-11-21 14:00:58 -  - exec CUpdateClient::GetHTTPPage
+2015-11-21 14:00:59 -  - TIME GetUpdatesList(request) 0.444 sec
+2015-11-21 14:00:59 -  - exec CUpdateClient::ParseServerData
+2015-11-21 14:01:29 -  - exec CUpdateClient::LoadModulesUpdates
+2015-11-21 14:01:29 -  - exec CUpdateClient::CollectRequestData
+2015-11-21 14:01:29 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.5&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.3&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.2&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.8&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-11-21 14:01:29 -  - exec CUpdateClient::GetHTTPPage
+2015-11-21 14:01:30 -  - TIME LoadModulesUpdates(request) 0.261 sec
+2015-11-21 14:01:30 -  - exec CUpdateClient::ParseServerData
+2015-11-21 14:01:30 - LMU01 - LoadModulesUpdates-Step
+2015-11-21 14:01:31 -  - exec CUpdateClient::LoadModulesUpdates
+2015-11-21 14:01:31 -  - exec CUpdateClient::CollectRequestData
+2015-11-21 14:01:31 -  - exec CUpdateClient::ParseServerData
+2015-11-21 14:01:31 - DOWNLOAD - Time - 0.29226207733154 sec
+2015-11-21 14:01:31 -  - exec CUpdateClient::UnGzipArchive
+2015-11-21 14:01:31 -  - TIME UnGzipArchive 0.004 sec
+2015-11-21 14:01:31 - CSURUS1 - Run updater '/bitrix/updates/update_m1448103691/seo/updater15.5.6.php'
+2015-11-21 14:01:31 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1448103691/seo/updater15.5.6.php': Query(UPDATE b_seo_search_engine SET CLIENT_ID='868942902147-qrrd6ce1ajfkpse8ieq4gkpdeanvtnno.apps.googleusercontent.com', CLIENT_SECRET='EItMlJpZLC2WRPKB6QsA5bV9' WHERE CODE='google', )
+2015-11-21 14:01:31 -  - TIME UpdateStepModules 0.061 sec
+2015-11-21 14:01:31 - UPD_SUCCESS - Updated: seo (15.5.6)<br><li>Переход на новую версию Google Site Verification API и Google Search Console API. <li>Исправлена ошибка автообновления карты сайта при деактивации элементов. 
+2015-11-21 14:01:31 -  - exec CUpdateClient::LoadModulesUpdates
+2015-11-21 14:01:31 -  - exec CUpdateClient::CollectRequestData
+2015-11-21 14:01:31 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.6&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.3&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.2&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.8&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-11-21 14:01:31 -  - exec CUpdateClient::GetHTTPPage
+2015-11-21 14:01:32 -  - TIME LoadModulesUpdates(request) 0.22 sec
+2015-11-21 14:01:32 -  - exec CUpdateClient::ParseServerData
+2015-11-21 14:01:32 - LMU01 - LoadModulesUpdates-Step
+2015-11-21 14:01:32 -  - exec CUpdateClient::LoadModulesUpdates
+2015-11-21 14:01:32 -  - exec CUpdateClient::CollectRequestData
+2015-11-21 14:01:32 -  - exec CUpdateClient::ParseServerData
+2015-11-21 14:01:32 - DOWNLOAD - Time - 0.28659605979919 sec
+2015-11-21 14:01:32 -  - exec CUpdateClient::UnGzipArchive
+2015-11-21 14:01:32 -  - TIME UnGzipArchive 0.033 sec
+2015-11-21 14:01:32 - CSURUS1 - Run updater '/bitrix/updates/update_m1448103692/socialservices/updater15.5.3.php'
+2015-11-21 14:01:32 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1448103692/socialservices/updater15.5.3.php': CopyFiles(install/components, components)
+2015-11-21 14:01:32 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1448103692/socialservices/updater15.5.3.php': CopyFiles(install/gadgets, gadgets)
+2015-11-21 14:01:32 -  - TIME UpdateStepModules 0.045 sec
+2015-11-21 14:01:32 - UPD_SUCCESS - Updated: socialservices (15.5.3)<br><li>Исправлены интерфейсные ошибки. 
+2015-11-21 14:01:32 -  - exec CUpdateClient::LoadModulesUpdates
+2015-11-21 14:01:32 -  - exec CUpdateClient::CollectRequestData
+2015-11-21 14:01:32 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=dreamers-odessa.com&CHHB=dreamers-odessa.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.4.44-1%2Bmh1&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_seo=15.5.6&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_blog=15.5.3&bitm_subscribe=15.0.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_socialservices=15.5.3&bitm_security=15.5.4&bitm_highloadblock=15.5.0&bitm_perfmon=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_iblock=15.5.8&bitm_clouds=15.5.1&bitm_vote=15.5.0&bitm_bitrixcloud=15.5.0&bitm_search=15.5.1&bitm_mobileapp=15.5.7&bitm_translate=14.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-11-21 14:01:32 -  - exec CUpdateClient::GetHTTPPage
+2015-11-21 14:01:33 -  - TIME LoadModulesUpdates(request) 0.246 sec
+2015-11-21 14:01:33 -  - exec CUpdateClient::ParseServerData
+2015-11-21 14:01:33 - STEP - Finish - NOUPDATES
+2015-11-21 14:01:33 - STEP - Finish - NOUPDATES
+2016-01-23 15:25:54 -  - exec CUpdateClient::GetUpdatesList
+2016-01-23 15:25:54 -  - exec CUpdateClient::CollectRequestData
+2016-01-23 15:25:54 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=deti.local&CHHB=deti.local&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.3&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_bitrixcloud=15.5.0&bitm_blog=15.5.3&bitm_clouds=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_highloadblock=15.5.0&bitm_iblock=15.5.8&bitm_mobileapp=15.5.7&bitm_perfmon=15.5.1&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_search=15.5.1&bitm_security=15.5.4&bitm_seo=15.5.6&bitm_socialservices=15.5.3&bitm_subscribe=15.0.2&bitm_translate=14.0.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-01-23 15:25:54 -  - exec CUpdateClient::GetHTTPPage
+2016-01-23 15:25:54 -  - TIME GetUpdatesList(request) 0.292 sec
+2016-01-23 15:25:54 -  - exec CUpdateClient::ParseServerData
+2016-03-29 11:17:21 -  - exec CUpdateClient::GetUpdatesList
+2016-03-29 11:17:21 -  - exec CUpdateClient::CollectRequestData
+2016-03-29 11:17:21 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=deti.local&CHHB=deti.local&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.3&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_bitrixcloud=15.5.0&bitm_blog=15.5.3&bitm_clouds=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_highloadblock=15.5.0&bitm_iblock=15.5.8&bitm_mobileapp=15.5.7&bitm_perfmon=15.5.1&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_search=15.5.1&bitm_security=15.5.4&bitm_seo=15.5.6&bitm_socialservices=15.5.3&bitm_subscribe=15.0.2&bitm_translate=14.0.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-03-29 11:17:21 -  - exec CUpdateClient::GetHTTPPage
+2016-03-29 11:17:21 -  - TIME GetUpdatesList(request) 0.371 sec
+2016-03-29 11:17:21 -  - exec CUpdateClient::ParseServerData
+2016-05-15 10:47:23 -  - exec CUpdateClient::GetUpdatesList
+2016-05-15 10:47:23 -  - exec CUpdateClient::CollectRequestData
+2016-05-15 10:47:23 -  - LICENSE_KEY=X&lang=s1&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=deti.local&CHHB=deti.local&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.3&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_bitrixcloud=15.5.0&bitm_blog=15.5.3&bitm_clouds=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_highloadblock=15.5.0&bitm_iblock=15.5.8&bitm_mobileapp=15.5.7&bitm_perfmon=15.5.1&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_search=15.5.1&bitm_security=15.5.4&bitm_seo=15.5.6&bitm_socialservices=15.5.3&bitm_subscribe=15.0.2&bitm_translate=14.0.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-05-15 10:47:23 -  - exec CUpdateClient::GetHTTPPage
+2016-05-15 10:47:24 -  - TIME GetUpdatesList(request) 0.386 sec
+2016-05-15 10:47:24 -  - exec CUpdateClient::ParseServerData
+2016-05-28 12:21:11 -  - exec CUpdateClient::GetUpdatesList
+2016-05-28 12:21:11 -  - exec CUpdateClient::CollectRequestData
+2016-05-28 12:21:11 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=deti.local&CHHB=deti.local&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.3&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_bitrixcloud=15.5.0&bitm_blog=15.5.3&bitm_clouds=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_highloadblock=15.5.0&bitm_iblock=15.5.8&bitm_mobileapp=15.5.7&bitm_perfmon=15.5.1&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_search=15.5.1&bitm_security=15.5.4&bitm_seo=15.5.6&bitm_socialservices=15.5.3&bitm_subscribe=15.0.2&bitm_translate=14.0.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-05-28 12:21:11 -  - exec CUpdateClient::GetHTTPPage
+2016-05-28 12:21:12 -  - TIME GetUpdatesList(request) 0.387 sec
+2016-05-28 12:21:12 -  - exec CUpdateClient::ParseServerData
+2016-07-03 15:05:57 -  - exec CUpdateClient::GetUpdatesList
+2016-07-03 15:05:57 -  - exec CUpdateClient::CollectRequestData
+2016-07-03 15:05:57 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=deti.local&CHHB=deti.local&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.3&stable=Y&rerere=Y&bitm_main=15.5.9&bitm_bitrixcloud=15.5.0&bitm_blog=15.5.3&bitm_clouds=15.5.1&bitm_compression=14.0.0&bitm_fileman=15.5.2&bitm_form=15.0.2&bitm_forum=15.5.2&bitm_highloadblock=15.5.0&bitm_iblock=15.5.8&bitm_mobileapp=15.5.7&bitm_perfmon=15.5.1&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_search=15.5.1&bitm_security=15.5.4&bitm_seo=15.5.6&bitm_socialservices=15.5.3&bitm_subscribe=15.0.2&bitm_translate=14.0.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-03 15:05:57 -  - exec CUpdateClient::GetHTTPPage
+2016-07-03 15:05:57 -  - TIME GetUpdatesList(request) 0.459 sec
+2016-07-03 15:05:57 -  - exec CUpdateClient::ParseServerData
